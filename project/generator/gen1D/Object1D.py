@@ -10,7 +10,7 @@ class Object1D(Object):
 		self.is_under = []
 
 	def __str__(self):
-		return self.title + " [" + str(self.val) + "]"
+		return self.title
 
 	def set_obligatory(self):
 		self.obligatory = True
