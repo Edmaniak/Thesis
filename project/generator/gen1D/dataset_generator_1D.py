@@ -50,7 +50,7 @@ maslo.set_object_const("UNDER", papricka)
 maslo.set_object_const("UNDER", vajicka)
 
 gen = Data1D([podlaha, stul, chleba_na_spodu, chleba_na_vrchu, maslo, sunka, syr, vajicka, papricka])
-gen.generate(1000, "csv")
+data = gen.generate(1000, "array")
 
 # Kompletni hierarchie
 

@@ -1,0 +1,31 @@
+[Relace 1D prostoru]
+
+- overeni principu
+
+is_above / left
+is_below / right
+[Relace 2D prostoru]
+
+- Je treba definovat predek a zadek objektu => orientace
+- Relace se daji bezpochyby znazornit grafem
+- Reprezentace a generování relaci metodami strojového učení
+- Modelace relací v prostoru
+
+is_by => left, right, in_front, in_back
+left
+right
+in_front
+in_back
+
+[Relace 3D prostoru]
+
+- je treba definovat y souradnici povrchu (is_on) relace
+
+is_by => left, right, in_front, in_back
+left
+right
+in_front
+in_back
+is_on - prekryva se
+(is_below) - komplikované
+(is_above) - komplikované
