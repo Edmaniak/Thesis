@@ -1,0 +1,2001 @@
+1,2,3,4,5,6,7,8,9,label
+sunka,chleba ve spodu,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,none,none,none,1
+papricka,chleba na vrchu,podlaha,stul,sunka,none,none,none,none,0
+podlaha,chleba ve spodu,vajicka,maslo,syr,chleba na vrchu,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+papricka,none,none,none,none,none,none,none,none,0
+vajicka,chleba ve spodu,sunka,maslo,papricka,none,none,none,none,0
+chleba ve spodu,papricka,stul,vajicka,podlaha,none,none,none,none,0
+papricka,none,none,none,none,none,none,none,none,0
+sunka,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba na vrchu,stul,sunka,vajicka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,podlaha,stul,sunka,none,none,none,none,none,0
+chleba na vrchu,syr,vajicka,sunka,chleba ve spodu,none,none,none,none,0
+chleba ve spodu,podlaha,papricka,chleba na vrchu,stul,vajicka,sunka,maslo,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+chleba ve spodu,chleba na vrchu,syr,none,none,none,none,none,none,0
+stul,chleba na vrchu,none,none,none,none,none,none,none,0
+maslo,syr,none,none,none,none,none,none,none,0
+chleba ve spodu,papricka,podlaha,syr,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+vajicka,maslo,syr,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,0
+papricka,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,none,none,none,1
+syr,podlaha,chleba na vrchu,maslo,sunka,papricka,none,none,none,0
+podlaha,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,stul,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+vajicka,stul,podlaha,syr,chleba ve spodu,sunka,none,none,none,0
+stul,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+stul,maslo,chleba na vrchu,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+papricka,podlaha,none,none,none,none,none,none,none,0
+chleba ve spodu,sunka,podlaha,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+maslo,stul,podlaha,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+chleba ve spodu,stul,syr,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,syr,maslo,papricka,none,none,none,none,none,0
+vajicka,chleba na vrchu,podlaha,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+sunka,chleba na vrchu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+maslo,chleba na vrchu,stul,podlaha,syr,chleba ve spodu,sunka,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+papricka,chleba na vrchu,maslo,stul,syr,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,none,none,none,none,none,none,none,none,0
+sunka,chleba ve spodu,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,syr,papricka,chleba na vrchu,none,none,1
+chleba ve spodu,podlaha,chleba na vrchu,syr,papricka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+stul,papricka,podlaha,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+papricka,vajicka,syr,sunka,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+stul,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,podlaha,syr,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+sunka,podlaha,vajicka,chleba ve spodu,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+chleba na vrchu,podlaha,sunka,vajicka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+maslo,chleba na vrchu,chleba ve spodu,none,none,none,none,none,none,0
+vajicka,podlaha,maslo,none,none,none,none,none,none,0
+vajicka,chleba na vrchu,syr,sunka,none,none,none,none,none,0
+chleba ve spodu,maslo,chleba na vrchu,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,papricka,none,none,none,none,none,none,none,0
+maslo,chleba na vrchu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+syr,chleba ve spodu,podlaha,none,none,none,none,none,none,0
+podlaha,syr,maslo,stul,none,none,none,none,none,0
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,maslo,chleba ve spodu,vajicka,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+maslo,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,papricka,none,none,none,none,1
+syr,stul,none,none,none,none,none,none,none,0
+chleba ve spodu,maslo,podlaha,chleba na vrchu,syr,papricka,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+syr,chleba na vrchu,stul,papricka,vajicka,sunka,none,none,none,0
+maslo,syr,vajicka,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+maslo,none,none,none,none,none,none,none,none,0
+vajicka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,vajicka,chleba na vrchu,podlaha,sunka,none,none,none,none,0
+syr,podlaha,stul,none,none,none,none,none,none,0
+chleba na vrchu,podlaha,vajicka,syr,maslo,papricka,stul,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,chleba na vrchu,maslo,stul,vajicka,none,none,none,none,0
+podlaha,none,none,none,none,none,none,none,none,0
+chleba ve spodu,papricka,chleba na vrchu,syr,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,maslo,chleba na vrchu,stul,chleba ve spodu,papricka,syr,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+sunka,syr,chleba ve spodu,chleba na vrchu,vajicka,podlaha,stul,none,none,0
+chleba ve spodu,sunka,syr,stul,podlaha,none,none,none,none,0
+vajicka,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+papricka,vajicka,syr,stul,chleba ve spodu,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,podlaha,syr,chleba na vrchu,chleba ve spodu,maslo,papricka,vajicka,none,0
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,none,none,1
+chleba ve spodu,stul,maslo,none,none,none,none,none,none,0
+syr,none,none,none,none,none,none,none,none,0
+chleba ve spodu,podlaha,stul,vajicka,chleba na vrchu,none,none,none,none,0
+maslo,stul,vajicka,chleba ve spodu,sunka,none,none,none,none,0
+vajicka,chleba ve spodu,stul,none,none,none,none,none,none,0
+vajicka,papricka,chleba na vrchu,syr,chleba ve spodu,none,none,none,none,0
+maslo,chleba na vrchu,sunka,none,none,none,none,none,none,0
+syr,maslo,podlaha,vajicka,chleba ve spodu,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+maslo,vajicka,stul,chleba ve spodu,none,none,none,none,none,0
+syr,stul,papricka,vajicka,chleba ve spodu,podlaha,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+papricka,stul,maslo,sunka,syr,podlaha,chleba na vrchu,chleba ve spodu,none,0
+syr,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+chleba ve spodu,stul,maslo,none,none,none,none,none,none,0
+maslo,papricka,none,none,none,none,none,none,none,0
+podlaha,sunka,none,none,none,none,none,none,none,0
+chleba ve spodu,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,sunka,papricka,chleba ve spodu,vajicka,stul,none,none,none,0
+stul,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+chleba ve spodu,vajicka,sunka,papricka,stul,maslo,none,none,none,0
+sunka,vajicka,syr,chleba ve spodu,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+stul,maslo,vajicka,chleba na vrchu,syr,none,none,none,none,0
+vajicka,papricka,maslo,syr,none,none,none,none,none,0
+syr,papricka,vajicka,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,none,none,none,none,none,none,none,none,0
+syr,vajicka,chleba ve spodu,maslo,stul,papricka,sunka,none,none,0
+maslo,stul,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+papricka,sunka,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+sunka,stul,podlaha,syr,chleba ve spodu,papricka,none,none,none,0
+maslo,chleba na vrchu,papricka,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+sunka,podlaha,vajicka,chleba na vrchu,syr,stul,maslo,none,none,0
+sunka,stul,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+vajicka,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+stul,chleba ve spodu,syr,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,none,none,none,1
+podlaha,chleba na vrchu,papricka,stul,vajicka,none,none,none,none,0
+chleba ve spodu,podlaha,papricka,sunka,maslo,none,none,none,none,0
+vajicka,stul,sunka,papricka,none,none,none,none,none,0
+chleba na vrchu,papricka,sunka,maslo,chleba ve spodu,vajicka,syr,none,none,0
+podlaha,chleba ve spodu,papricka,syr,none,none,none,none,none,0
+maslo,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+sunka,podlaha,maslo,syr,stul,chleba na vrchu,chleba ve spodu,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+maslo,podlaha,chleba na vrchu,none,none,none,none,none,none,0
+chleba na vrchu,sunka,papricka,stul,chleba ve spodu,maslo,vajicka,syr,none,0
+podlaha,chleba na vrchu,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba na vrchu,vajicka,podlaha,none,none,none,none,none,none,0
+maslo,chleba na vrchu,chleba ve spodu,sunka,stul,none,none,none,none,0
+chleba ve spodu,papricka,chleba na vrchu,podlaha,stul,vajicka,none,none,none,0
+podlaha,maslo,syr,chleba na vrchu,chleba ve spodu,none,none,none,none,0
+stul,podlaha,maslo,papricka,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+papricka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+chleba na vrchu,podlaha,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,chleba na vrchu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,vajicka,sunka,none,none,none,none,none,none,0
+podlaha,sunka,none,none,none,none,none,none,none,0
+chleba na vrchu,vajicka,podlaha,none,none,none,none,none,none,0
+vajicka,none,none,none,none,none,none,none,none,0
+chleba ve spodu,maslo,syr,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,papricka,chleba ve spodu,maslo,none,none,none,none,none,0
+podlaha,none,none,none,none,none,none,none,none,0
+maslo,none,none,none,none,none,none,none,none,0
+stul,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+papricka,maslo,chleba ve spodu,sunka,chleba na vrchu,podlaha,syr,stul,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+vajicka,podlaha,none,none,none,none,none,none,none,0
+chleba ve spodu,podlaha,vajicka,none,none,none,none,none,none,0
+chleba na vrchu,maslo,podlaha,stul,syr,chleba ve spodu,vajicka,none,none,0
+chleba na vrchu,sunka,syr,stul,podlaha,papricka,none,none,none,0
+podlaha,chleba ve spodu,chleba na vrchu,sunka,stul,none,none,none,none,0
+maslo,stul,syr,papricka,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba na vrchu,papricka,podlaha,none,none,none,none,none,none,0
+vajicka,sunka,maslo,stul,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+chleba ve spodu,sunka,stul,none,none,none,none,none,none,0
+podlaha,papricka,sunka,chleba ve spodu,none,none,none,none,none,0
+vajicka,chleba ve spodu,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+chleba ve spodu,podlaha,chleba na vrchu,papricka,none,none,none,none,none,0
+papricka,none,none,none,none,none,none,none,none,0
+papricka,stul,sunka,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+papricka,syr,stul,chleba na vrchu,chleba ve spodu,none,none,none,none,0
+chleba na vrchu,sunka,maslo,papricka,none,none,none,none,none,0
+chleba ve spodu,sunka,chleba na vrchu,papricka,none,none,none,none,none,0
+chleba na vrchu,vajicka,stul,maslo,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+chleba na vrchu,maslo,chleba ve spodu,stul,none,none,none,none,none,0
+chleba na vrchu,chleba ve spodu,podlaha,vajicka,syr,none,none,none,none,0
+papricka,chleba na vrchu,chleba ve spodu,vajicka,none,none,none,none,none,0
+chleba ve spodu,maslo,stul,sunka,papricka,podlaha,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+podlaha,maslo,none,none,none,none,none,none,none,0
+vajicka,none,none,none,none,none,none,none,none,0
+sunka,chleba ve spodu,maslo,syr,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+stul,papricka,podlaha,vajicka,none,none,none,none,none,0
+stul,vajicka,podlaha,maslo,syr,none,none,none,none,0
+syr,none,none,none,none,none,none,none,none,0
+chleba ve spodu,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+maslo,sunka,chleba na vrchu,syr,chleba ve spodu,stul,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba ve spodu,stul,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+syr,stul,chleba na vrchu,papricka,podlaha,maslo,vajicka,none,none,0
+syr,sunka,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+chleba na vrchu,papricka,none,none,none,none,none,none,none,0
+papricka,maslo,chleba na vrchu,vajicka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,chleba ve spodu,stul,maslo,chleba na vrchu,podlaha,sunka,syr,none,0
+maslo,chleba ve spodu,chleba na vrchu,podlaha,papricka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba na vrchu,papricka,none,none,none,none,none,none,none,0
+sunka,chleba ve spodu,none,none,none,none,none,none,none,0
+stul,maslo,vajicka,chleba ve spodu,papricka,none,none,none,none,0
+papricka,chleba na vrchu,maslo,stul,chleba ve spodu,none,none,none,none,0
+papricka,podlaha,stul,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,none,none,1
+chleba ve spodu,podlaha,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,papricka,maslo,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,sunka,syr,stul,papricka,none,none,none,none,0
+podlaha,stul,none,none,none,none,none,none,none,0
+chleba na vrchu,syr,vajicka,podlaha,papricka,none,none,none,none,0
+syr,sunka,chleba na vrchu,stul,vajicka,none,none,none,none,0
+stul,syr,chleba na vrchu,podlaha,sunka,papricka,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+maslo,chleba ve spodu,papricka,chleba na vrchu,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+chleba na vrchu,vajicka,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,chleba ve spodu,vajicka,chleba na vrchu,podlaha,none,none,none,none,0
+stul,chleba na vrchu,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+maslo,syr,chleba na vrchu,papricka,sunka,vajicka,none,none,none,0
+sunka,chleba na vrchu,podlaha,vajicka,papricka,maslo,chleba ve spodu,none,none,0
+podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,none,none,none,1
+stul,vajicka,syr,none,none,none,none,none,none,0
+chleba ve spodu,stul,chleba na vrchu,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,sunka,stul,chleba na vrchu,none,none,none,none,none,0
+papricka,chleba ve spodu,none,none,none,none,none,none,none,0
+syr,maslo,papricka,chleba ve spodu,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+vajicka,sunka,maslo,chleba na vrchu,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+chleba na vrchu,podlaha,stul,none,none,none,none,none,none,0
+maslo,podlaha,stul,papricka,chleba ve spodu,none,none,none,none,0
+podlaha,papricka,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+sunka,none,none,none,none,none,none,none,none,0
+sunka,maslo,none,none,none,none,none,none,none,0
+papricka,podlaha,vajicka,sunka,maslo,chleba ve spodu,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+papricka,podlaha,maslo,sunka,none,none,none,none,none,0
+maslo,chleba ve spodu,papricka,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+sunka,stul,papricka,vajicka,none,none,none,none,none,0
+papricka,stul,maslo,podlaha,sunka,chleba na vrchu,none,none,none,0
+vajicka,stul,chleba ve spodu,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba na vrchu,podlaha,syr,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+stul,chleba ve spodu,chleba na vrchu,podlaha,vajicka,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,sunka,papricka,chleba na vrchu,none,none,none,none,none,0
+syr,papricka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba na vrchu,vajicka,papricka,syr,podlaha,none,none,none,none,0
+sunka,papricka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+maslo,syr,vajicka,stul,papricka,sunka,chleba na vrchu,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+maslo,stul,podlaha,none,none,none,none,none,none,0
+papricka,chleba na vrchu,none,none,none,none,none,none,none,0
+maslo,podlaha,chleba ve spodu,stul,chleba na vrchu,vajicka,papricka,none,none,0
+chleba ve spodu,syr,sunka,chleba na vrchu,none,none,none,none,none,0
+stul,podlaha,syr,sunka,papricka,none,none,none,none,0
+chleba ve spodu,syr,podlaha,maslo,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+papricka,sunka,chleba ve spodu,podlaha,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,none,none,1
+podlaha,maslo,stul,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,0
+stul,podlaha,vajicka,syr,chleba ve spodu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,podlaha,maslo,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+papricka,vajicka,syr,maslo,stul,none,none,none,none,0
+papricka,podlaha,sunka,chleba na vrchu,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+chleba ve spodu,podlaha,sunka,none,none,none,none,none,none,0
+chleba na vrchu,podlaha,maslo,none,none,none,none,none,none,0
+podlaha,stul,vajicka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+sunka,stul,papricka,syr,chleba ve spodu,vajicka,none,none,none,0
+stul,maslo,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,none,none,1
+maslo,sunka,stul,papricka,podlaha,chleba ve spodu,syr,none,none,0
+chleba na vrchu,chleba ve spodu,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+sunka,papricka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+syr,podlaha,none,none,none,none,none,none,none,0
+syr,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,vajicka,chleba ve spodu,podlaha,none,none,none,none,none,0
+chleba ve spodu,stul,sunka,syr,vajicka,none,none,none,none,0
+papricka,syr,stul,vajicka,chleba na vrchu,maslo,none,none,none,0
+syr,chleba na vrchu,none,none,none,none,none,none,none,0
+syr,chleba na vrchu,maslo,podlaha,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,papricka,stul,sunka,chleba ve spodu,none,none,none,none,0
+vajicka,maslo,stul,sunka,none,none,none,none,none,0
+stul,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+maslo,papricka,podlaha,chleba na vrchu,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+syr,stul,chleba na vrchu,podlaha,none,none,none,none,none,0
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba na vrchu,papricka,stul,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba ve spodu,vajicka,none,none,none,none,none,none,none,0
+papricka,vajicka,chleba ve spodu,syr,podlaha,stul,sunka,chleba na vrchu,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,papricka,maslo,none,none,none,none,none,none,0
+sunka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+sunka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,chleba na vrchu,stul,maslo,none,none,none,none,none,0
+sunka,chleba na vrchu,none,none,none,none,none,none,none,0
+sunka,stul,chleba na vrchu,none,none,none,none,none,none,0
+chleba ve spodu,stul,maslo,none,none,none,none,none,none,0
+stul,chleba na vrchu,syr,none,none,none,none,none,none,0
+vajicka,syr,podlaha,papricka,sunka,chleba na vrchu,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba na vrchu,podlaha,sunka,maslo,stul,papricka,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,none,none,none,1
+papricka,chleba ve spodu,stul,sunka,maslo,none,none,none,none,0
+vajicka,chleba na vrchu,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+maslo,chleba na vrchu,papricka,chleba ve spodu,none,none,none,none,none,0
+chleba ve spodu,papricka,podlaha,stul,chleba na vrchu,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,chleba ve spodu,podlaha,vajicka,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,podlaha,chleba na vrchu,chleba ve spodu,papricka,none,none,none,none,0
+stul,maslo,syr,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+chleba na vrchu,sunka,none,none,none,none,none,none,none,0
+chleba na vrchu,stul,sunka,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+chleba ve spodu,maslo,podlaha,papricka,stul,chleba na vrchu,none,none,none,0
+chleba ve spodu,chleba na vrchu,stul,syr,maslo,vajicka,papricka,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+sunka,vajicka,maslo,podlaha,syr,none,none,none,none,0
+chleba ve spodu,stul,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba ve spodu,podlaha,stul,sunka,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+chleba na vrchu,vajicka,maslo,none,none,none,none,none,none,0
+stul,chleba ve spodu,syr,podlaha,sunka,papricka,chleba na vrchu,maslo,none,0
+podlaha,maslo,stul,none,none,none,none,none,none,0
+stul,vajicka,sunka,maslo,papricka,syr,chleba na vrchu,none,none,0
+maslo,podlaha,sunka,syr,papricka,stul,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,sunka,chleba na vrchu,vajicka,syr,none,none,none,none,0
+chleba ve spodu,papricka,vajicka,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+sunka,chleba na vrchu,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+sunka,podlaha,stul,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+sunka,chleba ve spodu,vajicka,chleba na vrchu,stul,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,vajicka,papricka,stul,sunka,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+maslo,vajicka,papricka,sunka,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+papricka,podlaha,syr,none,none,none,none,none,none,0
+syr,chleba na vrchu,maslo,sunka,chleba ve spodu,podlaha,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba ve spodu,stul,podlaha,papricka,sunka,maslo,none,none,none,0
+sunka,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,papricka,sunka,chleba ve spodu,none,none,none,none,none,0
+stul,chleba na vrchu,papricka,vajicka,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+vajicka,chleba na vrchu,podlaha,chleba ve spodu,syr,none,none,none,none,0
+papricka,chleba ve spodu,syr,podlaha,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+chleba ve spodu,maslo,syr,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+chleba na vrchu,podlaha,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+stul,chleba ve spodu,maslo,podlaha,syr,chleba na vrchu,none,none,none,0
+papricka,chleba na vrchu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,stul,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,podlaha,stul,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+stul,podlaha,maslo,syr,none,none,none,none,none,0
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+vajicka,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+sunka,maslo,papricka,syr,none,none,none,none,none,0
+stul,vajicka,podlaha,papricka,maslo,none,none,none,none,0
+podlaha,maslo,none,none,none,none,none,none,none,0
+sunka,chleba na vrchu,syr,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+maslo,syr,podlaha,chleba na vrchu,vajicka,papricka,none,none,none,0
+sunka,vajicka,chleba ve spodu,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,chleba ve spodu,chleba na vrchu,papricka,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+syr,podlaha,maslo,none,none,none,none,none,none,0
+syr,chleba na vrchu,chleba ve spodu,sunka,podlaha,maslo,papricka,none,none,0
+chleba ve spodu,chleba na vrchu,maslo,syr,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+papricka,podlaha,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+chleba ve spodu,sunka,papricka,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,none,none,1
+syr,stul,vajicka,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+chleba na vrchu,sunka,vajicka,none,none,none,none,none,none,0
+stul,sunka,podlaha,chleba ve spodu,vajicka,maslo,chleba na vrchu,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+stul,vajicka,chleba ve spodu,chleba na vrchu,sunka,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+sunka,podlaha,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+sunka,papricka,stul,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+sunka,stul,vajicka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,sunka,stul,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,chleba na vrchu,podlaha,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+chleba ve spodu,stul,vajicka,syr,chleba na vrchu,none,none,none,none,0
+chleba ve spodu,syr,chleba na vrchu,none,none,none,none,none,none,0
+vajicka,syr,papricka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+syr,podlaha,papricka,none,none,none,none,none,none,0
+sunka,vajicka,stul,papricka,syr,none,none,none,none,0
+maslo,chleba na vrchu,vajicka,chleba ve spodu,none,none,none,none,none,0
+sunka,papricka,syr,maslo,none,none,none,none,none,0
+vajicka,none,none,none,none,none,none,none,none,0
+chleba na vrchu,podlaha,none,none,none,none,none,none,none,0
+syr,sunka,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+chleba na vrchu,stul,maslo,papricka,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+sunka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+papricka,chleba ve spodu,sunka,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba na vrchu,sunka,syr,chleba ve spodu,stul,podlaha,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,maslo,vajicka,stul,sunka,papricka,none,none,none,0
+podlaha,chleba na vrchu,sunka,chleba ve spodu,syr,none,none,none,none,0
+podlaha,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+sunka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+chleba ve spodu,syr,podlaha,chleba na vrchu,none,none,none,none,none,0
+papricka,podlaha,syr,none,none,none,none,none,none,0
+chleba na vrchu,sunka,stul,papricka,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+chleba na vrchu,podlaha,sunka,syr,chleba ve spodu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+sunka,syr,vajicka,maslo,chleba ve spodu,none,none,none,none,0
+podlaha,chleba na vrchu,maslo,vajicka,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+stul,syr,none,none,none,none,none,none,none,0
+podlaha,none,none,none,none,none,none,none,none,0
+chleba ve spodu,maslo,stul,chleba na vrchu,podlaha,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba ve spodu,chleba na vrchu,stul,sunka,vajicka,podlaha,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+vajicka,chleba ve spodu,chleba na vrchu,syr,maslo,none,none,none,none,0
+chleba ve spodu,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba ve spodu,podlaha,syr,chleba na vrchu,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+stul,podlaha,sunka,chleba na vrchu,none,none,none,none,none,0
+stul,papricka,syr,maslo,sunka,vajicka,none,none,none,0
+podlaha,chleba na vrchu,none,none,none,none,none,none,none,0
+vajicka,papricka,chleba na vrchu,sunka,chleba ve spodu,stul,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,none,none,1
+vajicka,chleba ve spodu,maslo,chleba na vrchu,podlaha,none,none,none,none,0
+chleba ve spodu,vajicka,sunka,papricka,maslo,podlaha,none,none,none,0
+chleba na vrchu,papricka,stul,chleba ve spodu,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,chleba ve spodu,stul,none,none,none,none,none,none,0
+syr,papricka,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+chleba ve spodu,sunka,chleba na vrchu,syr,papricka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+vajicka,papricka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,podlaha,syr,chleba na vrchu,vajicka,chleba ve spodu,none,none,none,0
+vajicka,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba na vrchu,chleba ve spodu,podlaha,syr,stul,papricka,vajicka,none,none,0
+papricka,sunka,none,none,none,none,none,none,none,0
+maslo,vajicka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+papricka,chleba na vrchu,none,none,none,none,none,none,none,0
+maslo,podlaha,chleba na vrchu,chleba ve spodu,syr,stul,papricka,none,none,0
+stul,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+vajicka,stul,none,none,none,none,none,none,none,0
+stul,syr,none,none,none,none,none,none,none,0
+vajicka,sunka,maslo,chleba na vrchu,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,none,none,none,none,1
+papricka,vajicka,stul,chleba ve spodu,maslo,none,none,none,none,0
+maslo,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+chleba na vrchu,chleba ve spodu,syr,podlaha,stul,none,none,none,none,0
+podlaha,maslo,chleba ve spodu,sunka,none,none,none,none,none,0
+stul,papricka,podlaha,maslo,vajicka,none,none,none,none,0
+vajicka,chleba ve spodu,chleba na vrchu,stul,syr,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba ve spodu,sunka,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba ve spodu,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+papricka,sunka,syr,chleba ve spodu,podlaha,stul,chleba na vrchu,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+papricka,vajicka,maslo,syr,podlaha,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+stul,vajicka,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+vajicka,syr,papricka,podlaha,none,none,none,none,none,0
+papricka,podlaha,chleba ve spodu,vajicka,syr,none,none,none,none,0
+papricka,vajicka,stul,maslo,syr,none,none,none,none,0
+papricka,chleba na vrchu,vajicka,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+vajicka,chleba na vrchu,maslo,stul,chleba ve spodu,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba ve spodu,vajicka,stul,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+papricka,none,none,none,none,none,none,none,none,0
+vajicka,stul,sunka,papricka,chleba na vrchu,syr,none,none,none,0
+syr,sunka,maslo,chleba na vrchu,papricka,chleba ve spodu,vajicka,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+vajicka,syr,sunka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+chleba na vrchu,vajicka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,maslo,podlaha,chleba na vrchu,sunka,vajicka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+vajicka,chleba na vrchu,syr,papricka,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+sunka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+papricka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+vajicka,maslo,podlaha,none,none,none,none,none,none,0
+papricka,syr,vajicka,podlaha,chleba na vrchu,sunka,none,none,none,0
+papricka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,vajicka,papricka,syr,maslo,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,syr,papricka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+papricka,stul,syr,vajicka,podlaha,none,none,none,none,0
+stul,syr,maslo,papricka,vajicka,none,none,none,none,0
+chleba ve spodu,stul,sunka,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+sunka,maslo,chleba na vrchu,vajicka,syr,none,none,none,none,0
+podlaha,stul,vajicka,maslo,syr,chleba na vrchu,chleba ve spodu,none,none,0
+maslo,papricka,syr,sunka,none,none,none,none,none,0
+chleba ve spodu,chleba na vrchu,none,none,none,none,none,none,none,0
+maslo,syr,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,sunka,vajicka,stul,chleba ve spodu,none,none,none,none,0
+syr,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,stul,chleba ve spodu,sunka,none,none,none,none,none,0
+chleba ve spodu,syr,stul,papricka,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+sunka,podlaha,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,maslo,papricka,sunka,stul,none,none,none,none,0
+sunka,chleba na vrchu,maslo,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+podlaha,chleba ve spodu,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+papricka,maslo,vajicka,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+syr,podlaha,vajicka,maslo,sunka,none,none,none,none,0
+papricka,podlaha,vajicka,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+stul,papricka,podlaha,syr,maslo,none,none,none,none,0
+chleba na vrchu,papricka,stul,syr,podlaha,chleba ve spodu,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+sunka,chleba ve spodu,papricka,none,none,none,none,none,none,0
+podlaha,vajicka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+maslo,sunka,stul,syr,vajicka,chleba na vrchu,podlaha,none,none,0
+syr,papricka,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,chleba ve spodu,sunka,syr,none,none,none,none,none,0
+stul,chleba ve spodu,chleba na vrchu,maslo,papricka,sunka,none,none,none,0
+syr,chleba ve spodu,stul,none,none,none,none,none,none,0
+maslo,syr,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+chleba ve spodu,chleba na vrchu,sunka,none,none,none,none,none,none,0
+maslo,stul,vajicka,syr,chleba ve spodu,papricka,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+vajicka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+sunka,syr,podlaha,chleba ve spodu,stul,vajicka,none,none,none,0
+syr,sunka,stul,vajicka,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba ve spodu,sunka,papricka,podlaha,vajicka,stul,syr,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,syr,papricka,chleba na vrchu,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,chleba ve spodu,podlaha,syr,vajicka,papricka,stul,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+maslo,none,none,none,none,none,none,none,none,0
+chleba ve spodu,stul,syr,maslo,podlaha,vajicka,chleba na vrchu,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+syr,sunka,chleba na vrchu,chleba ve spodu,none,none,none,none,none,0
+podlaha,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,maslo,papricka,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+papricka,podlaha,vajicka,chleba na vrchu,none,none,none,none,none,0
+stul,syr,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+papricka,none,none,none,none,none,none,none,none,0
+syr,vajicka,papricka,maslo,stul,none,none,none,none,0
+sunka,papricka,podlaha,vajicka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,sunka,podlaha,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,vajicka,chleba na vrchu,none,none,none,none,0
+sunka,chleba na vrchu,stul,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+chleba na vrchu,podlaha,vajicka,chleba ve spodu,papricka,stul,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,none,none,1
+sunka,chleba na vrchu,podlaha,none,none,none,none,none,none,0
+stul,podlaha,sunka,chleba ve spodu,maslo,chleba na vrchu,vajicka,none,none,0
+syr,podlaha,papricka,none,none,none,none,none,none,0
+stul,papricka,sunka,maslo,none,none,none,none,none,0
+maslo,stul,chleba na vrchu,papricka,none,none,none,none,none,0
+podlaha,syr,maslo,chleba ve spodu,vajicka,sunka,none,none,none,0
+podlaha,stul,chleba na vrchu,papricka,vajicka,maslo,none,none,none,0
+chleba na vrchu,chleba ve spodu,none,none,none,none,none,none,none,0
+syr,chleba ve spodu,sunka,papricka,none,none,none,none,none,0
+papricka,vajicka,chleba na vrchu,syr,maslo,none,none,none,none,0
+sunka,none,none,none,none,none,none,none,none,0
+chleba na vrchu,stul,podlaha,chleba ve spodu,syr,sunka,maslo,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+vajicka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,vajicka,none,none,none,none,none,none,none,0
+papricka,sunka,none,none,none,none,none,none,none,0
+vajicka,sunka,none,none,none,none,none,none,none,0
+chleba ve spodu,maslo,vajicka,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+stul,vajicka,sunka,maslo,none,none,none,none,none,0
+vajicka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+sunka,none,none,none,none,none,none,none,none,0
+syr,stul,podlaha,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+papricka,chleba na vrchu,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+sunka,maslo,stul,syr,none,none,none,none,none,0
+vajicka,syr,papricka,sunka,podlaha,none,none,none,none,0
+papricka,chleba ve spodu,stul,podlaha,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+sunka,maslo,vajicka,chleba na vrchu,stul,none,none,none,none,0
+chleba na vrchu,stul,podlaha,chleba ve spodu,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,chleba na vrchu,maslo,none,none,none,none,none,none,0
+stul,vajicka,podlaha,chleba ve spodu,sunka,papricka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,podlaha,chleba na vrchu,stul,sunka,none,none,none,none,0
+podlaha,papricka,none,none,none,none,none,none,none,0
+chleba ve spodu,stul,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,stul,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,vajicka,papricka,syr,stul,chleba na vrchu,chleba ve spodu,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+chleba na vrchu,sunka,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+papricka,stul,podlaha,syr,none,none,none,none,none,0
+chleba ve spodu,chleba na vrchu,maslo,none,none,none,none,none,none,0
+maslo,sunka,stul,chleba na vrchu,vajicka,podlaha,chleba ve spodu,none,none,0
+chleba ve spodu,maslo,chleba na vrchu,syr,papricka,none,none,none,none,0
+maslo,stul,chleba na vrchu,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+sunka,podlaha,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,vajicka,papricka,chleba ve spodu,syr,none,none,none,none,0
+stul,chleba na vrchu,chleba ve spodu,podlaha,sunka,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+papricka,chleba ve spodu,none,none,none,none,none,none,none,0
+syr,stul,podlaha,chleba ve spodu,chleba na vrchu,none,none,none,none,0
+chleba na vrchu,vajicka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,syr,papricka,none,none,none,1
+papricka,podlaha,none,none,none,none,none,none,none,0
+chleba na vrchu,sunka,syr,papricka,chleba ve spodu,stul,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+maslo,podlaha,sunka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+papricka,chleba na vrchu,syr,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,chleba na vrchu,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba ve spodu,vajicka,podlaha,sunka,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,papricka,chleba na vrchu,none,none,1
+chleba ve spodu,maslo,sunka,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,none,none,none,none,1
+chleba ve spodu,papricka,sunka,vajicka,none,none,none,none,none,0
+podlaha,chleba na vrchu,sunka,maslo,papricka,none,none,none,none,0
+podlaha,stul,syr,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+vajicka,sunka,maslo,chleba ve spodu,none,none,none,none,none,0
+chleba ve spodu,podlaha,stul,sunka,vajicka,chleba na vrchu,none,none,none,0
+syr,vajicka,sunka,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+stul,sunka,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+chleba ve spodu,sunka,vajicka,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba ve spodu,podlaha,syr,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+sunka,syr,vajicka,chleba na vrchu,stul,none,none,none,none,0
+podlaha,none,none,none,none,none,none,none,none,0
+papricka,vajicka,podlaha,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+sunka,vajicka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+maslo,podlaha,syr,stul,papricka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+stul,chleba na vrchu,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,chleba na vrchu,syr,papricka,stul,sunka,none,none,none,0
+chleba na vrchu,podlaha,syr,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba ve spodu,papricka,sunka,none,none,none,none,none,none,0
+chleba na vrchu,chleba ve spodu,vajicka,sunka,stul,podlaha,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+chleba na vrchu,sunka,podlaha,stul,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,chleba na vrchu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+sunka,chleba ve spodu,vajicka,chleba na vrchu,podlaha,none,none,none,none,0
+syr,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+sunka,chleba ve spodu,syr,stul,maslo,chleba na vrchu,podlaha,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,none,none,1
+papricka,stul,podlaha,none,none,none,none,none,none,0
+papricka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,sunka,papricka,chleba na vrchu,none,none,none,none,none,0
+syr,chleba ve spodu,sunka,papricka,podlaha,chleba na vrchu,none,none,none,0
+podlaha,maslo,sunka,papricka,chleba ve spodu,stul,chleba na vrchu,none,none,0
+stul,maslo,vajicka,papricka,syr,sunka,podlaha,chleba ve spodu,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+papricka,syr,vajicka,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,papricka,vajicka,sunka,chleba na vrchu,syr,none,none,none,0
+chleba ve spodu,sunka,chleba na vrchu,syr,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+stul,chleba na vrchu,maslo,podlaha,papricka,none,none,none,none,0
+chleba na vrchu,vajicka,syr,podlaha,chleba ve spodu,maslo,none,none,none,0
+syr,maslo,sunka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+syr,maslo,podlaha,sunka,none,none,none,none,none,0
+vajicka,papricka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+maslo,stul,vajicka,chleba na vrchu,syr,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+syr,papricka,stul,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,maslo,syr,chleba na vrchu,chleba ve spodu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba na vrchu,syr,chleba ve spodu,none,none,none,none,none,none,0
+papricka,vajicka,podlaha,chleba ve spodu,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,vajicka,chleba ve spodu,maslo,none,none,none,none,none,0
+chleba ve spodu,podlaha,stul,vajicka,sunka,none,none,none,none,0
+podlaha,syr,chleba na vrchu,none,none,none,none,none,none,0
+vajicka,papricka,syr,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,papricka,none,none,none,none,1
+vajicka,chleba na vrchu,syr,podlaha,sunka,maslo,none,none,none,0
+vajicka,sunka,chleba ve spodu,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+papricka,sunka,maslo,none,none,none,none,none,none,0
+chleba na vrchu,papricka,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,sunka,papricka,stul,maslo,syr,none,none,none,0
+chleba na vrchu,papricka,maslo,none,none,none,none,none,none,0
+syr,vajicka,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba na vrchu,stul,papricka,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,none,none,1
+syr,sunka,podlaha,none,none,none,none,none,none,0
+chleba na vrchu,stul,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+stul,vajicka,papricka,sunka,chleba na vrchu,podlaha,chleba ve spodu,none,none,0
+sunka,maslo,papricka,chleba na vrchu,chleba ve spodu,vajicka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,sunka,none,none,none,none,none,none,none,0
+podlaha,syr,sunka,vajicka,papricka,none,none,none,none,0
+sunka,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+stul,podlaha,syr,papricka,chleba ve spodu,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+syr,stul,none,none,none,none,none,none,none,0
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+papricka,chleba na vrchu,podlaha,vajicka,syr,maslo,none,none,none,0
+chleba ve spodu,papricka,none,none,none,none,none,none,none,0
+syr,maslo,stul,none,none,none,none,none,none,0
+podlaha,maslo,stul,chleba na vrchu,chleba ve spodu,none,none,none,none,0
+syr,sunka,none,none,none,none,none,none,none,0
+maslo,chleba na vrchu,stul,none,none,none,none,none,none,0
+maslo,sunka,stul,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba na vrchu,chleba ve spodu,vajicka,none,none,none,none,none,none,0
+sunka,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+papricka,syr,podlaha,maslo,chleba ve spodu,none,none,none,none,0
+chleba ve spodu,papricka,maslo,sunka,podlaha,vajicka,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,none,none,none,none,1
+sunka,chleba ve spodu,vajicka,papricka,stul,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+papricka,maslo,vajicka,none,none,none,none,none,none,0
+stul,maslo,papricka,none,none,none,none,none,none,0
+chleba na vrchu,maslo,podlaha,sunka,chleba ve spodu,none,none,none,none,0
+maslo,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+papricka,podlaha,vajicka,syr,sunka,none,none,none,none,0
+chleba ve spodu,papricka,stul,podlaha,maslo,none,none,none,none,0
+sunka,chleba na vrchu,none,none,none,none,none,none,none,0
+papricka,vajicka,stul,syr,maslo,chleba ve spodu,sunka,chleba na vrchu,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+papricka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+maslo,none,none,none,none,none,none,none,none,0
+podlaha,maslo,vajicka,chleba ve spodu,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,maslo,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba na vrchu,papricka,vajicka,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+chleba na vrchu,podlaha,none,none,none,none,none,none,none,0
+podlaha,chleba ve spodu,chleba na vrchu,vajicka,stul,maslo,none,none,none,0
+sunka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,podlaha,chleba na vrchu,stul,syr,none,none,none,none,0
+syr,maslo,chleba na vrchu,stul,none,none,none,none,none,0
+maslo,vajicka,chleba ve spodu,papricka,none,none,none,none,none,0
+vajicka,sunka,chleba ve spodu,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba ve spodu,stul,sunka,maslo,none,none,none,none,none,0
+stul,syr,maslo,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+sunka,stul,papricka,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+syr,sunka,none,none,none,none,none,none,none,0
+podlaha,maslo,papricka,stul,none,none,none,none,none,0
+chleba na vrchu,podlaha,vajicka,syr,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,none,none,none,none,none,none,none,none,0
+chleba ve spodu,vajicka,papricka,maslo,sunka,podlaha,chleba na vrchu,none,none,0
+papricka,chleba na vrchu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,chleba ve spodu,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,sunka,chleba na vrchu,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba na vrchu,syr,none,none,none,none,none,none,none,0
+maslo,stul,chleba ve spodu,chleba na vrchu,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+stul,papricka,none,none,none,none,none,none,none,0
+papricka,sunka,chleba na vrchu,chleba ve spodu,vajicka,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,maslo,stul,syr,sunka,chleba na vrchu,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+maslo,stul,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+stul,chleba ve spodu,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+sunka,chleba ve spodu,papricka,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+sunka,chleba ve spodu,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+chleba ve spodu,chleba na vrchu,papricka,none,none,none,none,none,none,0
+papricka,chleba na vrchu,vajicka,stul,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+chleba ve spodu,maslo,stul,sunka,chleba na vrchu,vajicka,papricka,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+chleba na vrchu,chleba ve spodu,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,chleba na vrchu,maslo,stul,sunka,none,none,none,none,0
+chleba ve spodu,vajicka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba na vrchu,chleba ve spodu,none,none,none,none,none,none,none,0
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+stul,none,none,none,none,none,none,none,none,0
+maslo,syr,chleba ve spodu,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,podlaha,syr,papricka,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+sunka,podlaha,vajicka,papricka,maslo,none,none,none,none,0
+vajicka,stul,syr,papricka,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+sunka,maslo,chleba ve spodu,podlaha,none,none,none,none,none,0
+chleba ve spodu,stul,maslo,none,none,none,none,none,none,0
+vajicka,stul,syr,podlaha,none,none,none,none,none,0
+papricka,chleba ve spodu,syr,stul,chleba na vrchu,sunka,podlaha,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+papricka,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+papricka,stul,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba na vrchu,podlaha,papricka,sunka,chleba ve spodu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,stul,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+syr,maslo,sunka,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+vajicka,maslo,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+syr,stul,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,papricka,chleba na vrchu,maslo,none,none,none,none,none,0
+vajicka,sunka,podlaha,papricka,maslo,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,vajicka,maslo,none,none,none,none,none,none,0
+vajicka,none,none,none,none,none,none,none,none,0
+chleba na vrchu,syr,stul,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+stul,papricka,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,syr,chleba ve spodu,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,papricka,maslo,none,none,none,none,none,none,0
+podlaha,chleba na vrchu,chleba ve spodu,sunka,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+maslo,chleba ve spodu,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,none,none,1
+stul,syr,maslo,chleba ve spodu,chleba na vrchu,papricka,vajicka,none,none,0
+sunka,stul,vajicka,none,none,none,none,none,none,0
+podlaha,stul,maslo,papricka,chleba na vrchu,syr,chleba ve spodu,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+vajicka,maslo,chleba na vrchu,syr,podlaha,none,none,none,none,0
+syr,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,papricka,none,none,none,none,1
+papricka,chleba ve spodu,sunka,vajicka,maslo,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+syr,papricka,podlaha,maslo,vajicka,chleba ve spodu,none,none,none,0
+stul,sunka,vajicka,none,none,none,none,none,none,0
+sunka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+sunka,chleba ve spodu,maslo,stul,papricka,syr,chleba na vrchu,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+chleba ve spodu,syr,none,none,none,none,none,none,none,0
+syr,podlaha,maslo,stul,chleba ve spodu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,vajicka,chleba na vrchu,sunka,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+sunka,syr,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+sunka,maslo,podlaha,none,none,none,none,none,none,0
+maslo,sunka,vajicka,chleba ve spodu,podlaha,none,none,none,none,0
+syr,stul,sunka,podlaha,papricka,vajicka,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+vajicka,stul,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,vajicka,chleba na vrchu,chleba ve spodu,stul,syr,none,none,none,0
+maslo,syr,none,none,none,none,none,none,none,0
+sunka,maslo,chleba na vrchu,stul,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+maslo,papricka,none,none,none,none,none,none,none,0
+podlaha,papricka,maslo,syr,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,papricka,maslo,chleba na vrchu,none,none,none,none,none,0
+vajicka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba na vrchu,vajicka,none,none,none,none,none,none,none,0
+papricka,syr,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+stul,chleba ve spodu,vajicka,syr,papricka,sunka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+maslo,none,none,none,none,none,none,none,none,0
+chleba ve spodu,syr,papricka,vajicka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,none,none,none,none,none,none,none,none,0
+syr,chleba na vrchu,papricka,stul,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+maslo,syr,stul,none,none,none,none,none,none,0
+maslo,chleba na vrchu,syr,vajicka,stul,none,none,none,none,0
+syr,stul,vajicka,papricka,sunka,podlaha,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,chleba ve spodu,sunka,none,none,none,none,none,none,0
+sunka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,sunka,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,0
+papricka,chleba ve spodu,syr,maslo,sunka,chleba na vrchu,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,sunka,chleba na vrchu,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+vajicka,syr,papricka,chleba ve spodu,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+maslo,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,0
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+sunka,chleba na vrchu,stul,vajicka,papricka,syr,none,none,none,0
+stul,maslo,chleba na vrchu,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+vajicka,papricka,maslo,chleba ve spodu,sunka,none,none,none,none,0
+syr,chleba na vrchu,sunka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+papricka,podlaha,maslo,chleba ve spodu,chleba na vrchu,none,none,none,none,0
+vajicka,podlaha,papricka,sunka,none,none,none,none,none,0
+syr,chleba na vrchu,stul,papricka,sunka,chleba ve spodu,none,none,none,0
+chleba ve spodu,podlaha,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+podlaha,stul,papricka,chleba na vrchu,vajicka,syr,none,none,none,0
+vajicka,chleba ve spodu,sunka,podlaha,none,none,none,none,none,0
+papricka,maslo,stul,syr,chleba ve spodu,sunka,chleba na vrchu,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+chleba na vrchu,chleba ve spodu,papricka,none,none,none,none,none,none,0
+sunka,chleba na vrchu,podlaha,none,none,none,none,none,none,0
+podlaha,chleba na vrchu,syr,vajicka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+sunka,vajicka,none,none,none,none,none,none,none,0
+chleba na vrchu,vajicka,none,none,none,none,none,none,none,0
+maslo,chleba ve spodu,stul,vajicka,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+stul,vajicka,podlaha,sunka,none,none,none,none,none,0
+podlaha,chleba ve spodu,stul,none,none,none,none,none,none,0
+podlaha,syr,sunka,chleba na vrchu,chleba ve spodu,papricka,none,none,none,0
+vajicka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+stul,podlaha,vajicka,papricka,none,none,none,none,none,0
+chleba na vrchu,stul,podlaha,syr,none,none,none,none,none,0
+chleba na vrchu,papricka,chleba ve spodu,none,none,none,none,none,none,0
+maslo,podlaha,stul,sunka,vajicka,none,none,none,none,0
+vajicka,sunka,podlaha,papricka,chleba na vrchu,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,stul,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,papricka,syr,stul,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,chleba ve spodu,sunka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+vajicka,papricka,sunka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+sunka,chleba na vrchu,none,none,none,none,none,none,none,0
+chleba na vrchu,maslo,vajicka,chleba ve spodu,podlaha,none,none,none,none,0
+vajicka,syr,chleba ve spodu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,syr,chleba na vrchu,chleba ve spodu,papricka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba na vrchu,vajicka,podlaha,chleba ve spodu,maslo,none,none,none,none,0
+sunka,stul,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+chleba ve spodu,syr,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,podlaha,sunka,none,none,none,none,none,none,0
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+chleba na vrchu,maslo,none,none,none,none,none,none,none,0
+syr,chleba na vrchu,vajicka,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+chleba ve spodu,maslo,stul,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+chleba ve spodu,maslo,syr,sunka,chleba na vrchu,none,none,none,none,0
+chleba na vrchu,stul,podlaha,maslo,chleba ve spodu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+stul,chleba na vrchu,vajicka,chleba ve spodu,podlaha,maslo,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,chleba ve spodu,papricka,sunka,podlaha,syr,none,none,none,0
+stul,chleba na vrchu,papricka,podlaha,sunka,vajicka,none,none,none,0
+chleba ve spodu,papricka,maslo,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+syr,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+papricka,syr,vajicka,maslo,sunka,stul,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+chleba ve spodu,vajicka,papricka,none,none,none,none,none,none,0
+stul,sunka,maslo,syr,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,none,none,none,none,none,none,none,none,0
+syr,chleba ve spodu,maslo,podlaha,papricka,none,none,none,none,0
+podlaha,chleba ve spodu,chleba na vrchu,stul,sunka,maslo,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,chleba na vrchu,podlaha,vajicka,none,none,none,none,none,0
+stul,none,none,none,none,none,none,none,none,0
+stul,chleba ve spodu,sunka,vajicka,none,none,none,none,none,0
+vajicka,chleba na vrchu,none,none,none,none,none,none,none,0
+maslo,sunka,chleba na vrchu,papricka,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,chleba ve spodu,papricka,none,none,none,none,none,none,0
+podlaha,stul,maslo,sunka,papricka,none,none,none,none,0
+chleba ve spodu,maslo,stul,chleba na vrchu,none,none,none,none,none,0
+chleba ve spodu,sunka,stul,papricka,chleba na vrchu,none,none,none,none,0
+syr,maslo,vajicka,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba ve spodu,chleba na vrchu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,sunka,stul,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,none,none,1
+vajicka,maslo,sunka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+maslo,vajicka,sunka,papricka,podlaha,syr,none,none,none,0
+sunka,papricka,chleba na vrchu,maslo,chleba ve spodu,syr,none,none,none,0
+sunka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+chleba na vrchu,syr,stul,maslo,chleba ve spodu,none,none,none,none,0
+podlaha,papricka,sunka,chleba na vrchu,vajicka,stul,chleba ve spodu,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+maslo,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+chleba na vrchu,maslo,none,none,none,none,none,none,none,0
+vajicka,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba na vrchu,chleba ve spodu,syr,maslo,none,none,none,none,none,0
+sunka,vajicka,chleba na vrchu,maslo,stul,none,none,none,none,0
+sunka,chleba ve spodu,podlaha,maslo,vajicka,syr,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+stul,sunka,papricka,vajicka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+maslo,chleba ve spodu,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,sunka,syr,papricka,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,stul,syr,sunka,none,none,none,none,none,0
+chleba na vrchu,vajicka,papricka,syr,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,syr,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+maslo,chleba na vrchu,sunka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+syr,sunka,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,sunka,maslo,chleba na vrchu,none,none,none,none,none,0
+syr,none,none,none,none,none,none,none,none,0
+syr,papricka,maslo,stul,none,none,none,none,none,0
+papricka,syr,stul,vajicka,chleba ve spodu,none,none,none,none,0
+chleba ve spodu,sunka,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+vajicka,sunka,syr,none,none,none,none,none,none,0
+stul,chleba ve spodu,podlaha,chleba na vrchu,none,none,none,none,none,0
+vajicka,chleba na vrchu,sunka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+vajicka,sunka,chleba na vrchu,papricka,chleba ve spodu,none,none,none,none,0
+stul,chleba ve spodu,podlaha,maslo,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+chleba na vrchu,syr,sunka,stul,maslo,chleba ve spodu,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,sunka,papricka,vajicka,chleba ve spodu,none,none,none,none,0
+papricka,none,none,none,none,none,none,none,none,0
+vajicka,none,none,none,none,none,none,none,none,0
+chleba na vrchu,syr,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,papricka,stul,maslo,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,papricka,none,none,none,none,1
+podlaha,maslo,sunka,none,none,none,none,none,none,0
+stul,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,none,none,1
+vajicka,syr,papricka,podlaha,none,none,none,none,none,0
+chleba na vrchu,vajicka,maslo,chleba ve spodu,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+vajicka,sunka,papricka,podlaha,stul,none,none,none,none,0
+chleba na vrchu,papricka,maslo,syr,chleba ve spodu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+sunka,papricka,chleba ve spodu,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,podlaha,sunka,chleba ve spodu,stul,maslo,chleba na vrchu,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+stul,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba na vrchu,stul,chleba ve spodu,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+maslo,podlaha,none,none,none,none,none,none,none,0
+sunka,stul,vajicka,papricka,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+stul,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,none,none,none,none,none,1
+sunka,stul,syr,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,syr,maslo,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+papricka,stul,maslo,podlaha,vajicka,none,none,none,none,0
+maslo,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+chleba ve spodu,podlaha,stul,none,none,none,none,none,none,0
+papricka,podlaha,maslo,syr,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+chleba ve spodu,syr,papricka,chleba na vrchu,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
+sunka,vajicka,syr,maslo,chleba ve spodu,chleba na vrchu,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba na vrchu,podlaha,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+stul,maslo,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+vajicka,sunka,podlaha,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+stul,papricka,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,chleba ve spodu,sunka,syr,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,chleba ve spodu,maslo,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba na vrchu,papricka,vajicka,maslo,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+papricka,maslo,none,none,none,none,none,none,none,0
+chleba ve spodu,podlaha,vajicka,sunka,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+stul,vajicka,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,syr,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,sunka,podlaha,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+chleba ve spodu,papricka,chleba na vrchu,podlaha,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,vajicka,chleba ve spodu,chleba na vrchu,podlaha,syr,none,none,none,0
+chleba na vrchu,podlaha,syr,chleba ve spodu,sunka,papricka,stul,none,none,0
+vajicka,chleba ve spodu,maslo,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,sunka,syr,chleba ve spodu,maslo,vajicka,none,none,none,0
+chleba ve spodu,stul,vajicka,podlaha,papricka,none,none,none,none,0
+vajicka,podlaha,syr,chleba na vrchu,none,none,none,none,none,0
+stul,chleba na vrchu,maslo,papricka,podlaha,vajicka,none,none,none,0
+podlaha,stul,chleba na vrchu,papricka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+syr,chleba na vrchu,podlaha,papricka,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+stul,maslo,chleba ve spodu,podlaha,vajicka,papricka,chleba na vrchu,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,none,none,none,none,none,none,none,none,0
+stul,none,none,none,none,none,none,none,none,0
+podlaha,papricka,syr,vajicka,chleba ve spodu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,sunka,vajicka,podlaha,syr,chleba na vrchu,chleba ve spodu,maslo,stul,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+papricka,vajicka,none,none,none,none,none,none,none,0
+chleba na vrchu,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+sunka,chleba na vrchu,none,none,none,none,none,none,none,0
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,vajicka,podlaha,papricka,stul,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,syr,sunka,none,none,none,none,none,none,0
+vajicka,papricka,syr,stul,none,none,none,none,none,0
+podlaha,chleba ve spodu,maslo,vajicka,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,none,none,1
+syr,chleba ve spodu,sunka,none,none,none,none,none,none,0
+podlaha,sunka,vajicka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+vajicka,stul,sunka,maslo,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,sunka,maslo,syr,chleba ve spodu,none,none,none,none,0
+vajicka,stul,none,none,none,none,none,none,none,0
+podlaha,chleba na vrchu,chleba ve spodu,sunka,papricka,maslo,none,none,none,0
+vajicka,maslo,chleba na vrchu,sunka,chleba ve spodu,papricka,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+stul,none,none,none,none,none,none,none,none,0
+stul,podlaha,syr,sunka,chleba ve spodu,chleba na vrchu,none,none,none,0
+papricka,stul,chleba na vrchu,syr,sunka,none,none,none,none,0
+syr,sunka,podlaha,chleba ve spodu,vajicka,papricka,none,none,none,0
+stul,chleba ve spodu,podlaha,papricka,none,none,none,none,none,0
+papricka,podlaha,chleba ve spodu,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,chleba na vrchu,stul,chleba ve spodu,podlaha,sunka,none,none,none,0
+papricka,podlaha,vajicka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,maslo,stul,papricka,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+chleba na vrchu,stul,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+syr,vajicka,sunka,chleba na vrchu,none,none,none,none,none,0
+papricka,chleba ve spodu,chleba na vrchu,syr,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+papricka,chleba ve spodu,sunka,none,none,none,none,none,none,0
+podlaha,chleba ve spodu,syr,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+vajicka,stul,syr,chleba na vrchu,none,none,none,none,none,0
+maslo,podlaha,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+maslo,stul,podlaha,none,none,none,none,none,none,0
+sunka,syr,vajicka,chleba na vrchu,stul,papricka,none,none,none,0
+stul,chleba ve spodu,syr,papricka,sunka,maslo,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+stul,chleba na vrchu,vajicka,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+vajicka,chleba ve spodu,papricka,sunka,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+sunka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+stul,none,none,none,none,none,none,none,none,0
+podlaha,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba ve spodu,papricka,chleba na vrchu,vajicka,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+vajicka,syr,sunka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+syr,chleba na vrchu,papricka,chleba ve spodu,maslo,none,none,none,none,0
+stul,vajicka,chleba ve spodu,papricka,chleba na vrchu,syr,none,none,none,0
+vajicka,syr,none,none,none,none,none,none,none,0
+maslo,syr,chleba na vrchu,chleba ve spodu,papricka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,syr,none,none,none,none,1
+vajicka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+chleba na vrchu,podlaha,maslo,syr,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+podlaha,chleba ve spodu,maslo,stul,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+papricka,none,none,none,none,none,none,none,none,0
+syr,chleba ve spodu,papricka,podlaha,stul,maslo,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,syr,chleba na vrchu,sunka,podlaha,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+chleba na vrchu,syr,vajicka,papricka,none,none,none,none,none,0
+chleba na vrchu,syr,vajicka,maslo,sunka,none,none,none,none,0
+chleba na vrchu,chleba ve spodu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,papricka,none,none,none,none,1
+papricka,podlaha,none,none,none,none,none,none,none,0
+chleba na vrchu,sunka,stul,chleba ve spodu,none,none,none,none,none,0
+podlaha,maslo,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+chleba ve spodu,syr,stul,vajicka,chleba na vrchu,papricka,none,none,none,0
+chleba ve spodu,sunka,stul,papricka,vajicka,chleba na vrchu,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+vajicka,podlaha,stul,syr,none,none,none,none,none,0
+sunka,syr,chleba ve spodu,podlaha,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+stul,chleba na vrchu,podlaha,vajicka,papricka,none,none,none,none,0
+papricka,stul,chleba na vrchu,maslo,podlaha,vajicka,none,none,none,0
+sunka,chleba ve spodu,podlaha,chleba na vrchu,none,none,none,none,none,0
+maslo,stul,papricka,syr,vajicka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+vajicka,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,chleba na vrchu,none,none,none,none,none,1
+chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+chleba na vrchu,vajicka,maslo,stul,none,none,none,none,none,0
+maslo,podlaha,chleba ve spodu,chleba na vrchu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+papricka,syr,vajicka,podlaha,chleba na vrchu,none,none,none,none,0
+maslo,syr,vajicka,chleba ve spodu,podlaha,papricka,none,none,none,0
+chleba ve spodu,chleba na vrchu,maslo,none,none,none,none,none,none,0
+chleba ve spodu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,sunka,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba ve spodu,podlaha,vajicka,sunka,syr,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,sunka,papricka,chleba ve spodu,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,syr,none,none,none,none,none,1
+chleba ve spodu,maslo,podlaha,papricka,chleba na vrchu,none,none,none,none,0
+stul,papricka,sunka,chleba na vrchu,syr,maslo,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,sunka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+stul,chleba na vrchu,sunka,chleba ve spodu,papricka,vajicka,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,vajicka,none,none,none,none,1
+chleba na vrchu,syr,chleba ve spodu,none,none,none,none,none,none,0
+stul,syr,maslo,sunka,chleba na vrchu,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,sunka,papricka,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+papricka,podlaha,maslo,vajicka,stul,none,none,none,none,0
+maslo,chleba na vrchu,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,papricka,vajicka,chleba ve spodu,syr,none,none,none,none,0
+papricka,stul,syr,none,none,none,none,none,none,0
+papricka,none,none,none,none,none,none,none,none,0
+chleba na vrchu,sunka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+maslo,podlaha,syr,sunka,none,none,none,none,none,0
+papricka,stul,chleba ve spodu,chleba na vrchu,maslo,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+papricka,syr,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,syr,chleba na vrchu,none,none,none,none,1
+papricka,podlaha,maslo,chleba na vrchu,sunka,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,none,none,none,none,1
+podlaha,maslo,stul,vajicka,sunka,papricka,none,none,none,0
+maslo,syr,podlaha,chleba na vrchu,sunka,papricka,stul,none,none,0
+papricka,vajicka,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,none,none,none,none,none,1
+maslo,stul,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,none,none,none,none,1
+syr,stul,podlaha,maslo,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+syr,papricka,chleba ve spodu,chleba na vrchu,sunka,podlaha,stul,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,none,none,none,none,1
+stul,syr,sunka,maslo,vajicka,podlaha,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,syr,papricka,none,none,none,1
+syr,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,maslo,papricka,none,none,none,none,1
+vajicka,none,none,none,none,none,none,none,none,0
+sunka,stul,chleba na vrchu,none,none,none,none,none,none,0
+chleba na vrchu,none,none,none,none,none,none,none,none,0
+podlaha,stul,chleba ve spodu,none,none,none,none,none,none,1
+podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,none,none,none,1
