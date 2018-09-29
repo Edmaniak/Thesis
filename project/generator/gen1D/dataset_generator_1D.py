@@ -1,5 +1,6 @@
 from project.generator.gen1D.Data1D import Data1D
 from project.generator.gen1D.Object1D import Object1D
+from project.neural.Nerual1D import Neural1D
 
 podlaha = Object1D("podlaha")
 stul = Object1D("stul")
@@ -50,7 +51,16 @@ maslo.set_object_const("UNDER", papricka)
 maslo.set_object_const("UNDER", vajicka)
 
 gen = Data1D([podlaha, stul, chleba_na_spodu, chleba_na_vrchu, maslo, sunka, syr, vajicka, papricka])
-data = gen.generate(1000, "csv")
+data = gen.generate(2000, "csv")
+
+model = Neural1D("toast_data.csv")
+model.train()
+
+result = model.predict([papricka, stul, maslo])
+
+print(result > 0.5)
+
+
 
 # Kompletni hierarchie
 
