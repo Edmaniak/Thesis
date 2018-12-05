@@ -8,19 +8,22 @@ from project.generator.gen1D.Object1D import Object1D
 class Data1D:
 	def __init__(self, data=list()):
 		self.data = data
+		for i in range(len(self.data)):
+			data[i].val = i + 1
 		self.hierarchies = list()
 
 	def add_data(self, object: Object1D):
+		object.val = len(self.data) + 1
 		self.data.append(object)
 
 	def set_data(self, data):
 		self.data = data
 
-	def generate(self, number_of_samples: int = 1000, format: str = "csv", ratio: int = 50, do_shuffle=True,
+	def generate(self, number_of_samples: int = 1000, format: str = "csv", encode=True, do_shuffle=True,
 	             label_it=True):
 
-		positive = self.generate_positive(number_of_samples * (1 / ratio), "array")
-		negative = self.generate_random(number_of_samples * (1 - (1 / ratio)), "array")
+		positive = self.generate_positive(number_of_samples, "array")
+		negative = self.generate_random(number_of_samples, "array")
 
 		# Check if there are no equivalent records in the random array as they are in the positive data
 		for record_negative in negative:
@@ -31,14 +34,30 @@ class Data1D:
 							continue
 						else:
 							break
-						negative.remove(record_negative)
+		# negative.remove(record_negative)
 
 		# Adds the label to the data, either one when the example si relevant or 0 when the example is fake
+		count = len(self.data)
 		if label_it:
+
 			for record in positive:
-				record.append("1")
+				row_length = len(record)
+
+				if row_length < count:
+					for i in range(row_length, count):
+						record.append(Object1D('none'))
+				record.append(Object1D('1', 1))
+
 			for record in negative:
-				record.append("0")
+				row_length = len(record)
+
+				if row_length < count:
+					for i in range(row_length, count):
+						record.append(Object1D('none'))
+				record.append(Object1D('0', 0))
+
+		if encode:
+			pass
 
 		# Shuffles the data
 		if do_shuffle:
@@ -62,6 +81,7 @@ class Data1D:
 		if format == "csv":
 			with open('toast_data.csv', 'w', newline='') as f:
 				writer = csv.writer(f)
+				writer.writerow([1, 2, 3, 4, 5, 6, 7, 8, 9, "label"])
 				for record in merged_result:
 					writer.writerow(record)
 

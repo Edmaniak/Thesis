@@ -1,2000 +1,4001 @@
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-maslo,chleba na vrchu,vajicka,stul,syr,chleba ve spodu,0
-chleba na vrchu,maslo,syr,0
-podlaha,stul,chleba ve spodu,1
-syr,maslo,0
-sunka,maslo,stul,0
-chleba ve spodu,sunka,syr,vajicka,papricka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-stul,chleba ve spodu,sunka,podlaha,papricka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,syr,papricka,1
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-syr,podlaha,maslo,vajicka,sunka,chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,maslo,stul,sunka,chleba na vrchu,syr,0
-podlaha,stul,chleba ve spodu,1
-maslo,vajicka,chleba ve spodu,podlaha,0
-stul,papricka,syr,vajicka,chleba ve spodu,sunka,maslo,0
-podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,1
-syr,podlaha,chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,1
-chleba na vrchu,papricka,stul,podlaha,maslo,sunka,0
-vajicka,stul,0
-podlaha,stul,chleba ve spodu,papricka,1
-papricka,0
-stul,podlaha,papricka,0
-podlaha,vajicka,syr,stul,maslo,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-papricka,chleba ve spodu,sunka,maslo,syr,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,sunka,1
-syr,maslo,chleba ve spodu,vajicka,sunka,0
-stul,syr,chleba ve spodu,podlaha,vajicka,0
-maslo,sunka,chleba na vrchu,chleba ve spodu,vajicka,podlaha,0
-chleba na vrchu,maslo,vajicka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-papricka,maslo,podlaha,vajicka,chleba ve spodu,chleba na vrchu,0
-papricka,0
-papricka,0
-podlaha,stul,chleba ve spodu,1
-syr,papricka,0
-podlaha,stul,chleba ve spodu,1
-vajicka,chleba ve spodu,maslo,syr,papricka,sunka,0
-sunka,syr,chleba na vrchu,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,0
-chleba ve spodu,0
-chleba ve spodu,syr,podlaha,0
-syr,maslo,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,sunka,papricka,1
-stul,papricka,maslo,vajicka,chleba na vrchu,sunka,podlaha,0
-sunka,stul,podlaha,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,1
-vajicka,podlaha,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,chleba ve spodu,papricka,0
-papricka,chleba na vrchu,chleba ve spodu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,maslo,stul,vajicka,0
-maslo,stul,syr,papricka,chleba na vrchu,sunka,0
-stul,vajicka,papricka,0
-podlaha,chleba ve spodu,0
-sunka,chleba na vrchu,syr,vajicka,stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,sunka,syr,1
-chleba na vrchu,maslo,podlaha,sunka,chleba ve spodu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-chleba ve spodu,maslo,papricka,vajicka,chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,papricka,1
-maslo,podlaha,chleba na vrchu,syr,0
-syr,vajicka,chleba na vrchu,chleba ve spodu,0
-chleba na vrchu,maslo,stul,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-vajicka,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-syr,chleba ve spodu,papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,1
-papricka,maslo,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-maslo,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-stul,papricka,podlaha,sunka,0
-stul,podlaha,syr,chleba ve spodu,0
-papricka,chleba na vrchu,podlaha,chleba ve spodu,syr,vajicka,sunka,0
-podlaha,stul,chleba ve spodu,papricka,1
-chleba na vrchu,podlaha,papricka,chleba ve spodu,stul,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,chleba na vrchu,chleba ve spodu,0
-chleba na vrchu,sunka,podlaha,stul,syr,0
-chleba ve spodu,papricka,vajicka,sunka,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,sunka,1
-maslo,podlaha,vajicka,sunka,chleba na vrchu,papricka,0
-chleba na vrchu,stul,vajicka,maslo,papricka,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-stul,podlaha,0
-stul,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-stul,syr,vajicka,maslo,podlaha,0
-chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,podlaha,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,1
-maslo,stul,chleba na vrchu,vajicka,sunka,papricka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-sunka,stul,maslo,podlaha,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,1
-podlaha,stul,chleba ve spodu,syr,papricka,1
-chleba na vrchu,podlaha,sunka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,vajicka,stul,chleba na vrchu,papricka,0
-podlaha,stul,chleba ve spodu,sunka,papricka,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-syr,vajicka,chleba na vrchu,podlaha,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,syr,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,vajicka,maslo,0
-papricka,chleba na vrchu,vajicka,sunka,syr,stul,0
-papricka,chleba ve spodu,chleba na vrchu,vajicka,maslo,stul,0
-maslo,syr,stul,sunka,chleba ve spodu,chleba na vrchu,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,1
-papricka,stul,vajicka,maslo,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-papricka,vajicka,podlaha,0
-podlaha,stul,chleba ve spodu,1
-stul,podlaha,vajicka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-sunka,syr,stul,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,sunka,1
-chleba ve spodu,maslo,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,sunka,syr,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-sunka,stul,vajicka,podlaha,papricka,0
-podlaha,chleba ve spodu,syr,stul,sunka,vajicka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-syr,chleba na vrchu,maslo,sunka,papricka,vajicka,0
-stul,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-sunka,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-stul,papricka,chleba na vrchu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-chleba na vrchu,syr,chleba ve spodu,papricka,sunka,0
-sunka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-syr,maslo,0
-syr,sunka,papricka,0
-stul,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-sunka,chleba na vrchu,chleba ve spodu,maslo,0
-podlaha,syr,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,1
-chleba na vrchu,stul,sunka,0
-podlaha,stul,chleba ve spodu,1
-syr,stul,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,0
-chleba na vrchu,syr,0
-stul,chleba na vrchu,chleba ve spodu,sunka,maslo,vajicka,0
-podlaha,stul,chleba ve spodu,sunka,papricka,1
-papricka,vajicka,chleba ve spodu,sunka,0
-chleba na vrchu,stul,chleba ve spodu,sunka,papricka,vajicka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-syr,stul,maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-sunka,chleba na vrchu,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,sunka,chleba ve spodu,papricka,0
-syr,stul,chleba na vrchu,vajicka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-chleba na vrchu,stul,0
-chleba ve spodu,maslo,syr,podlaha,papricka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-stul,chleba na vrchu,syr,papricka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-syr,sunka,chleba na vrchu,chleba ve spodu,maslo,papricka,0
-vajicka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-chleba na vrchu,chleba ve spodu,sunka,syr,podlaha,0
-podlaha,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-syr,chleba na vrchu,vajicka,maslo,chleba ve spodu,stul,papricka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-sunka,maslo,syr,vajicka,chleba ve spodu,podlaha,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,sunka,1
-papricka,0
-podlaha,chleba na vrchu,0
-syr,vajicka,papricka,sunka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,papricka,vajicka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-vajicka,stul,papricka,podlaha,maslo,sunka,chleba ve spodu,0
-vajicka,sunka,papricka,syr,0
-chleba na vrchu,chleba ve spodu,papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-maslo,syr,chleba na vrchu,sunka,stul,0
-podlaha,stul,chleba ve spodu,sunka,1
-sunka,podlaha,maslo,stul,chleba ve spodu,chleba na vrchu,papricka,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-stul,papricka,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-chleba na vrchu,syr,sunka,maslo,vajicka,stul,0
-sunka,maslo,podlaha,chleba ve spodu,chleba na vrchu,syr,0
-syr,papricka,sunka,0
-podlaha,papricka,stul,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,syr,1
-syr,chleba na vrchu,papricka,stul,0
-syr,stul,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-sunka,stul,vajicka,papricka,syr,chleba ve spodu,0
-syr,chleba na vrchu,0
-maslo,sunka,syr,chleba na vrchu,podlaha,papricka,0
-syr,vajicka,chleba ve spodu,podlaha,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-chleba ve spodu,papricka,podlaha,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,1
-stul,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-stul,podlaha,papricka,chleba na vrchu,syr,0
-chleba ve spodu,papricka,chleba na vrchu,syr,maslo,podlaha,sunka,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-chleba ve spodu,podlaha,stul,sunka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,papricka,sunka,maslo,chleba na vrchu,chleba ve spodu,0
-syr,stul,maslo,papricka,sunka,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-sunka,maslo,stul,syr,chleba na vrchu,podlaha,0
-podlaha,syr,stul,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,sunka,syr,1
-chleba ve spodu,podlaha,chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-chleba ve spodu,0
-chleba na vrchu,syr,sunka,vajicka,0
-syr,sunka,podlaha,chleba ve spodu,chleba na vrchu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-chleba ve spodu,syr,chleba na vrchu,stul,podlaha,0
-chleba na vrchu,papricka,vajicka,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-syr,maslo,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,1
-sunka,stul,syr,chleba ve spodu,podlaha,0
-chleba na vrchu,maslo,syr,papricka,sunka,podlaha,0
-podlaha,stul,chleba ve spodu,1
-chleba ve spodu,chleba na vrchu,papricka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-vajicka,chleba ve spodu,papricka,stul,syr,sunka,0
-stul,papricka,vajicka,podlaha,syr,sunka,chleba na vrchu,0
-chleba na vrchu,podlaha,syr,0
-sunka,syr,0
-chleba ve spodu,stul,vajicka,maslo,papricka,chleba na vrchu,0
-papricka,maslo,syr,0
-stul,papricka,maslo,chleba ve spodu,vajicka,podlaha,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-vajicka,stul,papricka,chleba na vrchu,syr,sunka,0
-maslo,chleba na vrchu,sunka,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,sunka,vajicka,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-vajicka,syr,maslo,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,chleba ve spodu,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-vajicka,syr,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,1
-chleba na vrchu,sunka,vajicka,syr,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-maslo,sunka,chleba ve spodu,stul,papricka,podlaha,0
-chleba ve spodu,chleba na vrchu,vajicka,papricka,0
-maslo,vajicka,sunka,podlaha,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,sunka,syr,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-maslo,syr,sunka,0
-syr,sunka,0
-chleba na vrchu,0
-maslo,podlaha,vajicka,chleba ve spodu,0
-papricka,maslo,chleba ve spodu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,1
-sunka,papricka,chleba na vrchu,stul,0
-sunka,maslo,0
-papricka,maslo,sunka,chleba ve spodu,stul,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-chleba ve spodu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-papricka,vajicka,sunka,chleba na vrchu,chleba ve spodu,0
-syr,sunka,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-papricka,vajicka,chleba ve spodu,stul,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-sunka,syr,vajicka,stul,papricka,maslo,podlaha,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,sunka,1
-sunka,papricka,stul,vajicka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-chleba na vrchu,sunka,stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-chleba ve spodu,chleba na vrchu,stul,maslo,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,1
-sunka,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-papricka,chleba ve spodu,maslo,0
-podlaha,0
-podlaha,stul,chleba ve spodu,sunka,1
-chleba na vrchu,vajicka,chleba ve spodu,podlaha,syr,0
-sunka,stul,podlaha,maslo,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,1
-maslo,papricka,podlaha,chleba ve spodu,vajicka,syr,sunka,0
-stul,chleba ve spodu,papricka,0
-podlaha,chleba na vrchu,sunka,vajicka,syr,maslo,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-chleba ve spodu,syr,vajicka,papricka,podlaha,0
-maslo,vajicka,chleba ve spodu,stul,0
-chleba na vrchu,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,1
-maslo,papricka,chleba na vrchu,chleba ve spodu,podlaha,syr,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-vajicka,podlaha,maslo,chleba ve spodu,papricka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-vajicka,maslo,sunka,papricka,0
-papricka,syr,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,syr,stul,0
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-vajicka,sunka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-stul,sunka,papricka,maslo,syr,podlaha,chleba ve spodu,0
-syr,stul,maslo,chleba ve spodu,podlaha,0
-stul,maslo,chleba na vrchu,0
-chleba na vrchu,chleba ve spodu,0
-maslo,chleba ve spodu,sunka,chleba na vrchu,0
-vajicka,chleba ve spodu,syr,0
-vajicka,chleba ve spodu,podlaha,0
-vajicka,maslo,stul,syr,papricka,chleba ve spodu,0
-podlaha,papricka,chleba ve spodu,chleba na vrchu,sunka,0
-stul,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-stul,chleba ve spodu,papricka,sunka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,1
-chleba ve spodu,papricka,syr,sunka,maslo,podlaha,0
-podlaha,sunka,stul,0
-chleba na vrchu,0
-papricka,syr,chleba ve spodu,maslo,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,1
-maslo,papricka,chleba ve spodu,vajicka,0
-syr,chleba na vrchu,chleba ve spodu,0
-podlaha,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-sunka,maslo,0
-podlaha,papricka,0
-maslo,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-papricka,chleba ve spodu,maslo,stul,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-papricka,maslo,0
-sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,1
-stul,maslo,podlaha,chleba na vrchu,0
-podlaha,syr,vajicka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,chleba na vrchu,sunka,maslo,0
-chleba na vrchu,vajicka,syr,maslo,0
-chleba na vrchu,syr,maslo,podlaha,sunka,0
-maslo,stul,chleba ve spodu,vajicka,papricka,podlaha,syr,0
-podlaha,stul,chleba ve spodu,1
-stul,papricka,podlaha,0
-stul,papricka,chleba ve spodu,maslo,syr,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-stul,papricka,syr,vajicka,chleba ve spodu,0
-maslo,chleba na vrchu,0
-maslo,syr,papricka,vajicka,chleba na vrchu,0
-maslo,sunka,vajicka,chleba ve spodu,podlaha,syr,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-stul,vajicka,chleba ve spodu,chleba na vrchu,podlaha,papricka,0
-stul,chleba ve spodu,syr,chleba na vrchu,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-sunka,chleba na vrchu,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-sunka,chleba ve spodu,chleba na vrchu,stul,papricka,syr,maslo,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,vajicka,chleba na vrchu,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-syr,sunka,podlaha,chleba ve spodu,0
-chleba na vrchu,sunka,podlaha,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba ve spodu,papricka,podlaha,maslo,sunka,stul,0
-chleba na vrchu,chleba ve spodu,podlaha,sunka,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-syr,chleba na vrchu,papricka,stul,0
-podlaha,stul,chleba ve spodu,sunka,1
-maslo,vajicka,papricka,podlaha,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,1
-maslo,vajicka,sunka,chleba ve spodu,chleba na vrchu,papricka,syr,0
-podlaha,chleba na vrchu,vajicka,maslo,stul,0
-syr,chleba na vrchu,stul,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-papricka,chleba na vrchu,sunka,stul,podlaha,0
-papricka,stul,podlaha,syr,maslo,chleba ve spodu,0
-papricka,0
-chleba na vrchu,stul,vajicka,podlaha,0
-vajicka,podlaha,papricka,0
-maslo,0
-papricka,vajicka,0
-vajicka,podlaha,stul,0
-maslo,papricka,sunka,0
-podlaha,papricka,maslo,sunka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,1
-chleba ve spodu,maslo,vajicka,syr,chleba na vrchu,papricka,0
-papricka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-chleba ve spodu,vajicka,podlaha,papricka,0
-sunka,stul,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-chleba ve spodu,chleba na vrchu,papricka,0
-syr,chleba na vrchu,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-syr,chleba na vrchu,podlaha,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,1
-papricka,stul,chleba na vrchu,podlaha,sunka,0
-syr,0
-syr,maslo,podlaha,vajicka,0
-stul,syr,chleba ve spodu,sunka,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-chleba na vrchu,vajicka,chleba ve spodu,papricka,stul,maslo,0
-stul,vajicka,chleba na vrchu,sunka,0
-podlaha,sunka,0
-maslo,sunka,chleba ve spodu,papricka,chleba na vrchu,0
-chleba ve spodu,podlaha,stul,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-stul,papricka,chleba ve spodu,sunka,chleba na vrchu,podlaha,vajicka,0
-chleba ve spodu,maslo,0
-chleba na vrchu,stul,maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-vajicka,syr,0
-syr,vajicka,chleba ve spodu,maslo,papricka,stul,0
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,maslo,syr,podlaha,sunka,0
-chleba ve spodu,podlaha,vajicka,maslo,0
-chleba na vrchu,stul,chleba ve spodu,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,1
-syr,papricka,vajicka,stul,sunka,0
-podlaha,stul,chleba ve spodu,syr,1
-syr,sunka,podlaha,stul,maslo,0
-podlaha,stul,chleba ve spodu,maslo,1
-sunka,syr,stul,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,1
-vajicka,papricka,sunka,chleba ve spodu,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-sunka,podlaha,syr,chleba na vrchu,maslo,stul,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-papricka,stul,chleba na vrchu,maslo,vajicka,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-vajicka,syr,0
-syr,sunka,papricka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-maslo,syr,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-stul,chleba na vrchu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-chleba ve spodu,syr,0
-sunka,maslo,chleba na vrchu,papricka,0
-podlaha,stul,chleba ve spodu,maslo,1
-maslo,chleba ve spodu,stul,chleba na vrchu,syr,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,chleba ve spodu,0
-sunka,chleba ve spodu,papricka,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,1
-chleba na vrchu,chleba ve spodu,sunka,papricka,podlaha,0
-vajicka,sunka,syr,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-papricka,syr,vajicka,sunka,0
-chleba ve spodu,papricka,chleba na vrchu,stul,syr,0
-stul,maslo,sunka,chleba na vrchu,0
-papricka,maslo,sunka,0
-podlaha,chleba ve spodu,vajicka,stul,0
-sunka,papricka,stul,0
-chleba na vrchu,chleba ve spodu,stul,maslo,0
-vajicka,podlaha,0
-podlaha,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-vajicka,stul,papricka,maslo,sunka,syr,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,1
-podlaha,stul,chleba ve spodu,1
-maslo,0
-chleba ve spodu,vajicka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-papricka,sunka,0
-papricka,maslo,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-sunka,vajicka,syr,stul,chleba ve spodu,papricka,podlaha,maslo,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,1
-stul,sunka,chleba na vrchu,papricka,chleba ve spodu,podlaha,0
-maslo,papricka,chleba ve spodu,0
-chleba na vrchu,syr,papricka,maslo,0
-stul,chleba na vrchu,maslo,podlaha,syr,papricka,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-maslo,chleba na vrchu,stul,syr,vajicka,chleba ve spodu,0
-stul,podlaha,chleba ve spodu,syr,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-syr,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-chleba na vrchu,papricka,vajicka,podlaha,0
-stul,chleba ve spodu,papricka,0
-stul,maslo,chleba na vrchu,0
-chleba ve spodu,papricka,vajicka,chleba na vrchu,stul,syr,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-chleba na vrchu,syr,stul,0
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-sunka,syr,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,1
-vajicka,maslo,0
-sunka,podlaha,0
-chleba ve spodu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-vajicka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,sunka,chleba na vrchu,syr,chleba ve spodu,0
-papricka,syr,vajicka,chleba na vrchu,sunka,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-vajicka,chleba na vrchu,stul,chleba ve spodu,sunka,maslo,syr,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-sunka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,sunka,1
-chleba ve spodu,maslo,papricka,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-sunka,vajicka,maslo,papricka,chleba ve spodu,0
-maslo,chleba ve spodu,podlaha,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-papricka,vajicka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,1
-chleba na vrchu,syr,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,1
-papricka,chleba ve spodu,podlaha,stul,chleba na vrchu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-papricka,vajicka,podlaha,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-syr,stul,chleba na vrchu,chleba ve spodu,papricka,podlaha,0
-vajicka,maslo,chleba na vrchu,0
-podlaha,chleba na vrchu,syr,vajicka,chleba ve spodu,stul,sunka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,1
-podlaha,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,syr,maslo,papricka,0
-vajicka,syr,maslo,chleba na vrchu,papricka,0
-podlaha,stul,chleba ve spodu,1
-papricka,vajicka,sunka,maslo,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-syr,podlaha,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-chleba na vrchu,podlaha,syr,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,1
-papricka,chleba na vrchu,vajicka,syr,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,1
-papricka,0
-papricka,chleba na vrchu,maslo,sunka,vajicka,0
-sunka,stul,chleba ve spodu,chleba na vrchu,syr,0
-maslo,vajicka,stul,podlaha,0
-papricka,vajicka,0
-chleba ve spodu,chleba na vrchu,0
-papricka,chleba na vrchu,podlaha,maslo,sunka,0
-stul,chleba ve spodu,sunka,syr,vajicka,papricka,0
-sunka,podlaha,vajicka,0
-maslo,syr,0
-syr,maslo,chleba ve spodu,papricka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-stul,syr,sunka,chleba ve spodu,podlaha,vajicka,0
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-papricka,maslo,stul,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,sunka,chleba ve spodu,papricka,0
-vajicka,stul,syr,podlaha,sunka,0
-chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-chleba na vrchu,sunka,0
-podlaha,stul,chleba ve spodu,1
-sunka,vajicka,0
-podlaha,stul,chleba ve spodu,1
-papricka,chleba na vrchu,chleba ve spodu,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,1
-syr,vajicka,chleba ve spodu,papricka,podlaha,stul,0
-syr,chleba ve spodu,0
-chleba ve spodu,chleba na vrchu,stul,podlaha,maslo,papricka,0
-papricka,chleba na vrchu,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba ve spodu,syr,vajicka,maslo,podlaha,stul,chleba na vrchu,0
-papricka,sunka,podlaha,stul,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-vajicka,maslo,stul,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-syr,podlaha,vajicka,maslo,chleba ve spodu,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-syr,maslo,stul,0
-podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,syr,stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-vajicka,0
-chleba na vrchu,maslo,syr,stul,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-stul,chleba na vrchu,chleba ve spodu,maslo,syr,0
-maslo,papricka,sunka,chleba ve spodu,stul,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,1
-chleba na vrchu,podlaha,papricka,0
-podlaha,stul,chleba ve spodu,sunka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-chleba na vrchu,sunka,podlaha,vajicka,chleba ve spodu,maslo,papricka,0
-vajicka,papricka,podlaha,maslo,0
-sunka,stul,maslo,chleba ve spodu,0
-papricka,maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,syr,1
-sunka,stul,chleba ve spodu,vajicka,syr,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-syr,papricka,podlaha,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-chleba ve spodu,0
-maslo,syr,chleba ve spodu,papricka,vajicka,0
-chleba ve spodu,sunka,chleba na vrchu,vajicka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,0
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,1
-papricka,syr,0
-stul,chleba ve spodu,sunka,vajicka,syr,maslo,podlaha,0
-chleba na vrchu,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,1
-sunka,0
-sunka,chleba ve spodu,0
-vajicka,chleba ve spodu,chleba na vrchu,maslo,syr,0
-maslo,sunka,vajicka,chleba na vrchu,stul,papricka,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-stul,sunka,syr,podlaha,chleba na vrchu,0
-sunka,maslo,0
-chleba ve spodu,maslo,0
-chleba ve spodu,podlaha,maslo,syr,0
-stul,podlaha,sunka,vajicka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-maslo,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,1
-podlaha,stul,chleba ve spodu,1
-syr,0
-podlaha,stul,chleba ve spodu,sunka,1
-vajicka,chleba na vrchu,chleba ve spodu,papricka,0
-podlaha,stul,chleba ve spodu,1
-maslo,chleba na vrchu,podlaha,0
-maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-sunka,syr,stul,chleba ve spodu,0
-chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-chleba ve spodu,papricka,0
-chleba na vrchu,maslo,0
-maslo,sunka,syr,chleba na vrchu,podlaha,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-maslo,podlaha,syr,sunka,papricka,0
-podlaha,chleba ve spodu,chleba na vrchu,sunka,maslo,vajicka,0
-maslo,0
-sunka,podlaha,syr,chleba na vrchu,vajicka,0
-maslo,syr,vajicka,sunka,chleba na vrchu,papricka,stul,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,0
-vajicka,sunka,syr,podlaha,0
-podlaha,stul,chleba ve spodu,sunka,syr,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,sunka,syr,1
-chleba na vrchu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,1
-vajicka,podlaha,chleba na vrchu,0
-papricka,0
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,1
-vajicka,podlaha,sunka,0
-maslo,chleba na vrchu,sunka,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-papricka,podlaha,chleba ve spodu,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-sunka,maslo,chleba ve spodu,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,1
-chleba na vrchu,podlaha,chleba ve spodu,0
-chleba na vrchu,papricka,syr,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,chleba ve spodu,0
-papricka,maslo,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-syr,0
-papricka,chleba na vrchu,chleba ve spodu,syr,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-vajicka,maslo,papricka,chleba ve spodu,stul,0
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,sunka,1
-stul,sunka,chleba na vrchu,podlaha,papricka,0
-podlaha,stul,chleba ve spodu,1
-maslo,podlaha,0
-sunka,maslo,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,1
-papricka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,1
-podlaha,sunka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,1
-maslo,papricka,chleba ve spodu,chleba na vrchu,0
-chleba ve spodu,podlaha,chleba na vrchu,sunka,vajicka,0
-podlaha,stul,chleba ve spodu,sunka,syr,1
-chleba ve spodu,syr,vajicka,0
-papricka,0
-sunka,chleba ve spodu,syr,podlaha,0
-stul,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,1
-vajicka,podlaha,maslo,chleba ve spodu,sunka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-maslo,syr,vajicka,podlaha,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba ve spodu,syr,stul,maslo,vajicka,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-maslo,syr,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-sunka,maslo,chleba ve spodu,papricka,0
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,1
-papricka,sunka,0
-maslo,syr,sunka,chleba na vrchu,stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-podlaha,sunka,vajicka,papricka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,sunka,1
-chleba na vrchu,maslo,stul,syr,papricka,sunka,0
-podlaha,sunka,syr,stul,0
-sunka,stul,chleba na vrchu,podlaha,0
-podlaha,syr,maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-papricka,stul,syr,vajicka,sunka,0
-chleba na vrchu,stul,papricka,sunka,maslo,0
-syr,podlaha,0
-vajicka,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-chleba ve spodu,stul,maslo,0
-chleba ve spodu,podlaha,vajicka,maslo,stul,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-syr,vajicka,0
-vajicka,podlaha,papricka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-vajicka,podlaha,syr,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-sunka,syr,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,chleba na vrchu,1
-papricka,chleba na vrchu,maslo,sunka,stul,0
-podlaha,stul,chleba ve spodu,maslo,1
-chleba na vrchu,0
-maslo,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-maslo,0
-maslo,sunka,stul,podlaha,0
-syr,sunka,0
-syr,vajicka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-maslo,podlaha,papricka,vajicka,sunka,0
-papricka,0
-podlaha,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-sunka,chleba na vrchu,papricka,chleba ve spodu,podlaha,0
-podlaha,0
-podlaha,stul,chleba ve spodu,1
-chleba ve spodu,stul,maslo,syr,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-stul,papricka,chleba ve spodu,chleba na vrchu,vajicka,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,papricka,0
-sunka,stul,syr,0
-sunka,chleba na vrchu,papricka,maslo,chleba ve spodu,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,syr,1
-chleba ve spodu,papricka,0
-vajicka,chleba ve spodu,0
-syr,podlaha,chleba ve spodu,0
-chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,1
-chleba na vrchu,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,1
-chleba na vrchu,maslo,podlaha,stul,chleba ve spodu,0
-vajicka,sunka,syr,chleba ve spodu,papricka,maslo,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,1
-sunka,0
-chleba na vrchu,stul,syr,podlaha,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,1
-stul,chleba ve spodu,maslo,papricka,chleba na vrchu,podlaha,0
-syr,chleba ve spodu,papricka,chleba na vrchu,sunka,0
-sunka,podlaha,chleba ve spodu,vajicka,maslo,0
-maslo,syr,papricka,0
-syr,stul,papricka,chleba na vrchu,0
-papricka,maslo,vajicka,podlaha,stul,chleba ve spodu,0
-vajicka,podlaha,stul,syr,chleba ve spodu,maslo,0
-stul,chleba na vrchu,syr,vajicka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-papricka,maslo,podlaha,chleba na vrchu,0
-chleba na vrchu,maslo,papricka,sunka,syr,0
-podlaha,stul,chleba ve spodu,1
-chleba ve spodu,vajicka,podlaha,sunka,papricka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-vajicka,maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-vajicka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba ve spodu,papricka,0
-syr,podlaha,chleba ve spodu,vajicka,maslo,0
-chleba na vrchu,0
-syr,stul,chleba ve spodu,maslo,papricka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,chleba ve spodu,papricka,chleba na vrchu,sunka,0
-syr,chleba na vrchu,maslo,papricka,chleba ve spodu,0
-chleba ve spodu,maslo,sunka,syr,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,1
-stul,chleba na vrchu,podlaha,0
-vajicka,chleba na vrchu,stul,syr,podlaha,0
-podlaha,0
-podlaha,stul,chleba ve spodu,1
-podlaha,papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-papricka,vajicka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,sunka,syr,papricka,1
-syr,chleba na vrchu,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-papricka,stul,sunka,syr,vajicka,0
-podlaha,vajicka,syr,0
-vajicka,chleba na vrchu,maslo,podlaha,0
-chleba ve spodu,papricka,syr,podlaha,0
-maslo,chleba na vrchu,chleba ve spodu,syr,papricka,0
-vajicka,chleba ve spodu,papricka,maslo,podlaha,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-stul,vajicka,syr,papricka,0
-vajicka,chleba ve spodu,chleba na vrchu,podlaha,papricka,0
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-chleba ve spodu,papricka,maslo,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-maslo,chleba na vrchu,papricka,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,papricka,chleba na vrchu,1
-papricka,syr,podlaha,0
-chleba na vrchu,sunka,podlaha,chleba ve spodu,papricka,stul,vajicka,0
-podlaha,stul,chleba ve spodu,1
-stul,podlaha,0
-maslo,vajicka,papricka,stul,podlaha,0
-papricka,stul,maslo,syr,podlaha,0
-podlaha,0
-stul,podlaha,maslo,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,1
-sunka,stul,syr,vajicka,0
-chleba na vrchu,chleba ve spodu,0
-vajicka,sunka,chleba na vrchu,podlaha,chleba ve spodu,papricka,0
-podlaha,sunka,vajicka,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-maslo,0
-sunka,vajicka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-syr,maslo,chleba na vrchu,0
-vajicka,syr,chleba ve spodu,chleba na vrchu,papricka,stul,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,1
-papricka,chleba na vrchu,maslo,sunka,chleba ve spodu,0
-stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,syr,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-sunka,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-sunka,vajicka,chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-vajicka,maslo,chleba ve spodu,0
-papricka,0
-sunka,vajicka,chleba na vrchu,podlaha,maslo,chleba ve spodu,0
-syr,stul,vajicka,papricka,0
-sunka,chleba ve spodu,maslo,syr,0
-stul,maslo,sunka,0
-sunka,0
-maslo,podlaha,syr,chleba na vrchu,0
-sunka,chleba na vrchu,maslo,0
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-chleba ve spodu,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,0
-sunka,podlaha,syr,maslo,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,1
-sunka,papricka,vajicka,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-syr,sunka,0
-podlaha,papricka,vajicka,stul,0
-papricka,syr,0
-podlaha,chleba ve spodu,0
-chleba na vrchu,maslo,0
-maslo,sunka,chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,sunka,1
-maslo,podlaha,0
-maslo,0
-syr,maslo,vajicka,chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,1
-papricka,chleba na vrchu,sunka,podlaha,chleba ve spodu,syr,0
-maslo,chleba na vrchu,podlaha,stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-vajicka,syr,papricka,chleba ve spodu,0
-syr,vajicka,0
-stul,chleba ve spodu,chleba na vrchu,papricka,0
-chleba ve spodu,papricka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,sunka,syr,1
-sunka,vajicka,stul,maslo,chleba ve spodu,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,sunka,vajicka,maslo,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-chleba ve spodu,vajicka,podlaha,syr,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-syr,sunka,chleba ve spodu,papricka,chleba na vrchu,0
-vajicka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-vajicka,sunka,maslo,papricka,chleba na vrchu,podlaha,syr,0
-chleba na vrchu,0
-stul,sunka,chleba ve spodu,syr,maslo,chleba na vrchu,0
-sunka,syr,maslo,papricka,0
-chleba ve spodu,syr,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,1
-chleba na vrchu,stul,maslo,syr,0
-maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-sunka,maslo,stul,podlaha,vajicka,chleba na vrchu,0
-stul,sunka,maslo,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-vajicka,papricka,stul,syr,chleba ve spodu,sunka,maslo,chleba na vrchu,0
-vajicka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-chleba ve spodu,papricka,stul,podlaha,maslo,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-sunka,stul,syr,papricka,podlaha,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,1
-maslo,papricka,stul,0
-maslo,podlaha,papricka,vajicka,0
-maslo,sunka,0
-podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-syr,sunka,maslo,vajicka,chleba ve spodu,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,sunka,1
-maslo,chleba na vrchu,papricka,stul,chleba ve spodu,0
-sunka,papricka,chleba na vrchu,syr,maslo,0
-podlaha,stul,chleba ve spodu,sunka,1
-chleba na vrchu,syr,chleba ve spodu,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,sunka,1
-vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,1
-maslo,syr,papricka,podlaha,vajicka,0
-sunka,syr,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-sunka,podlaha,vajicka,0
-stul,chleba na vrchu,maslo,syr,0
-stul,podlaha,0
-maslo,stul,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-stul,sunka,maslo,papricka,0
-chleba ve spodu,stul,sunka,0
-vajicka,chleba na vrchu,sunka,maslo,0
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-stul,podlaha,chleba ve spodu,vajicka,maslo,0
-maslo,chleba ve spodu,stul,chleba na vrchu,papricka,sunka,0
-maslo,papricka,chleba ve spodu,podlaha,syr,chleba na vrchu,0
-maslo,papricka,podlaha,0
-syr,chleba na vrchu,vajicka,sunka,chleba ve spodu,papricka,0
-sunka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,syr,1
-sunka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-vajicka,0
-papricka,chleba na vrchu,sunka,chleba ve spodu,0
-papricka,stul,0
-stul,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-sunka,papricka,podlaha,maslo,syr,chleba ve spodu,0
-vajicka,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,papricka,chleba na vrchu,0
-syr,vajicka,chleba na vrchu,sunka,papricka,stul,0
-chleba na vrchu,podlaha,papricka,stul,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,1
-sunka,maslo,stul,papricka,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,1
-stul,chleba ve spodu,maslo,0
-podlaha,stul,chleba ve spodu,1
-chleba ve spodu,podlaha,0
-syr,papricka,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-papricka,chleba ve spodu,chleba na vrchu,stul,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-vajicka,maslo,syr,chleba na vrchu,0
-chleba ve spodu,chleba na vrchu,vajicka,stul,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,sunka,1
-sunka,chleba na vrchu,stul,syr,papricka,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-vajicka,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,chleba ve spodu,syr,vajicka,podlaha,stul,0
-podlaha,vajicka,stul,chleba ve spodu,chleba na vrchu,0
-papricka,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-syr,podlaha,maslo,sunka,chleba na vrchu,vajicka,0
-maslo,chleba na vrchu,0
-chleba ve spodu,0
-maslo,chleba ve spodu,chleba na vrchu,syr,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,sunka,chleba na vrchu,vajicka,stul,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,0
-chleba na vrchu,0
-maslo,chleba na vrchu,0
-chleba ve spodu,sunka,vajicka,0
-maslo,sunka,podlaha,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-syr,podlaha,chleba na vrchu,stul,0
-papricka,0
-chleba na vrchu,stul,chleba ve spodu,sunka,syr,maslo,0
-podlaha,chleba ve spodu,stul,syr,papricka,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-papricka,podlaha,chleba ve spodu,sunka,stul,syr,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-maslo,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,0
-podlaha,stul,chleba ve spodu,1
-vajicka,stul,0
-podlaha,vajicka,0
-stul,sunka,chleba na vrchu,papricka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,0
-vajicka,papricka,0
-papricka,vajicka,sunka,0
-podlaha,stul,chleba ve spodu,sunka,1
-sunka,vajicka,maslo,podlaha,0
-chleba ve spodu,syr,vajicka,papricka,podlaha,0
-chleba na vrchu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-vajicka,maslo,podlaha,chleba ve spodu,0
-stul,chleba ve spodu,sunka,chleba na vrchu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-stul,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-vajicka,sunka,chleba na vrchu,podlaha,syr,chleba ve spodu,stul,0
-maslo,papricka,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-sunka,podlaha,papricka,chleba ve spodu,syr,vajicka,0
-vajicka,chleba ve spodu,papricka,0
-stul,podlaha,0
-sunka,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,1
-chleba ve spodu,chleba na vrchu,sunka,maslo,podlaha,vajicka,0
-maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-chleba ve spodu,maslo,syr,sunka,stul,0
-vajicka,stul,chleba na vrchu,papricka,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-sunka,chleba ve spodu,vajicka,papricka,podlaha,maslo,stul,0
-chleba ve spodu,vajicka,stul,sunka,maslo,0
-podlaha,stul,chleba ve spodu,sunka,papricka,1
-stul,maslo,0
-chleba na vrchu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,1
-sunka,vajicka,chleba ve spodu,maslo,0
-syr,vajicka,stul,chleba ve spodu,chleba na vrchu,papricka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-maslo,papricka,stul,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-papricka,sunka,maslo,podlaha,vajicka,stul,0
-chleba na vrchu,maslo,podlaha,sunka,0
-sunka,maslo,vajicka,0
-podlaha,stul,chleba ve spodu,1
-syr,maslo,stul,sunka,chleba ve spodu,0
-podlaha,syr,vajicka,stul,papricka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-stul,podlaha,chleba ve spodu,syr,sunka,0
-stul,vajicka,maslo,podlaha,chleba ve spodu,0
-syr,vajicka,stul,podlaha,maslo,chleba na vrchu,0
-chleba na vrchu,syr,vajicka,papricka,stul,maslo,0
-syr,stul,sunka,maslo,0
-vajicka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-syr,maslo,stul,vajicka,podlaha,0
-podlaha,stul,chleba ve spodu,sunka,1
-maslo,chleba na vrchu,syr,sunka,podlaha,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,1
-vajicka,podlaha,stul,maslo,syr,sunka,0
-sunka,syr,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-chleba na vrchu,stul,sunka,0
-podlaha,stul,chleba ve spodu,1
-sunka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-sunka,0
-maslo,papricka,vajicka,0
-sunka,chleba na vrchu,chleba ve spodu,0
-vajicka,stul,chleba ve spodu,syr,podlaha,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-stul,sunka,vajicka,chleba ve spodu,syr,0
-chleba ve spodu,0
-stul,vajicka,chleba ve spodu,chleba na vrchu,maslo,podlaha,syr,0
-stul,0
-podlaha,stul,chleba ve spodu,1
-chleba ve spodu,vajicka,stul,papricka,0
-vajicka,stul,papricka,podlaha,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-vajicka,0
-chleba na vrchu,sunka,podlaha,stul,vajicka,0
-podlaha,chleba na vrchu,maslo,0
-maslo,podlaha,chleba ve spodu,syr,papricka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-syr,chleba na vrchu,sunka,papricka,stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,papricka,1
-syr,chleba ve spodu,sunka,maslo,podlaha,papricka,0
-maslo,syr,chleba ve spodu,0
-syr,maslo,vajicka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-stul,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-stul,maslo,chleba ve spodu,chleba na vrchu,vajicka,syr,0
-podlaha,stul,chleba ve spodu,syr,1
-maslo,0
-syr,stul,sunka,podlaha,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,syr,1
-papricka,maslo,sunka,vajicka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,sunka,1
-chleba ve spodu,syr,podlaha,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-papricka,chleba ve spodu,stul,maslo,0
-stul,chleba na vrchu,sunka,syr,papricka,chleba ve spodu,0
-chleba ve spodu,chleba na vrchu,maslo,podlaha,papricka,syr,stul,0
-podlaha,stul,chleba ve spodu,maslo,1
-vajicka,stul,podlaha,0
-stul,papricka,sunka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba ve spodu,stul,chleba na vrchu,sunka,syr,podlaha,0
-maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-syr,chleba na vrchu,podlaha,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,syr,chleba ve spodu,sunka,0
-chleba ve spodu,vajicka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-papricka,vajicka,chleba ve spodu,stul,0
-podlaha,papricka,sunka,stul,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-chleba na vrchu,vajicka,chleba ve spodu,stul,maslo,syr,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-stul,chleba na vrchu,chleba ve spodu,maslo,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,syr,1
-chleba na vrchu,chleba ve spodu,podlaha,sunka,0
-papricka,podlaha,0
-podlaha,stul,chleba ve spodu,sunka,syr,1
-podlaha,stul,chleba ve spodu,syr,1
-papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-chleba ve spodu,syr,podlaha,sunka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-maslo,podlaha,chleba ve spodu,sunka,papricka,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-maslo,stul,sunka,chleba na vrchu,podlaha,0
-vajicka,sunka,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-stul,vajicka,sunka,maslo,papricka,0
-papricka,stul,chleba na vrchu,chleba ve spodu,sunka,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-stul,syr,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,1
-maslo,sunka,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-syr,chleba na vrchu,chleba ve spodu,stul,0
-maslo,sunka,0
-podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-chleba na vrchu,syr,chleba ve spodu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,1
-sunka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,1
-syr,0
-chleba ve spodu,vajicka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,1
-stul,maslo,papricka,podlaha,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-stul,podlaha,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,sunka,1
-papricka,0
-podlaha,stul,chleba ve spodu,maslo,1
-chleba ve spodu,0
-maslo,chleba na vrchu,0
-stul,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-sunka,maslo,syr,vajicka,stul,chleba ve spodu,0
-stul,chleba na vrchu,sunka,podlaha,chleba ve spodu,papricka,0
-podlaha,syr,0
-maslo,0
-podlaha,stul,chleba ve spodu,1
-syr,0
-vajicka,stul,podlaha,sunka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,1
-sunka,stul,chleba ve spodu,syr,0
-sunka,syr,papricka,chleba na vrchu,podlaha,maslo,0
-papricka,vajicka,podlaha,sunka,0
-papricka,podlaha,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-stul,vajicka,chleba na vrchu,sunka,maslo,0
-chleba na vrchu,podlaha,sunka,stul,papricka,0
-chleba na vrchu,syr,0
-sunka,chleba ve spodu,syr,podlaha,maslo,vajicka,0
-papricka,syr,stul,0
-podlaha,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-stul,sunka,0
-papricka,chleba ve spodu,syr,sunka,podlaha,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-chleba na vrchu,syr,0
-maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-papricka,chleba ve spodu,maslo,podlaha,syr,sunka,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,sunka,syr,1
-papricka,chleba na vrchu,podlaha,maslo,stul,sunka,0
-chleba na vrchu,chleba ve spodu,maslo,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-chleba na vrchu,papricka,stul,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-stul,vajicka,0
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,maslo,vajicka,papricka,0
-syr,papricka,vajicka,stul,maslo,0
-sunka,chleba ve spodu,podlaha,maslo,vajicka,chleba na vrchu,stul,0
-syr,vajicka,stul,sunka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-vajicka,sunka,maslo,chleba ve spodu,syr,papricka,0
-papricka,vajicka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-vajicka,papricka,chleba ve spodu,stul,sunka,0
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,1
-stul,papricka,sunka,maslo,chleba na vrchu,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-papricka,0
-chleba ve spodu,maslo,vajicka,stul,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-sunka,vajicka,0
-maslo,podlaha,vajicka,syr,0
-vajicka,papricka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-chleba ve spodu,maslo,podlaha,chleba na vrchu,stul,papricka,0
-syr,chleba ve spodu,papricka,maslo,stul,0
-sunka,chleba na vrchu,papricka,0
-papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,papricka,1
-papricka,maslo,syr,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,sunka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,papricka,vajicka,stul,0
-papricka,maslo,syr,stul,0
-chleba na vrchu,vajicka,chleba ve spodu,papricka,0
-syr,maslo,chleba na vrchu,stul,chleba ve spodu,0
-vajicka,stul,sunka,maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-sunka,chleba ve spodu,stul,papricka,syr,vajicka,0
-papricka,vajicka,0
-stul,chleba ve spodu,maslo,papricka,podlaha,0
-syr,papricka,vajicka,podlaha,chleba ve spodu,0
-papricka,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-vajicka,chleba na vrchu,chleba ve spodu,papricka,syr,0
-podlaha,stul,chleba ve spodu,syr,1
-chleba ve spodu,chleba na vrchu,maslo,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-chleba ve spodu,sunka,0
-podlaha,vajicka,0
-chleba ve spodu,papricka,maslo,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-chleba ve spodu,chleba na vrchu,0
-syr,stul,maslo,sunka,papricka,chleba ve spodu,chleba na vrchu,podlaha,0
-podlaha,stul,sunka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-papricka,sunka,podlaha,stul,maslo,0
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-stul,podlaha,chleba ve spodu,papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-maslo,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-syr,vajicka,podlaha,0
-syr,0
-chleba na vrchu,stul,sunka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,sunka,papricka,1
-sunka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-chleba na vrchu,podlaha,stul,syr,0
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-maslo,vajicka,chleba ve spodu,podlaha,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba na vrchu,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-sunka,maslo,syr,papricka,vajicka,chleba ve spodu,stul,0
-papricka,0
-syr,sunka,vajicka,maslo,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-chleba ve spodu,sunka,podlaha,syr,0
-maslo,sunka,chleba na vrchu,syr,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,1
-stul,sunka,papricka,podlaha,syr,vajicka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,1
-papricka,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-papricka,maslo,chleba na vrchu,chleba ve spodu,syr,sunka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-maslo,syr,0
-chleba na vrchu,stul,sunka,maslo,papricka,0
-chleba na vrchu,syr,vajicka,maslo,chleba ve spodu,papricka,0
-syr,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba na vrchu,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-stul,podlaha,0
-chleba ve spodu,chleba na vrchu,papricka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-vajicka,podlaha,papricka,0
-papricka,syr,stul,podlaha,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-stul,syr,vajicka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-chleba ve spodu,sunka,syr,maslo,vajicka,0
-papricka,stul,chleba ve spodu,maslo,0
-maslo,papricka,0
-podlaha,stul,chleba ve spodu,sunka,1
-papricka,podlaha,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-papricka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,syr,papricka,chleba na vrchu,1
-sunka,stul,0
-podlaha,chleba ve spodu,sunka,0
-papricka,stul,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-stul,vajicka,syr,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,sunka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-maslo,chleba ve spodu,vajicka,syr,papricka,0
-chleba ve spodu,chleba na vrchu,papricka,podlaha,maslo,0
-podlaha,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba ve spodu,chleba na vrchu,vajicka,sunka,stul,0
-sunka,podlaha,chleba na vrchu,chleba ve spodu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,1
-syr,podlaha,papricka,stul,sunka,chleba ve spodu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,0
-chleba na vrchu,stul,sunka,papricka,vajicka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-chleba ve spodu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-chleba ve spodu,podlaha,papricka,chleba na vrchu,maslo,0
-papricka,chleba na vrchu,sunka,syr,0
-podlaha,chleba ve spodu,syr,vajicka,maslo,sunka,0
-chleba na vrchu,vajicka,sunka,stul,papricka,podlaha,0
-vajicka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-maslo,syr,sunka,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-chleba na vrchu,podlaha,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-syr,sunka,stul,0
-sunka,syr,chleba ve spodu,maslo,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-maslo,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,sunka,syr,chleba na vrchu,1
-syr,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,papricka,1
-stul,sunka,chleba ve spodu,chleba na vrchu,papricka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-stul,chleba ve spodu,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-stul,vajicka,maslo,0
-maslo,0
-chleba na vrchu,papricka,vajicka,podlaha,sunka,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,sunka,1
-sunka,0
-chleba ve spodu,vajicka,chleba na vrchu,podlaha,stul,sunka,papricka,0
-stul,sunka,podlaha,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,papricka,0
-chleba ve spodu,maslo,syr,sunka,vajicka,0
-stul,podlaha,chleba ve spodu,sunka,papricka,syr,0
-chleba ve spodu,syr,papricka,0
-papricka,sunka,chleba na vrchu,vajicka,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,stul,chleba ve spodu,maslo,1
-chleba na vrchu,vajicka,papricka,0
-papricka,maslo,sunka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,sunka,syr,1
-maslo,sunka,stul,vajicka,chleba na vrchu,syr,0
-vajicka,sunka,stul,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-sunka,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-maslo,chleba na vrchu,stul,podlaha,0
-chleba na vrchu,maslo,0
-chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,chleba na vrchu,vajicka,chleba ve spodu,syr,stul,sunka,0
-chleba ve spodu,stul,0
-podlaha,stul,syr,vajicka,0
-podlaha,chleba ve spodu,chleba na vrchu,vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-maslo,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-chleba ve spodu,papricka,chleba na vrchu,maslo,sunka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,chleba na vrchu,1
-chleba ve spodu,chleba na vrchu,0
-podlaha,papricka,maslo,vajicka,sunka,stul,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,vajicka,papricka,sunka,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-papricka,stul,syr,0
-chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,papricka,1
-podlaha,vajicka,maslo,chleba ve spodu,stul,0
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-chleba na vrchu,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-podlaha,papricka,chleba ve spodu,0
-podlaha,vajicka,chleba ve spodu,chleba na vrchu,maslo,0
-papricka,vajicka,podlaha,chleba na vrchu,maslo,0
-stul,papricka,0
-papricka,maslo,syr,stul,0
-chleba ve spodu,vajicka,sunka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-maslo,vajicka,papricka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,1
-maslo,chleba na vrchu,papricka,sunka,vajicka,0
-podlaha,stul,chleba ve spodu,syr,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,1
-chleba ve spodu,stul,maslo,syr,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,1
-podlaha,papricka,stul,syr,vajicka,maslo,0
-papricka,chleba na vrchu,chleba ve spodu,vajicka,maslo,podlaha,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-syr,vajicka,podlaha,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-sunka,stul,vajicka,papricka,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-podlaha,syr,sunka,maslo,stul,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-papricka,chleba na vrchu,chleba ve spodu,podlaha,0
-podlaha,stul,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-chleba na vrchu,podlaha,papricka,stul,syr,chleba ve spodu,sunka,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-vajicka,syr,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,papricka,1
-chleba na vrchu,stul,podlaha,syr,0
-podlaha,stul,chleba ve spodu,sunka,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-syr,sunka,podlaha,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,maslo,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,chleba na vrchu,1
-chleba na vrchu,syr,maslo,stul,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,syr,chleba na vrchu,1
-stul,maslo,chleba na vrchu,papricka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,syr,1
-chleba ve spodu,stul,podlaha,0
-papricka,0
-maslo,syr,papricka,0
-podlaha,maslo,chleba ve spodu,sunka,0
-podlaha,stul,chleba ve spodu,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,sunka,1
-chleba ve spodu,0
-podlaha,stul,chleba ve spodu,papricka,chleba na vrchu,1
-chleba ve spodu,stul,papricka,chleba na vrchu,0
-sunka,chleba ve spodu,stul,chleba na vrchu,maslo,0
-chleba na vrchu,sunka,vajicka,maslo,syr,stul,0
-maslo,papricka,syr,chleba na vrchu,0
-vajicka,papricka,syr,0
-podlaha,vajicka,chleba na vrchu,maslo,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-sunka,chleba ve spodu,chleba na vrchu,stul,vajicka,0
-chleba ve spodu,0
-podlaha,vajicka,sunka,syr,chleba ve spodu,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-vajicka,syr,sunka,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,syr,papricka,chleba na vrchu,1
-maslo,0
-podlaha,stul,chleba ve spodu,maslo,1
-maslo,chleba na vrchu,chleba ve spodu,sunka,0
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-chleba ve spodu,podlaha,sunka,vajicka,chleba na vrchu,0
-syr,maslo,chleba ve spodu,chleba na vrchu,0
-syr,maslo,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,1
-stul,sunka,podlaha,papricka,syr,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,maslo,1
-papricka,chleba ve spodu,stul,chleba na vrchu,0
-podlaha,stul,chleba ve spodu,1
-chleba na vrchu,stul,0
-podlaha,stul,chleba ve spodu,syr,1
-podlaha,stul,chleba ve spodu,maslo,sunka,syr,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,1
-papricka,sunka,chleba ve spodu,0
-chleba na vrchu,podlaha,chleba ve spodu,syr,papricka,sunka,maslo,0
-podlaha,chleba na vrchu,stul,chleba ve spodu,syr,0
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,chleba na vrchu,1
-chleba ve spodu,sunka,vajicka,papricka,syr,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,1
-syr,stul,papricka,0
-vajicka,papricka,0
-podlaha,stul,chleba ve spodu,maslo,sunka,papricka,1
-podlaha,stul,chleba ve spodu,maslo,sunka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,syr,1
-podlaha,stul,chleba ve spodu,maslo,papricka,chleba na vrchu,1
-podlaha,stul,chleba ve spodu,maslo,1
-vajicka,maslo,stul,0
-maslo,podlaha,0
-podlaha,papricka,vajicka,sunka,chleba na vrchu,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,papricka,1
-stul,sunka,podlaha,chleba na vrchu,maslo,0
-chleba na vrchu,sunka,syr,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,sunka,1
-maslo,sunka,chleba na vrchu,0
-stul,0
-sunka,stul,syr,vajicka,papricka,chleba ve spodu,0
-podlaha,stul,chleba ve spodu,1
-podlaha,stul,chleba ve spodu,sunka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-stul,vajicka,syr,papricka,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-syr,chleba ve spodu,maslo,podlaha,vajicka,0
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,maslo,1
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,0
-podlaha,stul,chleba ve spodu,maslo,vajicka,1
-podlaha,stul,chleba ve spodu,chleba na vrchu,1
-maslo,stul,syr,papricka,chleba na vrchu,sunka,0
+1,2,3,4,5,6,7,8,9,label
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,3,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+2,5,3,4,8,0,0,0,0,0
+1,7,9,5,0,0,0,0,0,0
+1,9,7,8,3,4,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,8,4,5,7,6,0,0,0,0
+7,6,1,2,8,4,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+8,6,0,0,0,0,0,0,0,0
+1,2,3,6,7,9,4,0,0,1
+2,1,6,4,8,0,0,0,0,0
+4,2,9,8,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,6,4,0,0,0,1
+7,3,0,0,0,0,0,0,0,0
+8,3,7,1,0,0,0,0,0,0
+8,2,3,4,1,0,0,0,0,0
+1,3,9,2,6,7,8,0,0,0
+8,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,1,3,9,4,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+4,5,8,6,2,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+5,4,8,6,7,0,0,0,0,0
+5,6,4,0,0,0,0,0,0,0
+4,3,1,2,7,6,9,8,0,0
+6,3,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,3,6,5,9,0,0,0,0,0
+1,5,7,2,8,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,6,5,0,0,0,0,0,0
+6,9,3,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+4,7,2,0,0,0,0,0,0,0
+7,1,4,5,6,8,3,0,0,0
+2,4,9,1,6,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+5,2,9,7,4,3,0,0,0,0
+3,2,0,0,0,0,0,0,0,0
+3,5,2,0,0,0,0,0,0,0
+9,7,8,1,6,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+4,9,3,8,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+2,4,9,6,8,7,1,0,0,0
+8,9,0,0,0,0,0,0,0,0
+2,4,5,6,7,0,0,0,0,0
+3,7,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+2,3,0,0,0,0,0,0,0,0
+5,9,2,4,1,0,0,0,0,0
+9,6,1,0,0,0,0,0,0,0
+6,4,9,8,3,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+2,1,8,3,7,0,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+5,3,6,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+2,6,5,4,1,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+9,1,2,8,4,7,0,0,0,0
+6,8,3,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+8,2,6,3,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+3,4,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+6,2,8,0,0,0,0,0,0,0
+5,7,2,4,0,0,0,0,0,0
+1,9,8,5,2,0,0,0,0,0
+6,4,2,7,8,3,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+5,8,3,6,7,4,0,0,0,0
+3,2,6,5,8,1,7,4,0,0
+3,6,9,7,0,0,0,0,0,0
+2,4,7,9,6,3,0,0,0,0
+8,1,7,3,5,6,0,0,0,0
+4,5,7,9,1,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+8,0,0,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+2,3,4,9,7,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+5,2,7,1,9,6,4,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+7,1,5,6,0,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,2,3,1,5,9,4,7,0,0
+9,0,0,0,0,0,0,0,0,0
+8,4,3,6,2,1,7,0,0,0
+4,1,6,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+5,4,8,9,6,1,2,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+2,9,1,0,0,0,0,0,0,0
+6,8,3,7,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+6,7,8,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+8,2,0,0,0,0,0,0,0,0
+6,8,1,0,0,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+9,3,8,1,5,0,0,0,0,0
+1,2,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+7,2,5,9,4,0,0,0,0,0
+1,5,3,2,0,0,0,0,0,0
+9,2,7,0,0,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,7,4,0,0,1
+5,4,6,0,0,0,0,0,0,0
+1,8,2,4,6,3,0,0,0,0
+2,9,1,0,0,0,0,0,0,0
+2,6,8,9,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,5,9,6,2,7,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+7,5,6,4,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+4,1,9,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+9,6,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+5,7,4,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+9,5,7,8,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,4,8,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+6,8,1,7,9,2,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+9,6,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,9,3,4,0,0,0,0,0,0
+9,4,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+9,1,2,8,3,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+8,4,5,1,0,0,0,0,0,0
+8,5,7,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+4,8,5,9,1,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,9,7,0,0,0,0,0,0
+7,5,1,3,9,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+7,8,5,1,0,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+6,3,1,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,0
+4,6,0,0,0,0,0,0,0,0
+1,5,3,6,9,0,0,0,0,0
+4,5,2,9,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+4,9,2,0,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+1,4,6,5,0,0,0,0,0,0
+1,2,3,5,4,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+8,4,7,5,2,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+8,9,2,7,5,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,1,7,8,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+8,2,3,0,0,0,0,0,0,0
+7,5,8,4,3,6,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+8,4,0,0,0,0,0,0,0,0
+8,0,0,0,0,0,0,0,0,0
+5,2,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,6,2,7,0,0,0,0,0,0
+1,5,0,0,0,0,0,0,0,0
+3,6,9,1,4,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+5,3,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+2,9,5,7,1,0,0,0,0,0
+9,2,8,7,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+8,4,7,0,0,0,0,0,0,0
+1,6,5,0,0,0,0,0,0,0
+3,4,6,1,0,0,0,0,0,0
+7,9,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+6,7,3,8,0,0,0,0,0,0
+6,3,5,9,1,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+7,4,9,1,0,0,0,0,0,0
+8,3,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+2,3,1,8,7,0,0,0,0,0
+7,8,2,4,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+8,4,2,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+5,6,8,7,0,0,0,0,0,0
+4,6,9,8,7,5,3,0,0,0
+1,2,3,5,7,4,0,0,0,1
+2,3,9,8,6,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+4,1,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+3,8,4,2,0,0,0,0,0,0
+5,4,1,3,6,0,0,0,0,0
+6,3,9,2,1,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,3,5,7,0,0,0,0,0,0
+1,4,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+3,8,1,6,4,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+5,7,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+4,3,1,6,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+5,3,4,9,0,0,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+3,8,2,1,4,0,0,0,0,0
+1,2,3,5,6,7,4,0,0,1
+1,2,3,6,7,4,0,0,0,1
+3,6,7,5,0,0,0,0,0,0
+6,1,8,9,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,5,7,6,1,0,0,0,0,0
+1,7,6,0,0,0,0,0,0,0
+9,2,6,4,1,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+9,1,8,2,3,4,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,2,8,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+2,3,8,6,0,0,0,0,0,0
+3,8,2,6,9,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+7,5,9,0,0,0,0,0,0,0
+6,5,1,4,8,2,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+2,7,3,0,0,0,0,0,0,0
+1,3,4,9,2,6,0,0,0,0
+8,9,0,0,0,0,0,0,0,0
+1,4,5,6,7,3,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+8,6,2,4,9,0,0,0,0,0
+5,2,0,0,0,0,0,0,0,0
+2,8,6,3,9,5,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,6,7,4,0,0,1
+3,1,6,2,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+2,9,6,1,8,0,0,0,0,0
+3,1,4,2,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+9,2,0,0,0,0,0,0,0,0
+1,5,7,6,9,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+9,8,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+3,7,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,6,8,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+5,8,6,0,0,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+8,5,4,0,0,0,0,0,0,0
+9,1,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+3,1,9,7,8,5,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+5,8,0,0,0,0,0,0,0,0
+5,9,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+2,5,0,0,0,0,0,0,0,0
+3,5,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,0,0,0,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+6,5,9,7,2,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+3,2,8,0,0,0,0,0,0,0
+5,4,0,0,0,0,0,0,0,0
+1,2,3,5,6,7,9,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,6,7,4,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,6,9,0,0,0,0,1
+5,2,9,7,3,1,8,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+8,3,2,5,1,0,0,0,0,0
+1,4,6,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,7,9,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+7,6,9,3,2,0,0,0,0,0
+2,7,5,6,1,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,9,6,7,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+3,2,8,0,0,0,0,0,0,0
+6,8,9,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+6,5,0,0,0,0,0,0,0,0
+7,6,1,0,0,0,0,0,0,0
+9,5,4,8,1,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+5,9,3,1,7,0,0,0,0,0
+3,6,5,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+2,1,3,9,4,0,0,0,0,0
+2,3,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+5,8,7,6,3,0,0,0,0,0
+2,9,6,0,0,0,0,0,0,0
+2,7,0,0,0,0,0,0,0,0
+7,2,4,5,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,7,9,4,0,1
+1,0,0,0,0,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+2,6,1,5,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,7,9,1,0,0,0,0,0,0
+6,8,2,5,0,0,0,0,0,0
+3,8,1,0,0,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+3,4,0,0,0,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+2,3,1,0,0,0,0,0,0,0
+9,1,4,5,3,2,8,0,0,0
+1,2,3,5,6,0,0,0,0,1
+9,3,2,5,6,4,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,9,1,3,2,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+5,3,0,0,0,0,0,0,0,0
+6,8,0,0,0,0,0,0,0,0
+1,9,7,5,3,0,0,0,0,0
+7,8,6,4,5,9,0,0,0,0
+7,3,0,0,0,0,0,0,0,0
+2,5,0,0,0,0,0,0,0,0
+1,5,4,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+6,3,5,4,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+4,8,5,2,6,0,0,0,0,0
+7,3,1,8,0,0,0,0,0,0
+3,4,1,7,6,2,5,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+7,2,3,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,7,9,3,2,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+7,5,4,1,2,0,0,0,0,0
+7,9,2,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+4,8,3,2,0,0,0,0,0,0
+7,5,1,9,0,0,0,0,0,0
+9,1,2,4,5,3,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,7,4,3,2,0,0,0,0,0
+4,8,9,1,2,5,3,0,0,0
+1,2,3,7,0,0,0,0,0,1
+6,8,2,0,0,0,0,0,0,0
+4,5,7,0,0,0,0,0,0,0
+9,3,7,5,1,8,2,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,6,9,3,8,0,0,0,0,0
+6,2,9,0,0,0,0,0,0,0
+1,5,7,9,4,8,0,0,0,0
+8,7,0,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+6,5,0,0,0,0,0,0,0,0
+2,3,5,8,1,0,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+4,7,2,0,0,0,0,0,0,0
+9,4,5,1,3,2,0,0,0,0
+4,8,1,2,9,7,6,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+4,1,3,9,7,5,0,0,0,0
+4,6,7,5,0,0,0,0,0,0
+2,3,0,0,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+4,2,9,8,1,6,0,0,0,0
+6,8,7,1,4,5,0,0,0,0
+4,8,7,5,6,9,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+1,9,3,2,0,0,0,0,0,0
+2,3,4,8,7,0,0,0,0,0
+2,4,3,0,0,0,0,0,0,0
+2,9,4,8,1,6,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+9,3,7,6,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+5,6,1,7,8,9,0,0,0,0
+3,7,1,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+3,9,6,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+6,9,8,2,4,7,0,0,0,0
+5,2,3,7,0,0,0,0,0,0
+9,3,1,5,7,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,9,5,2,3,4,0,0,0,0
+4,3,7,1,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,4,6,2,5,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+1,2,4,3,5,0,0,0,0,0
+7,6,9,0,0,0,0,0,0,0
+1,2,3,6,7,9,4,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,4,5,8,2,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+2,9,3,1,5,6,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+4,9,1,3,0,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+5,2,9,8,4,1,7,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+3,8,1,9,5,2,4,6,0,0
+7,0,0,0,0,0,0,0,0,0
+2,7,0,0,0,0,0,0,0,0
+9,7,2,4,8,0,0,0,0,0
+3,1,7,9,8,6,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+5,7,2,6,0,0,0,0,0,0
+1,2,3,5,6,7,9,4,0,1
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+7,2,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+9,4,8,6,0,0,0,0,0,0
+3,4,8,5,0,0,0,0,0,0
+8,6,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+3,5,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,6,5,9,0,0,0,0,0,0
+5,4,9,7,0,0,0,0,0,0
+2,1,8,4,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+5,9,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+7,3,2,1,8,0,0,0,0,0
+6,3,0,0,0,0,0,0,0,0
+3,1,5,6,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+9,7,0,0,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+9,3,8,6,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,8,3,5,0,0,0,0,0,0
+3,6,1,2,4,0,0,0,0,0
+7,2,0,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+5,2,8,6,9,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+8,7,1,3,4,0,0,0,0,0
+6,2,8,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,9,7,1,5,0,0,0,0,0
+1,3,0,0,0,0,0,0,0,0
+6,7,8,3,9,2,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+8,6,2,4,5,3,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+9,6,7,8,1,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+3,8,2,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+5,3,7,9,0,0,0,0,0,0
+3,5,4,6,8,0,0,0,0,0
+1,3,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+8,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+9,5,2,1,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+5,4,6,8,3,2,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+1,9,2,7,0,0,0,0,0,0
+3,0,0,0,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+4,9,3,5,2,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+4,9,5,7,6,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+7,2,3,1,0,0,0,0,0,0
+6,7,0,0,0,0,0,0,0,0
+8,4,5,1,3,0,0,0,0,0
+2,1,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+2,8,3,1,6,4,0,0,0,0
+4,6,9,2,8,7,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,7,0,0,0,0,0,0,0,0
+7,5,1,8,3,9,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+6,1,0,0,0,0,0,0,0,0
+3,0,0,0,0,0,0,0,0,0
+2,3,8,6,9,4,7,0,0,0
+8,4,1,2,6,0,0,0,0,0
+7,5,0,0,0,0,0,0,0,0
+5,7,8,9,4,3,0,0,0,0
+7,9,1,3,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+9,5,8,4,3,2,0,0,0,0
+5,7,3,8,0,0,0,0,0,0
+5,3,8,0,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+2,1,8,6,9,4,0,0,0,0
+1,5,4,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,3,4,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+4,8,6,2,7,3,0,0,0,0
+3,1,7,4,8,5,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+2,9,1,5,3,0,0,0,0,0
+8,2,7,0,0,0,0,0,0,0
+4,1,6,2,0,0,0,0,0,0
+1,7,4,0,0,0,0,0,0,0
+1,6,7,4,2,8,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+5,2,6,1,0,0,0,0,0,0
+4,9,6,0,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+5,3,7,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+4,9,0,0,0,0,0,0,0,0
+3,1,9,6,8,0,0,0,0,0
+5,2,6,8,3,9,0,0,0,0
+1,6,5,9,0,0,0,0,0,0
+2,5,7,9,4,8,0,0,0,0
+9,5,4,1,0,0,0,0,0,0
+8,9,2,1,0,0,0,0,0,0
+9,3,6,1,5,7,8,4,0,0
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,7,0,0,0,0,1
+7,2,3,6,4,0,0,0,0,0
+1,2,3,5,6,9,4,0,0,1
+1,2,3,7,0,0,0,0,0,1
+5,7,2,1,3,0,0,0,0,0
+4,6,0,0,0,0,0,0,0,0
+7,6,5,0,0,0,0,0,0,0
+9,2,0,0,0,0,0,0,0,0
+8,2,6,3,5,4,9,0,0,0
+7,2,8,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+8,5,4,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+7,9,5,4,0,0,0,0,0,0
+4,2,8,7,1,6,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+4,6,7,9,3,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,4,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+3,7,0,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,6,7,4,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,5,2,7,4,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+7,2,6,3,4,0,0,0,0,0
+8,1,5,3,0,0,0,0,0,0
+7,4,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,0,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+5,1,4,8,9,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+2,5,4,7,6,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+7,5,9,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+7,2,3,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+2,1,3,4,0,0,0,0,0,0
+9,2,3,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,7,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+4,7,6,3,1,9,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,4,9,5,2,0,0,0,0,0
+5,9,4,0,0,0,0,0,0,0
+1,2,3,5,6,7,4,0,0,1
+4,2,7,5,3,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+2,9,6,7,0,0,0,0,0,0
+1,8,3,6,9,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+7,1,2,3,0,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+7,1,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,7,4,2,0,0,0,0,0,0
+3,2,5,0,0,0,0,0,0,0
+6,9,2,1,8,5,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,6,3,4,8,7,0,0,0,0
+5,2,8,3,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,4,0,0,0,0,0,0,0
+7,6,1,0,0,0,0,0,0,0
+7,2,1,8,0,0,0,0,0,0
+8,6,1,9,5,7,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+4,7,3,2,6,1,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+4,9,3,5,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+7,5,1,9,8,3,0,0,0,0
+3,7,0,0,0,0,0,0,0,0
+4,9,6,3,8,2,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,9,4,3,5,2,0,0,0,0
+4,7,5,3,2,0,0,0,0,0
+2,9,4,6,7,0,0,0,0,0
+1,2,3,6,7,9,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+7,8,6,5,2,0,0,0,0,0
+3,2,5,0,0,0,0,0,0,0
+4,6,9,8,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+7,5,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+4,1,9,3,0,0,0,0,0,0
+3,8,5,7,6,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,0,0,0,0,0,0,0,0
+6,7,5,8,0,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+9,8,4,1,3,5,0,0,0,0
+9,6,4,1,3,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,4,6,3,7,0,0,0,0,0
+7,2,3,8,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+2,3,8,0,0,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,4,9,6,7,3,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+9,8,1,4,0,0,0,0,0,0
+1,2,3,5,4,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+7,4,6,0,0,0,0,0,0,0
+7,9,3,4,2,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,8,0,0,0,0,0,0,0,0
+1,7,4,5,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,4,8,6,0,0,0,0,0,0
+4,6,8,5,0,0,0,0,0,0
+5,7,4,1,0,0,0,0,0,0
+4,9,7,6,5,8,0,0,0,0
+4,3,9,0,0,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+3,4,7,6,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+9,1,5,3,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+5,4,0,0,0,0,0,0,0,0
+6,1,4,8,2,3,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+3,6,1,4,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+8,0,0,0,0,0,0,0,0,0
+9,4,0,0,0,0,0,0,0,0
+5,2,8,6,3,7,4,0,0,0
+8,3,0,0,0,0,0,0,0,0
+4,7,5,8,9,3,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+2,3,5,8,1,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+3,8,7,6,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+3,6,9,1,4,5,0,0,0,0
+8,4,3,5,0,0,0,0,0,0
+8,5,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+5,9,7,2,0,0,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+7,6,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+3,6,2,7,5,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+9,3,6,4,1,8,7,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,6,7,4,0,0,0,1
+4,5,6,3,9,0,0,0,0,0
+7,2,0,0,0,0,0,0,0,0
+8,3,2,5,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,8,2,4,9,7,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+2,0,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+4,5,1,2,9,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,8,9,3,0,0,0,0,0
+3,6,1,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+8,6,4,5,3,9,0,0,0,0
+5,8,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,6,7,0,0,0,0,0,0,0
+8,7,0,0,0,0,0,0,0,0
+1,2,3,6,9,0,0,0,0,1
+9,8,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,6,9,5,7,8,0,0,0,0
+5,6,2,3,0,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+2,6,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+8,6,5,1,4,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+7,3,4,9,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+6,1,8,9,3,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+8,7,2,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+4,9,2,8,5,7,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+4,7,5,9,0,0,0,0,0,0
+4,3,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+8,7,3,0,0,0,0,0,0,0
+3,2,6,1,4,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,8,9,4,2,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+3,7,5,8,1,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+9,4,8,0,0,0,0,0,0,0
+3,6,4,5,8,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+3,2,5,6,8,1,0,0,0,0
+9,7,1,6,2,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,3,4,9,7,6,0,0,0,0
+1,4,9,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,8,0,0,0,0,0,0,0,0
+3,2,4,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+4,6,7,1,2,8,9,5,0,0
+6,1,3,9,0,0,0,0,0,0
+7,5,4,1,2,3,6,9,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+8,7,0,0,0,0,0,0,0,0
+8,3,9,2,5,0,0,0,0,0
+4,2,3,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+5,2,4,7,0,0,0,0,0,0
+2,1,6,9,0,0,0,0,0,0
+3,6,4,8,9,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+8,4,6,3,2,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+4,5,2,6,1,8,0,0,0,0
+2,7,5,0,0,0,0,0,0,0
+7,2,6,8,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,8,5,3,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+7,4,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,6,8,4,0,0,0,0,0,0
+8,3,0,0,0,0,0,0,0,0
+6,3,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+6,8,2,4,7,1,9,0,0,0
+8,1,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+3,7,9,5,1,0,0,0,0,0
+5,7,1,6,8,4,0,0,0,0
+3,9,0,0,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+3,6,8,5,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+5,7,4,3,2,0,0,0,0,0
+8,6,5,3,7,4,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+6,5,4,1,0,0,0,0,0,0
+6,3,4,0,0,0,0,0,0,0
+8,6,3,4,7,9,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+9,5,1,0,0,0,0,0,0,0
+6,9,8,4,0,0,0,0,0,0
+4,6,1,0,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,7,6,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+3,2,7,6,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,5,4,9,8,0,0,0,0
+7,9,3,4,5,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+7,4,1,9,8,6,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,7,4,2,3,0,0,0,0,0
+3,9,1,6,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+9,4,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,6,8,9,2,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,6,2,1,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,1,9,8,0,0,0,0,0,0
+3,5,7,4,2,9,0,0,0,0
+7,9,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+4,5,6,9,1,0,0,0,0,0
+3,4,0,0,0,0,0,0,0,0
+9,1,5,4,8,3,0,0,0,0
+9,8,0,0,0,0,0,0,0,0
+8,1,6,2,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+3,6,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,5,9,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+8,5,4,7,6,9,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+6,1,4,0,0,0,0,0,0,0
+1,8,7,9,2,0,0,0,0,0
+6,1,5,0,0,0,0,0,0,0
+3,7,4,9,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,7,6,5,4,2,0,0,0,0
+2,3,1,0,0,0,0,0,0,0
+8,7,6,1,4,0,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+4,6,1,0,0,0,0,0,0,0
+9,5,4,2,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,5,9,8,0,0,0,0,0,0
+6,4,3,7,8,0,0,0,0,0
+1,3,5,4,6,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,7,5,1,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+8,9,2,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+6,9,5,2,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,3,6,9,4,0,0,0,0,0
+8,4,3,6,7,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+8,2,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,4,1,8,0,0,0,0,0,0
+4,5,2,6,0,0,0,0,0,0
+3,6,7,2,1,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,8,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+8,5,6,7,1,4,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+2,1,4,5,3,0,0,0,0,0
+4,6,2,9,8,0,0,0,0,0
+3,1,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,2,3,9,1,4,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+9,2,3,5,0,0,0,0,0,0
+6,3,0,0,0,0,0,0,0,0
+5,1,9,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,7,5,4,0,0,0,0,0,0
+7,1,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,1,7,2,0,0,0,0,0,0
+9,6,1,8,0,0,0,0,0,0
+6,3,1,0,0,0,0,0,0,0
+4,8,2,0,0,0,0,0,0,0
+5,1,8,3,2,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+8,6,3,7,0,0,0,0,0,0
+7,2,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+4,6,7,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+7,1,5,2,0,0,0,0,0,0
+1,3,9,5,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+9,6,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,9,4,3,7,8,0,0,0,0
+5,9,2,0,0,0,0,0,0,0
+3,2,1,6,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,7,2,5,0,0,0,0,0,0
+2,8,0,0,0,0,0,0,0,0
+2,4,9,1,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+2,1,0,0,0,0,0,0,0,0
+9,8,4,2,3,6,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+7,5,3,0,0,0,0,0,0,0
+1,9,2,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+5,9,3,2,7,1,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+5,8,0,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+7,8,1,3,2,0,0,0,0,0
+7,4,0,0,0,0,0,0,0,0
+6,1,8,5,2,3,7,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,9,3,6,0,0,0,0,0,0
+8,5,9,1,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,7,4,0,0,1
+1,2,3,5,7,9,0,0,0,1
+8,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+8,7,3,2,0,0,0,0,0,0
+5,8,0,0,0,0,0,0,0,0
+6,3,5,1,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,1,9,4,0,0,0,0,0,0
+9,6,4,1,8,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+4,2,1,8,5,0,0,0,0,0
+6,7,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,2,3,1,8,0,0,0,0,0
+2,4,0,0,0,0,0,0,0,0
+8,1,6,5,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,7,4,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+4,7,9,8,2,0,0,0,0,0
+4,8,7,0,0,0,0,0,0,0
+1,2,8,3,6,7,0,0,0,0
+7,1,6,2,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,2,3,6,7,4,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+6,5,3,9,0,0,0,0,0,0
+8,7,5,9,1,2,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+9,5,0,0,0,0,0,0,0,0
+5,6,7,1,2,9,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+8,7,0,0,0,0,0,0,0,0
+5,6,0,0,0,0,0,0,0,0
+1,2,3,6,7,9,4,0,0,1
+3,0,0,0,0,0,0,0,0,0
+2,5,7,4,8,1,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+6,8,3,9,0,0,0,0,0,0
+5,8,3,1,0,0,0,0,0,0
+5,3,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+4,6,2,9,1,0,0,0,0,0
+9,2,5,8,7,0,0,0,0,0
+2,6,3,0,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+6,4,5,2,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+4,6,2,3,0,0,0,0,0,0
+3,7,2,0,0,0,0,0,0,0
+8,9,1,0,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,6,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+9,8,6,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+7,8,1,5,2,6,3,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,7,8,4,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+7,9,2,6,1,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,6,9,4,0,0,1
+2,1,9,3,5,7,4,0,0,0
+9,1,8,6,5,7,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+4,7,1,3,9,2,5,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+7,9,2,4,5,0,0,0,0,0
+2,4,3,9,5,0,0,0,0,0
+7,2,0,0,0,0,0,0,0,0
+9,6,8,1,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+3,6,8,9,2,0,0,0,0,0
+1,3,0,0,0,0,0,0,0,0
+3,9,2,8,7,0,0,0,0,0
+1,2,3,5,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+1,4,6,5,7,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,9,3,7,6,0,0,0,0,0
+7,3,0,0,0,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,9,7,8,5,0,0,0,0,0
+2,7,5,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,3,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+4,6,1,0,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+7,2,1,3,0,0,0,0,0,0
+8,1,3,2,5,7,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+7,1,2,0,0,0,0,0,0,0
+3,4,6,5,1,7,0,0,0,0
+1,6,0,0,0,0,0,0,0,0
+8,6,4,2,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+6,9,1,5,2,7,8,0,0,0
+1,0,0,0,0,0,0,0,0,0
+9,5,3,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+5,9,4,3,6,0,0,0,0,0
+6,4,9,0,0,0,0,0,0,0
+3,1,0,0,0,0,0,0,0,0
+3,1,2,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+2,3,6,0,0,0,0,0,0,0
+2,9,4,7,0,0,0,0,0,0
+3,5,4,2,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,4,3,7,8,0,0,0,0,0
+1,9,2,4,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+8,1,3,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+5,1,8,6,0,0,0,0,0,0
+8,3,7,5,2,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+2,7,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+6,5,8,7,1,3,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,4,0,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+2,6,1,5,0,0,0,0,0,0
+8,7,4,2,5,0,0,0,0,0
+4,7,1,5,0,0,0,0,0,0
+2,9,8,4,1,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+4,9,5,3,8,0,0,0,0,0
+2,7,9,6,8,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+6,7,3,8,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,7,9,0,0,0,0,0,0,0
+1,6,4,8,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+7,6,1,9,2,0,0,0,0,0
+8,1,5,7,6,0,0,0,0,0
+4,6,9,2,8,7,0,0,0,0
+4,6,5,1,9,0,0,0,0,0
+2,1,3,7,8,4,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,6,7,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+9,5,8,1,3,7,6,0,0,0
+1,2,3,4,6,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+8,7,3,6,5,0,0,0,0,0
+4,5,1,0,0,0,0,0,0,0
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+9,7,2,0,0,0,0,0,0,0
+7,4,8,3,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,5,9,0,0,0,0,0,0,0
+6,2,0,0,0,0,0,0,0,0
+7,1,2,5,0,0,0,0,0,0
+9,3,7,4,2,0,0,0,0,0
+9,4,7,1,2,0,0,0,0,0
+1,2,3,5,6,7,4,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+6,1,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,0,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+5,1,9,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+6,5,8,4,0,0,0,0,0,0
+2,3,8,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+8,9,0,0,0,0,0,0,0,0
+1,9,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+4,1,2,9,7,0,0,0,0,0
+7,9,3,1,6,4,8,0,0,0
+7,6,0,0,0,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+4,7,5,0,0,0,0,0,0,0
+2,6,5,3,4,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+5,4,0,0,0,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+9,0,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+4,3,5,6,2,0,0,0,0,0
+6,1,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,4,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,7,5,8,9,3,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+5,6,3,2,1,0,0,0,0,0
+6,5,3,8,9,4,7,0,0,0
+9,6,7,2,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+2,1,0,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,7,4,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+2,3,7,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+6,9,0,0,0,0,0,0,0,0
+1,2,5,4,9,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,3,1,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,6,9,0,0,0,0,1
+9,7,5,0,0,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+2,7,9,4,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+9,8,0,0,0,0,0,0,0,0
+8,4,2,5,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+8,1,5,6,0,0,0,0,0,0
+4,9,2,3,5,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+4,6,9,3,2,0,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+5,1,7,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+6,7,8,4,2,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+3,4,6,0,0,0,0,0,0,0
+6,7,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+9,6,7,0,0,0,0,0,0,0
+8,0,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+3,4,2,1,6,0,0,0,0,0
+8,6,4,2,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+3,9,6,8,0,0,0,0,0,0
+9,4,2,1,0,0,0,0,0,0
+1,9,7,3,5,8,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,7,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+5,3,7,8,1,6,9,0,0,0
+6,3,4,1,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+5,3,8,0,0,0,0,0,0,0
+8,7,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+6,9,1,0,0,0,0,0,0,0
+2,1,6,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+8,9,0,0,0,0,0,0,0,0
+2,8,7,1,0,0,0,0,0,0
+9,2,1,7,0,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+4,3,9,8,0,0,0,0,0,0
+6,7,4,5,9,2,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+2,3,1,8,6,0,0,0,0,0
+6,8,5,0,0,0,0,0,0,0
+5,3,6,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+4,1,2,5,7,0,0,0,0,0
+4,7,6,0,0,0,0,0,0,0
+3,4,2,6,7,0,0,0,0,0
+7,8,1,0,0,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+3,7,9,6,1,4,0,0,0,0
+7,1,3,0,0,0,0,0,0,0
+2,3,1,0,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+8,5,4,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+2,7,3,8,5,1,0,0,0,0
+4,3,9,7,2,5,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+5,9,2,8,6,0,0,0,0,0
+8,6,3,4,1,0,0,0,0,0
+4,1,6,7,2,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+2,0,0,0,0,0,0,0,0,0
+3,5,8,2,0,0,0,0,0,0
+4,3,0,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,6,9,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+8,5,2,3,0,0,0,0,0,0
+7,9,5,1,6,4,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+4,8,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,2,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+1,3,6,0,0,0,0,0,0,0
+7,2,0,0,0,0,0,0,0,0
+2,1,7,8,9,0,0,0,0,0
+7,8,6,1,4,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+4,3,6,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+7,5,8,0,0,0,0,0,0,0
+1,3,8,4,6,2,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+9,8,1,0,0,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+5,2,6,9,7,3,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+7,1,0,0,0,0,0,0,0,0
+5,9,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+2,8,1,0,0,0,0,0,0,0
+3,2,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+6,8,2,7,4,9,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+3,7,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,1,6,4,0,0,0,0,0,0
+3,9,2,4,1,7,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+7,5,6,0,0,0,0,0,0,0
+7,8,0,0,0,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+4,8,2,5,6,9,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+6,5,2,0,0,0,0,0,0,0
+5,4,2,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+4,5,1,0,0,0,0,0,0,0
+7,1,6,5,8,0,0,0,0,0
+4,8,9,6,5,3,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+3,5,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+3,1,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+8,6,5,3,2,7,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+9,6,7,1,0,0,0,0,0,0
+9,1,8,3,7,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+9,1,8,0,0,0,0,0,0,0
+1,9,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+6,9,8,1,2,0,0,0,0,0
+5,7,4,1,0,0,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+8,4,2,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,7,9,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+8,1,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+3,2,4,9,5,0,0,0,0,0
+5,4,3,0,0,0,0,0,0,0
+2,7,6,8,4,0,0,0,0,0
+3,4,2,1,8,9,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+4,5,2,1,6,3,0,0,0,0
+1,2,3,5,7,9,4,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,7,4,0,0,0,1
+6,9,1,4,3,2,0,0,0,0
+3,1,6,9,5,8,0,0,0,0
+3,9,0,0,0,0,0,0,0,0
+8,2,9,5,0,0,0,0,0,0
+3,2,5,1,9,6,0,0,0,0
+9,2,0,0,0,0,0,0,0,0
+9,5,3,6,0,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+3,5,6,8,2,1,0,0,0,0
+1,8,2,6,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+7,5,3,0,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+8,9,1,7,3,0,0,0,0,0
+1,2,3,6,9,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,9,7,6,5,0,0,0,0,0
+9,5,2,0,0,0,0,0,0,0
+1,8,3,2,0,0,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,2,5,0,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+5,3,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+5,9,6,0,0,0,0,0,0,0
+8,6,0,0,0,0,0,0,0,0
+6,1,8,5,2,4,7,0,0,0
+9,7,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,8,4,7,5,2,0,0,0,0
+7,3,5,8,0,0,0,0,0,0
+4,9,3,0,0,0,0,0,0,0
+6,4,0,0,0,0,0,0,0,0
+9,6,4,0,0,0,0,0,0,0
+8,5,0,0,0,0,0,0,0,0
+8,5,9,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,8,6,4,7,1,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,9,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+2,9,7,0,0,0,0,0,0,0
+5,6,8,0,0,0,0,0,0,0
+1,2,3,6,7,9,4,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+2,3,5,8,0,0,0,0,0,0
+4,2,1,6,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+5,8,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+2,6,0,0,0,0,0,0,0,0
+7,4,0,0,0,0,0,0,0,0
+2,6,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+7,9,2,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+7,2,3,8,6,5,0,0,0,0
+8,0,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+6,2,8,4,9,1,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+6,7,3,8,2,0,0,0,0,0
+2,1,6,5,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,7,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+9,7,5,8,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,2,0,0,0,0,0,0,0,0
+6,4,7,8,0,0,0,0,0,0
+1,9,4,8,6,2,5,0,0,0
+3,8,6,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+6,5,1,8,2,0,0,0,0,0
+7,5,1,0,0,0,0,0,0,0
+3,2,7,1,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+7,5,4,2,9,1,3,0,0,0
+1,2,3,5,8,0,0,0,0,1
+6,3,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+6,8,2,1,3,4,9,7,0,0
+1,2,3,5,6,7,0,0,0,1
+3,4,6,7,8,0,0,0,0,0
+6,5,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+7,6,0,0,0,0,0,0,0,0
+7,1,9,4,0,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+1,6,3,8,7,0,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+5,9,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+7,0,0,0,0,0,0,0,0,0
+1,3,4,8,6,7,9,0,0,0
+1,2,3,6,9,0,0,0,0,1
+7,4,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+5,9,3,8,7,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,7,4,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+8,4,6,5,9,0,0,0,0,0
+7,9,0,0,0,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,9,2,0,0,0,0,0,0,0
+7,4,1,5,9,3,0,0,0,0
+1,3,0,0,0,0,0,0,0,0
+8,4,9,6,7,5,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+2,4,6,1,5,0,0,0,0,0
+3,6,4,5,9,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+7,3,5,6,1,4,0,0,0,0
+3,5,6,0,0,0,0,0,0,0
+7,2,4,1,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,9,5,2,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+6,8,4,2,9,7,0,0,0,0
+1,2,3,5,6,9,4,0,0,1
+1,2,8,6,7,3,0,0,0,0
+4,3,9,5,2,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+5,7,0,0,0,0,0,0,0,0
+1,2,3,5,4,0,0,0,0,1
+5,9,7,3,1,4,0,0,0,0
+6,1,9,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+2,1,4,6,5,9,0,0,0,0
+1,3,4,2,8,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+6,3,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+2,7,8,4,6,0,0,0,0,0
+2,6,1,0,0,0,0,0,0,0
+3,7,9,8,5,4,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,6,8,3,5,7,9,0,0,0
+1,2,3,5,9,4,0,0,0,1
+4,2,6,3,8,5,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,1,6,4,9,5,0,0,0,0
+7,4,2,0,0,0,0,0,0,0
+3,6,7,4,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,6,9,4,0,0,0,1
+8,2,0,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+9,2,8,4,7,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,8,9,2,6,3,5,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+3,7,9,0,0,0,0,0,0,0
+7,9,5,0,0,0,0,0,0,0
+1,2,3,5,7,9,4,0,0,1
+8,2,3,0,0,0,0,0,0,0
+1,2,3,5,6,9,4,0,0,1
+9,0,0,0,0,0,0,0,0,0
+6,3,7,8,4,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,4,7,5,9,3,0,0,0,0
+9,5,3,1,2,8,0,0,0,0
+4,3,8,0,0,0,0,0,0,0
+5,2,6,9,0,0,0,0,0,0
+1,8,5,9,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,7,9,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,6,9,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+5,7,6,9,2,1,8,0,0,0
+1,2,3,5,0,0,0,0,0,1
+6,3,2,7,8,4,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+7,3,0,0,0,0,0,0,0,0
+4,1,8,9,7,3,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+5,2,1,9,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,4,9,3,0,0,0,0,0,0
+9,5,7,0,0,0,0,0,0,0
+2,3,9,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+8,4,7,0,0,0,0,0,0,0
+5,9,4,6,0,0,0,0,0,0
+9,2,0,0,0,0,0,0,0,0
+5,8,4,2,7,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+2,9,5,6,3,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,5,9,8,3,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+1,9,7,5,0,0,0,0,0,0
+7,8,9,4,0,0,0,0,0,0
+1,5,9,3,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+7,6,1,0,0,0,0,0,0,0
+2,1,3,4,7,6,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+2,9,0,0,0,0,0,0,0,0
+8,4,5,9,1,0,0,0,0,0
+2,1,5,4,0,0,0,0,0,0
+4,7,9,8,1,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+8,5,9,6,4,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,3,5,6,2,9,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+7,8,1,9,4,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,7,9,0,0,1
+5,6,8,1,7,2,0,0,0,0
+4,1,9,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+4,3,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,9,4,0,0,0,0,0,0,0
+1,8,9,6,0,0,0,0,0,0
+2,8,1,9,7,6,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+5,8,1,7,4,6,0,0,0,0
+1,2,3,5,6,9,4,0,0,1
+1,2,3,6,7,9,0,0,0,1
+1,5,3,7,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+4,9,1,2,8,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+7,4,3,8,5,1,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,8,4,6,9,1,0,0,0,0
+1,2,0,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+4,8,1,0,0,0,0,0,0,0
+7,6,5,8,1,2,0,0,0,0
+4,8,3,2,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+9,1,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+6,2,9,0,0,0,0,0,0,0
+6,8,7,5,2,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+1,2,3,5,7,9,4,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+3,9,4,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+9,7,8,6,2,1,5,0,0,0
+1,2,3,9,0,0,0,0,0,1
+4,7,5,0,0,0,0,0,0,0
+5,6,4,1,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,7,8,3,0,0,0,0,0,0
+7,4,0,0,0,0,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+9,3,2,1,4,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+4,6,1,0,0,0,0,0,0,0
+1,2,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,6,7,4,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+7,2,8,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,7,0,0,0,0,0,0,0,0
+2,4,6,0,0,0,0,0,0,0
+1,3,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+2,4,0,0,0,0,0,0,0,0
+5,6,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+7,2,6,5,1,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+7,2,0,0,0,0,0,0,0,0
+4,1,0,0,0,0,0,0,0,0
+2,6,8,7,5,0,0,0,0,0
+2,6,1,5,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+5,4,3,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+7,6,4,2,9,8,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+5,9,3,1,7,0,0,0,0,0
+6,1,2,0,0,0,0,0,0,0
+5,6,8,1,0,0,0,0,0,0
+3,6,4,8,1,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,7,9,0,0,0,0,0,0,0
+6,9,3,7,4,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+3,6,7,5,9,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+3,6,5,0,0,0,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+9,8,4,6,0,0,0,0,0,0
+6,7,1,9,4,5,0,0,0,0
+2,5,4,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+4,5,7,0,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+9,0,0,0,0,0,0,0,0,0
+4,8,7,2,6,0,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+6,1,3,4,0,0,0,0,0,0
+9,8,7,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+5,2,7,8,3,6,9,0,0,0
+1,2,3,5,7,9,0,0,0,1
+9,3,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+6,2,3,4,7,5,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+2,7,0,0,0,0,0,0,0,0
+2,3,0,0,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+5,7,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+3,2,1,5,9,6,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+6,7,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+5,8,1,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,3,9,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+3,6,1,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+8,4,2,1,6,5,7,0,0,0
+8,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+8,0,0,0,0,0,0,0,0,0
+2,9,6,7,0,0,0,0,0,0
+9,5,2,8,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+9,6,2,3,8,0,0,0,0,0
+3,5,9,8,1,2,6,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,5,9,6,4,0,0,0,0,0
+5,8,0,0,0,0,0,0,0,0
+3,9,6,8,1,0,0,0,0,0
+4,2,6,0,0,0,0,0,0,0
+6,2,3,1,5,0,0,0,0,0
+1,2,3,6,9,4,0,0,0,1
+8,5,3,4,0,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+1,2,6,9,3,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+4,6,0,0,0,0,0,0,0,0
+4,9,5,0,0,0,0,0,0,0
+3,5,7,4,1,8,0,0,0,0
+2,8,3,6,0,0,0,0,0,0
+3,4,9,5,6,2,1,0,0,0
+1,5,4,0,0,0,0,0,0,0
+9,8,1,6,3,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+9,4,5,8,2,7,3,0,0,0
+6,8,2,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+2,5,7,6,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+3,9,7,4,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,6,9,4,0,0,1
+3,0,0,0,0,0,0,0,0,0
+4,6,3,9,0,0,0,0,0,0
+6,9,5,4,1,2,7,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+7,5,0,0,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+7,1,5,2,4,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+4,9,5,6,1,0,0,0,0,0
+8,3,7,1,2,0,0,0,0,0
+9,1,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+6,4,1,5,2,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,6,8,9,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+3,2,6,0,0,0,0,0,0,0
+5,8,0,0,0,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,3,1,8,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+7,3,8,5,0,0,0,0,0,0
+4,5,1,6,0,0,0,0,0,0
+1,2,3,5,4,0,0,0,0,1
+2,3,8,0,0,0,0,0,0,0
+4,6,1,0,0,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+9,7,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+9,3,8,4,0,0,0,0,0,0
+6,4,8,1,9,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+7,8,5,3,4,0,0,0,0,0
+7,9,6,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+8,9,5,3,4,6,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,5,8,7,3,0,0,0,0,0
+5,8,4,2,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+4,8,0,0,0,0,0,0,0,0
+3,8,5,6,4,0,0,0,0,0
+3,8,9,2,4,0,0,0,0,0
+2,1,8,6,4,7,0,0,0,0
+7,8,1,2,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+8,4,6,5,3,0,0,0,0,0
+2,9,5,1,4,6,7,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,9,4,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+2,3,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+6,3,4,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+3,7,5,2,6,9,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+3,6,2,9,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+3,1,8,9,0,0,0,0,0,0
+5,7,4,0,0,0,0,0,0,0
+8,6,7,1,5,0,0,0,0,0
+7,4,3,2,9,8,1,0,0,0
+1,2,3,5,6,7,0,0,0,1
+1,5,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,6,5,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+2,9,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,5,1,3,0,0,0,0,0,0
+9,2,0,0,0,0,0,0,0,0
+9,2,1,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+2,4,8,0,0,0,0,0,0,0
+3,4,6,5,9,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,9,7,3,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,8,0,0,0,0,0,0,0,0
+1,4,2,5,8,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+4,2,9,6,5,3,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,3,8,6,2,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+4,1,0,0,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+1,4,0,0,0,0,0,0,0,0
+7,5,3,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+9,8,3,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+8,3,9,2,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+2,5,8,3,9,4,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+8,3,2,1,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+6,2,0,0,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+9,8,5,3,6,7,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+4,2,5,3,7,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,7,9,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,5,6,7,9,0,0,0,0,0
+3,0,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+5,7,0,0,0,0,0,0,0,0
+3,5,8,4,2,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+5,1,6,4,2,9,7,0,0,0
+3,5,8,1,0,0,0,0,0,0
+1,8,7,4,5,0,0,0,0,0
+1,2,3,5,6,9,4,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,7,4,0,0,1
+3,5,6,8,9,4,2,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+2,5,6,3,8,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+2,6,5,1,3,8,0,0,0,0
+1,4,5,6,9,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+2,6,3,1,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+4,7,6,5,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+4,9,1,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+2,5,4,1,6,0,0,0,0,0
+6,3,4,8,9,1,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,7,5,3,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+7,3,6,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+8,1,6,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+8,4,3,1,0,0,0,0,0,0
+3,9,1,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+8,3,2,0,0,0,0,0,0,0
+3,8,7,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,4,5,0,0,0,0,0,0,0
+5,4,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+5,1,8,0,0,0,0,0,0,0
+7,8,5,4,3,2,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+9,7,2,8,4,1,0,0,0,0
+7,8,4,6,9,0,0,0,0,0
+3,4,5,7,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+3,1,9,6,7,0,0,0,0,0
+8,9,7,6,3,0,0,0,0,0
+7,8,0,0,0,0,0,0,0,0
+5,4,2,7,1,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+6,1,3,7,5,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+7,8,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+4,1,3,6,2,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+4,8,6,9,5,0,0,0,0,0
+9,1,6,4,2,7,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,5,9,7,6,8,0,0,0
+7,4,2,6,9,1,3,0,0,0
+5,8,0,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+9,7,4,5,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,5,0,0,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,6,7,9,0,0,1
+1,2,3,9,4,0,0,0,0,1
+4,1,2,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+2,3,5,9,1,6,8,0,0,0
+8,1,2,0,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+2,1,7,3,5,0,0,0,0,0
+8,5,7,2,6,9,0,0,0,0
+8,1,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,8,3,6,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+4,2,7,6,9,1,0,0,0,0
+5,2,4,6,0,0,0,0,0,0
+2,1,6,3,5,4,0,0,0,0
+1,7,2,4,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+3,1,6,4,7,5,0,0,0,0
+5,7,3,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+4,2,0,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+5,4,1,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,9,7,1,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+6,7,1,2,4,3,9,5,0,0
+1,2,3,5,0,0,0,0,0,1
+7,3,8,1,4,9,0,0,0,0
+8,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+7,8,9,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,4,3,2,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+8,2,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,4,5,2,0,0,0,0,0,0
+7,3,1,0,0,0,0,0,0,0
+8,6,1,7,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+2,5,6,8,4,9,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+5,4,7,9,1,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+9,1,0,0,0,0,0,0,0,0
+2,5,3,7,4,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+2,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+3,4,9,2,5,7,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+9,1,8,5,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+9,4,5,7,3,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+3,2,9,8,5,7,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+4,6,2,5,3,1,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+6,9,1,2,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,3,9,2,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+6,7,1,8,5,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+4,5,3,6,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,8,9,5,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+3,2,6,8,9,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,7,4,6,0,0,0,0,0,0
+7,9,5,0,0,0,0,0,0,0
+6,3,0,0,0,0,0,0,0,0
+6,3,7,0,0,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+9,8,7,3,6,1,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+3,6,8,9,7,2,4,0,0,0
+6,7,0,0,0,0,0,0,0,0
+5,8,3,7,4,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+8,3,9,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,9,0,0,0,0,0,0,0,0
+3,8,7,5,0,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+8,5,7,3,2,0,0,0,0,0
+8,4,7,1,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+8,7,4,2,1,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,6,0,0,0,0,0,0,0,0
+4,7,6,8,0,0,0,0,0,0
+5,8,4,0,0,0,0,0,0,0
+1,8,7,0,0,0,0,0,0,0
+1,7,2,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+6,3,9,2,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+7,8,3,0,0,0,0,0,0,0
+9,2,1,0,0,0,0,0,0,0
+5,9,7,6,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+6,7,9,3,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+7,6,2,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+8,7,1,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+4,9,3,6,7,0,0,0,0,0
+8,2,1,0,0,0,0,0,0,0
+8,9,4,7,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,3,5,9,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,3,5,7,4,2,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+7,1,8,0,0,0,0,0,0,0
+5,9,1,2,7,4,0,0,0,0
+1,2,4,9,5,8,0,0,0,0
+3,7,6,4,1,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,7,1,0,0,0,0,0,0,0
+6,4,8,1,0,0,0,0,0,0
+9,6,4,5,0,0,0,0,0,0
+5,1,7,0,0,0,0,0,0,0
+3,9,5,1,7,0,0,0,0,0
+1,3,6,4,8,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+4,7,5,0,0,0,0,0,0,0
+9,4,7,6,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+8,1,2,7,5,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+9,0,0,0,0,0,0,0,0,0
+8,1,5,6,7,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+7,9,8,2,4,0,0,0,0,0
+4,2,1,8,6,0,0,0,0,0
+3,1,0,0,0,0,0,0,0,0
+1,5,0,0,0,0,0,0,0,0
+3,8,4,9,6,0,0,0,0,0
+3,7,2,5,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+7,8,5,3,4,9,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+2,1,8,5,6,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,6,9,3,5,7,8,0,0,0
+2,8,5,0,0,0,0,0,0,0
+3,0,0,0,0,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+2,9,1,3,8,6,5,0,0,0
+1,7,2,4,3,0,0,0,0,0
+4,2,1,7,8,6,0,0,0,0
+6,4,0,0,0,0,0,0,0,0
+6,1,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+8,7,1,0,0,0,0,0,0,0
+1,7,4,0,0,0,0,0,0,0
+8,7,2,6,1,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+6,7,9,3,4,0,0,0,0,0
+7,5,0,0,0,0,0,0,0,0
+9,1,3,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+5,3,2,6,7,9,0,0,0,0
+5,4,6,7,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+3,9,5,0,0,0,0,0,0,0
+9,1,6,3,2,4,5,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+2,8,5,9,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+2,1,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+3,7,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,8,4,9,3,7,0,0,0,0
+1,4,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+7,1,2,0,0,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+5,6,4,9,2,1,3,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,7,9,4,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,6,9,4,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+6,4,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+8,4,9,7,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+9,4,8,5,7,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+9,7,8,6,0,0,0,0,0,0
+4,3,8,7,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+4,8,7,9,0,0,0,0,0,0
+2,3,4,9,0,0,0,0,0,0
+7,8,0,0,0,0,0,0,0,0
+5,1,3,9,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+4,6,5,1,2,8,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+5,9,7,8,6,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+7,8,0,0,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+9,4,0,0,0,0,0,0,0,0
+6,8,0,0,0,0,0,0,0,0
+4,6,5,0,0,0,0,0,0,0
+7,3,4,9,5,6,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+8,9,2,3,1,0,0,0,0,0
+3,0,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+9,2,0,0,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+2,1,9,6,8,3,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+8,2,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,9,2,8,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+2,3,7,6,0,0,0,0,0,0
+2,4,8,5,1,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+1,4,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+7,2,6,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+5,8,7,6,2,9,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+8,9,1,0,0,0,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+5,6,3,4,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+5,1,3,8,2,0,0,0,0,0
+7,9,5,6,2,1,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+5,8,1,3,6,0,0,0,0,0
+8,2,3,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+6,7,3,4,9,1,0,0,0,0
+5,3,8,1,9,0,0,0,0,0
+6,3,8,9,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+7,4,2,0,0,0,0,0,0,0
+9,2,1,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,9,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+4,8,9,3,6,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+3,1,0,0,0,0,0,0,0,0
+2,7,8,9,1,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+2,5,9,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+2,3,9,4,0,0,0,0,0,0
+7,1,2,3,9,6,5,0,0,0
+1,2,3,7,9,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+6,1,7,3,8,9,0,0,0,0
+4,8,5,3,1,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+7,8,0,0,0,0,0,0,0,0
+1,9,5,7,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,6,7,9,0,0,1
+7,0,0,0,0,0,0,0,0,0
+7,1,4,2,6,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+8,9,3,4,6,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+9,8,4,6,5,3,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+9,1,4,2,5,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+3,1,4,8,0,0,0,0,0,0
+7,1,9,4,8,2,6,0,0,0
+1,2,3,5,8,0,0,0,0,1
+2,9,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,6,3,4,0,0,0,0,0,0
+9,5,1,6,3,8,2,0,0,0
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,1,2,8,6,4,7,0,0,0
+8,4,6,2,7,5,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+3,8,1,5,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+7,8,6,4,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+9,0,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+8,9,1,0,0,0,0,0,0,0
+9,4,6,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+7,8,9,5,0,0,0,0,0,0
+1,8,3,4,0,0,0,0,0,0
+8,2,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+2,1,0,0,0,0,0,0,0,0
+7,8,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,5,3,0,0,0,0,0,0,0
+4,5,7,3,6,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+3,1,6,8,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+5,3,1,8,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+6,8,3,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+3,7,4,9,8,1,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+2,4,9,5,1,8,0,0,0,0
+9,4,6,1,3,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+8,4,5,0,0,0,0,0,0,0
+6,3,5,8,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+7,8,1,0,0,0,0,0,0,0
+4,9,0,0,0,0,0,0,0,0
+4,3,9,6,2,0,0,0,0,0
+4,9,6,8,2,0,0,0,0,0
+9,2,3,0,0,0,0,0,0,0
+6,2,8,9,7,0,0,0,0,0
+5,4,2,6,3,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+6,8,5,7,0,0,0,0,0,0
+6,9,2,7,1,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+2,7,3,8,9,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+7,5,6,1,0,0,0,0,0,0
+4,3,8,1,7,6,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+3,6,1,9,5,0,0,0,0,0
+5,1,3,8,7,0,0,0,0,0
+2,8,1,5,9,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+5,2,7,4,6,1,9,0,0,0
+7,9,6,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+9,3,6,1,7,2,0,0,0,0
+8,1,2,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+7,4,1,0,0,0,0,0,0,0
+6,2,7,4,5,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,4,2,3,6,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,9,8,2,0,0,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+3,7,8,4,9,2,6,0,0,0
+9,6,3,8,0,0,0,0,0,0
+1,2,4,3,0,0,0,0,0,0
+3,6,2,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+3,1,8,4,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,6,9,4,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,9,0,0,0,0,1
+9,4,5,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+8,6,1,2,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,7,3,6,0,0,0,0,0,0
+8,5,9,1,3,4,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,4,8,1,5,7,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,4,0,0,0,0,1
+3,1,5,9,0,0,0,0,0,0
+5,6,9,2,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+4,7,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+7,4,6,0,0,0,0,0,0,0
+9,6,3,1,5,7,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,1,3,2,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,7,9,4,0,0,1
+1,2,3,5,7,0,0,0,0,1
+2,6,7,1,4,9,0,0,0,0
+1,3,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+6,3,0,0,0,0,0,0,0,0
+7,8,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+7,9,8,5,3,2,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+9,6,3,4,5,1,8,0,0,0
+1,2,3,5,0,0,0,0,0,1
+7,2,3,9,0,0,0,0,0,0
+6,8,1,0,0,0,0,0,0,0
+8,5,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+4,6,5,3,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+2,8,6,1,4,0,0,0,0,0
+1,6,2,5,4,9,0,0,0,0
+8,0,0,0,0,0,0,0,0,0
+1,2,3,6,7,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,9,7,5,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+1,2,3,6,9,4,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+2,8,7,1,4,9,5,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,1,5,4,0,0,0,0,0,0
+4,8,6,0,0,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+6,3,1,4,8,7,2,0,0,0
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,2,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+7,3,2,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+6,1,9,5,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,3,5,6,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,3,4,2,7,8,6,0,0,0
+1,2,3,5,6,0,0,0,0,1
+9,6,2,0,0,0,0,0,0,0
+2,8,5,7,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,9,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+6,5,9,8,1,4,0,0,0,0
+7,2,8,4,0,0,0,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+6,1,4,2,0,0,0,0,0,0
+7,3,9,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+8,7,9,1,6,2,4,0,0,0
+1,2,3,5,7,4,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+3,8,2,7,6,5,9,0,0,0
+1,2,3,9,0,0,0,0,0,1
+4,1,7,3,6,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+4,1,6,0,0,0,0,0,0,0
+6,1,3,7,0,0,0,0,0,0
+9,5,7,3,2,6,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+3,4,0,0,0,0,0,0,0,0
+6,5,3,4,0,0,0,0,0,0
+5,4,6,0,0,0,0,0,0,0
+4,9,1,8,2,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,8,9,4,0,0,1
+5,2,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+6,3,1,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+6,7,1,3,8,5,9,0,0,0
+1,2,3,5,8,0,0,0,0,1
+4,6,3,8,2,1,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+4,2,1,9,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+5,6,1,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,6,8,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+5,8,2,0,0,0,0,0,0,0
+2,5,4,9,0,0,0,0,0,0
+7,8,1,0,0,0,0,0,0,0
+6,4,2,0,0,0,0,0,0,0
+5,1,9,0,0,0,0,0,0,0
+5,8,1,2,7,0,0,0,0,0
+5,8,1,0,0,0,0,0,0,0
+3,7,2,9,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,6,7,4,0,0,1
+6,8,3,9,5,0,0,0,0,0
+9,2,3,5,0,0,0,0,0,0
+8,1,0,0,0,0,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+3,5,2,0,0,0,0,0,0,0
+2,4,6,0,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,9,0,0,0,0,0,0,0,0
+4,3,0,0,0,0,0,0,0,0
+4,6,2,3,1,7,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+9,0,0,0,0,0,0,0,0,0
+5,7,3,8,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+4,3,7,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+8,5,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+3,4,8,6,1,0,0,0,0,0
+7,1,4,0,0,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+1,8,5,2,6,4,3,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+7,5,9,2,8,0,0,0,0,0
+1,2,3,5,7,9,4,0,0,1
+1,2,3,0,0,0,0,0,0,1
+5,7,8,4,1,0,0,0,0,0
+5,7,0,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+7,8,5,2,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+2,0,0,0,0,0,0,0,0,0
+5,8,1,4,2,0,0,0,0,0
+1,2,3,5,6,9,4,0,0,1
+1,2,3,6,7,9,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,8,2,9,6,4,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+4,7,0,0,0,0,0,0,0,0
+4,9,0,0,0,0,0,0,0,0
+5,1,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,5,2,7,8,6,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+1,2,3,5,6,4,0,0,0,1
+1,4,3,2,0,0,0,0,0,0
+1,8,7,5,6,3,9,0,0,0
+1,2,3,6,9,4,0,0,0,1
+8,2,1,0,0,0,0,0,0,0
+4,8,7,5,9,3,0,0,0,0
+6,8,1,0,0,0,0,0,0,0
+2,8,0,0,0,0,0,0,0,0
+1,2,6,9,8,7,0,0,0,0
+5,3,9,2,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+2,6,1,5,8,9,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+8,1,3,7,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+2,6,4,1,7,0,0,0,0,0
+2,1,4,6,9,0,0,0,0,0
+8,3,2,7,5,0,0,0,0,0
+3,5,8,6,1,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+9,5,4,3,7,8,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+6,7,2,3,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+3,7,5,9,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+1,2,3,7,0,0,0,0,0,1
+5,1,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+9,5,0,0,0,0,0,0,0,0
+9,2,3,4,8,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+6,9,7,0,0,0,0,0,0,0
+8,6,4,7,1,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+3,7,6,4,9,5,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+9,7,4,8,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+7,3,0,0,0,0,0,0,0,0
+8,9,6,2,4,1,5,0,0,0
+8,0,0,0,0,0,0,0,0,0
+3,7,5,4,6,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+6,9,3,8,4,7,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+5,7,4,1,6,8,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+6,8,2,0,0,0,0,0,0,0
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+4,1,5,2,6,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+7,9,8,1,2,0,0,0,0,0
+4,3,7,2,1,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+9,8,5,1,7,4,2,0,0,0
+4,8,9,3,0,0,0,0,0,0
+2,6,8,4,7,0,0,0,0,0
+7,1,6,9,2,0,0,0,0,0
+3,7,6,2,5,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+8,2,0,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+5,9,4,8,7,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+9,8,6,7,2,1,5,0,0,0
+7,8,3,2,0,0,0,0,0,0
+6,8,2,5,7,0,0,0,0,0
+2,4,8,1,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+2,9,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+6,2,8,5,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,6,5,7,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+8,5,9,1,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,3,6,5,0,0,0,0,0,0
+2,4,0,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+9,4,7,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,1,9,4,8,0,0,0,0,0
+1,7,2,9,4,3,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+9,6,4,7,0,0,0,0,0,0
+1,2,3,5,6,4,0,0,0,1
+7,9,8,3,1,6,4,0,0,0
+1,2,3,5,6,0,0,0,0,1
+5,9,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+7,4,2,0,0,0,0,0,0,0
+9,6,8,2,1,3,5,0,0,0
+1,2,3,9,4,0,0,0,0,1
+9,7,0,0,0,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+4,8,1,6,5,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+8,4,9,2,3,5,0,0,0,0
+4,1,0,0,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+8,7,9,1,5,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+9,4,7,2,5,3,8,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+4,2,8,0,0,0,0,0,0,0
+3,8,2,4,6,0,0,0,0,0
+4,6,0,0,0,0,0,0,0,0
+4,7,5,2,0,0,0,0,0,0
+6,8,7,2,3,9,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+2,9,6,1,0,0,0,0,0,0
+6,0,0,0,0,0,0,0,0,0
+4,8,0,0,0,0,0,0,0,0
+4,3,9,5,0,0,0,0,0,0
+2,0,0,0,0,0,0,0,0,0
+8,1,2,0,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+6,2,7,5,3,0,0,0,0,0
+5,7,4,8,3,2,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+5,4,9,7,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,9,0,0,0,0,0,0,0
+6,4,9,8,7,3,0,0,0,0
+2,9,3,6,7,4,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+4,3,0,0,0,0,0,0,0,0
+8,6,9,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+4,6,8,7,0,0,0,0,0,0
+2,6,7,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+8,2,5,6,3,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+2,5,8,3,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+6,3,4,8,7,2,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+9,7,2,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,9,4,0,0,1
+4,7,9,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,4,8,6,0,0,0,0,0,0
+6,5,8,2,0,0,0,0,0,0
+6,4,3,2,0,0,0,0,0,0
+1,2,3,6,9,0,0,0,0,1
+6,9,0,0,0,0,0,0,0,0
+3,8,6,1,7,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+6,9,7,5,4,8,3,0,0,0
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,7,4,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,9,5,7,0,0,0,0,0,0
+5,1,6,2,8,4,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+4,1,5,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+8,6,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+4,3,2,7,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+5,4,1,3,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+1,6,9,4,7,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+3,9,4,5,1,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,9,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+5,4,8,6,1,9,7,0,0,0
+1,2,3,5,6,7,9,4,0,1
+1,2,3,5,8,0,0,0,0,1
+8,0,0,0,0,0,0,0,0,0
+3,1,2,4,6,7,9,0,0,0
+5,9,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,9,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+3,1,8,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+5,7,9,6,2,3,0,0,0,0
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+6,3,4,8,1,9,0,0,0,0
+6,8,5,9,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+6,7,1,8,3,0,0,0,0,0
+8,4,0,0,0,0,0,0,0,0
+8,7,4,6,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+9,4,8,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,2,8,6,3,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+3,8,2,9,0,0,0,0,0,0
+8,5,1,3,0,0,0,0,0,0
+9,6,3,2,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+7,2,9,5,0,0,0,0,0,0
+7,3,0,0,0,0,0,0,0,0
+9,6,4,0,0,0,0,0,0,0
+1,8,4,6,2,7,0,0,0,0
+2,1,4,6,0,0,0,0,0,0
+4,5,1,2,7,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+6,2,1,8,0,0,0,0,0,0
+1,7,5,3,8,0,0,0,0,0
+2,3,4,5,9,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+9,5,0,0,0,0,0,0,0,0
+1,2,3,4,8,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,2,8,5,4,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+3,4,2,5,8,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+8,1,0,0,0,0,0,0,0,0
+9,5,6,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+9,6,5,2,3,0,0,0,0,0
+3,1,7,6,0,0,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+9,0,0,0,0,0,0,0,0,0
+1,2,3,6,9,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+2,1,8,5,0,0,0,0,0,0
+1,4,6,9,8,0,0,0,0,0
+4,2,7,1,9,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+1,2,3,5,6,7,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+3,2,5,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+4,3,5,6,1,9,0,0,0,0
+8,0,0,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+3,1,2,5,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+3,8,6,7,1,5,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+6,2,0,0,0,0,0,0,0,0
+9,1,0,0,0,0,0,0,0,0
+1,3,7,6,4,2,5,0,0,0
+3,8,0,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+5,1,8,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,8,2,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+5,7,6,3,4,8,2,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+8,4,3,7,2,5,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+3,7,2,6,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+2,7,4,1,9,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,4,5,6,9,0,0,0,0,0
+4,9,6,2,3,7,1,0,0,0
+2,5,3,4,9,0,0,0,0,0
+4,6,0,0,0,0,0,0,0,0
+3,4,1,8,5,7,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+3,4,8,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+4,1,2,9,8,0,0,0,0,0
+1,2,3,9,0,0,0,0,0,1
+1,2,3,6,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+7,6,8,5,4,0,0,0,0,0
+1,7,9,6,4,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+6,8,0,0,0,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+4,5,2,3,0,0,0,0,0,0
+3,5,9,0,0,0,0,0,0,0
+8,6,0,0,0,0,0,0,0,0
+6,7,2,9,5,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+8,2,5,4,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,3,6,9,2,0,0,0,0,0
+4,7,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+7,3,6,0,0,0,0,0,0,0
+3,5,6,1,0,0,0,0,0,0
+2,8,0,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+6,3,8,0,0,0,0,0,0,0
+2,5,7,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,7,5,8,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+7,3,5,9,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,9,4,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+1,2,3,5,6,7,9,0,0,1
+1,2,3,5,8,0,0,0,0,1
+6,5,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+4,5,7,2,1,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+2,1,5,7,3,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+5,9,7,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+8,5,7,9,1,3,0,0,0,0
+2,5,1,7,8,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,8,3,4,5,2,0,0,0,0
+4,2,5,7,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+8,5,9,1,0,0,0,0,0,0
+9,3,7,1,4,6,0,0,0,0
+8,6,0,0,0,0,0,0,0,0
+4,8,5,0,0,0,0,0,0,0
+4,8,0,0,0,0,0,0,0,0
+4,1,2,0,0,0,0,0,0,0
+5,4,1,8,7,0,0,0,0,0
+1,2,3,5,6,9,4,0,0,1
+1,2,3,6,0,0,0,0,0,1
+3,1,4,0,0,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+9,1,7,5,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+7,9,6,5,8,2,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+8,6,2,7,3,5,1,0,0,0
+3,0,0,0,0,0,0,0,0,0
+2,1,7,8,3,5,0,0,0,0
+1,2,3,5,6,9,0,0,0,1
+9,4,0,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+1,9,4,3,8,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+9,8,4,2,6,7,0,0,0,0
+7,6,3,1,8,0,0,0,0,0
+6,8,4,5,0,0,0,0,0,0
+9,3,4,2,1,8,7,0,0,0
+6,3,1,5,7,9,8,0,0,0
+6,3,2,9,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,6,0,0,0,0,0,0,0,0
+8,9,5,3,0,0,0,0,0,0
+5,7,0,0,0,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+6,4,2,5,9,1,0,0,0,0
+7,3,0,0,0,0,0,0,0,0
+6,2,4,9,5,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+5,3,8,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,4,6,2,9,8,0,0,0,0
+8,2,1,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+3,8,4,9,2,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+1,2,3,6,4,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+6,2,5,0,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+7,3,2,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+9,2,5,6,0,0,0,0,0,0
+4,9,0,0,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+6,2,0,0,0,0,0,0,0,0
+4,3,9,7,1,0,0,0,0,0
+9,6,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+9,0,0,0,0,0,0,0,0,0
+4,8,2,5,9,3,6,0,0,0
+3,0,0,0,0,0,0,0,0,0
+7,9,0,0,0,0,0,0,0,0
+7,2,0,0,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+9,6,7,1,4,8,0,0,0,0
+2,7,6,0,0,0,0,0,0,0
+1,6,2,4,5,3,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+7,4,0,0,0,0,0,0,0,0
+6,8,0,0,0,0,0,0,0,0
+8,5,2,7,0,0,0,0,0,0
+6,7,3,8,5,4,1,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+9,7,4,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+2,8,1,7,9,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+9,5,6,1,3,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+6,7,3,1,2,0,0,0,0,0
+1,6,9,8,7,4,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+5,1,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,7,4,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+3,4,6,0,0,0,0,0,0,0
+3,6,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,8,7,0,0,0,0,0,0,0
+9,1,5,4,7,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,9,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,6,7,0,0,0,1
+6,9,1,5,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+9,7,8,5,4,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+3,8,7,2,9,0,0,0,0,0
+9,1,7,8,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+7,0,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+9,2,4,7,0,0,0,0,0,0
+1,6,8,2,9,0,0,0,0,0
+3,4,1,9,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,6,7,4,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+2,5,3,6,9,0,0,0,0,0
+1,9,4,8,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+6,3,5,1,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,0,0,0,0,1
+6,3,2,4,9,5,0,0,0,0
+3,7,9,5,6,0,0,0,0,0
+4,2,3,8,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+4,1,0,0,0,0,0,0,0,0
+1,4,7,2,8,0,0,0,0,0
+4,6,3,2,7,1,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+7,3,5,8,6,1,0,0,0,0
+2,4,1,8,6,0,0,0,0,0
+1,6,5,0,0,0,0,0,0,0
+5,1,7,8,9,6,0,0,0,0
+6,7,5,0,0,0,0,0,0,0
+8,5,1,2,4,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+8,1,6,4,3,0,0,0,0,0
+4,8,3,6,1,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,0,0,0,0,0,0,0,0,0
+4,2,7,9,0,0,0,0,0,0
+4,7,1,9,2,3,8,0,0,0
+1,2,3,9,4,0,0,0,0,1
+1,2,3,6,9,0,0,0,0,1
+7,6,5,9,2,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+1,2,3,5,8,9,4,0,0,1
+9,7,5,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+7,2,1,6,3,5,0,0,0,0
+9,5,8,3,1,0,0,0,0,0
+1,2,3,5,7,4,0,0,0,1
+4,9,5,0,0,0,0,0,0,0
+1,2,3,7,0,0,0,0,0,1
+3,7,2,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+8,3,2,5,0,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,9,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+7,2,5,8,1,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,7,8,9,3,6,0,0,0,0
+4,7,5,1,8,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+2,4,0,0,0,0,0,0,0,0
+2,4,6,3,7,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+8,6,2,9,7,5,0,0,0,0
+7,6,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+7,6,3,9,8,0,0,0,0,0
+9,2,7,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+9,4,8,0,0,0,0,0,0,0
+1,2,0,0,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+4,6,0,0,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+7,4,0,0,0,0,0,0,0,0
+1,2,3,5,7,9,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+5,2,4,0,0,0,0,0,0,0
+7,1,4,6,2,5,0,0,0,0
+5,6,4,2,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+7,4,0,0,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+5,3,4,1,0,0,0,0,0,0
+6,5,9,0,0,0,0,0,0,0
+7,8,9,4,0,0,0,0,0,0
+4,0,0,0,0,0,0,0,0,0
+6,3,7,5,9,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,9,4,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+6,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+5,1,9,0,0,0,0,0,0,0
+2,6,9,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,7,2,4,0,0,0,0,0,0
+2,4,6,0,0,0,0,0,0,0
+1,7,3,8,9,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+4,0,0,0,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+3,0,0,0,0,0,0,0,0,0
+2,9,3,1,0,0,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+1,2,3,6,0,0,0,0,0,1
+1,2,3,6,7,4,0,0,0,1
+5,8,7,6,4,3,0,0,0,0
+1,2,3,0,0,0,0,0,0,1
+3,6,8,4,0,0,0,0,0,0
+4,1,2,8,7,0,0,0,0,0
+2,1,5,4,0,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,7,6,8,0,0,0,0,0,0
+1,2,3,5,8,9,0,0,0,1
+5,1,0,0,0,0,0,0,0,0
+1,8,7,6,3,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+5,2,1,8,0,0,0,0,0,0
+6,7,5,9,3,8,0,0,0,0
+5,6,7,8,9,0,0,0,0,0
+1,5,8,3,6,0,0,0,0,0
+1,2,3,6,7,4,0,0,0,1
+8,9,2,5,0,0,0,0,0,0
+9,5,3,1,2,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+8,7,3,6,5,0,0,0,0,0
+1,2,3,7,4,0,0,0,0,1
+9,0,0,0,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,8,5,1,4,0,0,0,0,0
+8,4,5,2,6,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+3,7,5,4,0,0,0,0,0,0
+9,8,6,0,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,5,9,0,0,0,0,1
+8,9,3,0,0,0,0,0,0,0
+6,8,0,0,0,0,0,0,0,0
+1,2,3,4,0,0,0,0,0,1
+1,2,3,4,0,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+8,3,4,1,0,0,0,0,0,0
+8,4,5,1,9,6,2,0,0,0
+1,2,3,7,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,7,4,0,0,0,1
+4,2,8,3,0,0,0,0,0,0
+1,2,3,5,7,0,0,0,0,1
+1,2,3,5,4,0,0,0,0,1
+1,2,3,0,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,2,3,6,4,0,0,0,0,1
+1,2,3,7,0,0,0,0,0,1
+1,4,8,2,7,0,0,0,0,0
+7,3,5,1,8,0,0,0,0,0
+1,2,3,9,4,0,0,0,0,1
+8,2,0,0,0,0,0,0,0,0
+1,2,3,5,9,0,0,0,0,1
+8,4,3,6,1,5,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+5,0,0,0,0,0,0,0,0,0
+6,5,8,9,7,0,0,0,0,0
+1,2,3,5,7,9,4,0,0,1
+6,7,5,9,1,3,0,0,0,0
+1,9,3,8,2,0,0,0,0,0
+6,4,0,0,0,0,0,0,0,0
+1,2,3,7,9,0,0,0,0,1
+2,5,6,9,4,0,0,0,0,0
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,9,0,0,0,1
+4,5,1,0,0,0,0,0,0,0
+1,2,3,6,0,0,0,0,0,1
+5,9,7,0,0,0,0,0,0,0
+1,2,3,5,6,0,0,0,0,1
+1,8,2,3,0,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+2,1,7,6,5,9,8,0,0,0
+2,3,6,4,5,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+1,2,3,5,8,0,0,0,0,1
+3,9,0,0,0,0,0,0,0,0
+5,6,9,3,1,0,0,0,0,0
+1,2,3,5,6,7,9,0,0,1
+8,7,1,5,0,0,0,0,0,0
+1,2,3,7,9,4,0,0,0,1
+1,2,3,7,4,0,0,0,0,1
+8,6,2,9,3,7,1,0,0,0
+4,0,0,0,0,0,0,0,0,0
+6,1,7,5,2,0,0,0,0,0
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,0,0,0,0,0,1
+1,2,3,5,6,0,0,0,0,1
+1,6,5,4,7,0,0,0,0,0
+1,0,0,0,0,0,0,0,0,0
+1,7,8,4,9,0,0,0,0,0
+6,7,8,4,3,0,0,0,0,0
+1,2,3,5,6,7,9,0,0,1

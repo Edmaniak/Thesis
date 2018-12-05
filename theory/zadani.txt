@@ -1,0 +1,34 @@
+[Nápady na název]
+- Procedurální generování za využítí generativních modelů
+- Procedurální generování za využítí GAN
+- Procedurállni generování za využití metod strojového učení
+- Procedurální design a neuronové sítě
+- Procedurální design a generativní modely
+- Generování lokálních ontologií s pomocí metod strojového učení
+
+=> Buď vyzkoušet více generativních modelů a nebo se omezit na GAN
+
+[Podčásti]
+- Využítí GAN architektur neuronových sítí v rámci designu (interiér)
+- Nagenerování datasetu algoritmickou cestou pro následné učení NN (tradiční cesta)
+- Navrhnout reprezentaci relací objektů v rámci prostoru => klasiký graf
+- Algoritmizovat nahodilé ale smysluplné generování takvých grafů
+- Transformace topologie do rastrového obrázku reprezentujícího nahodilou ale logickou distribuci objektů v rámci prostoru
+- Popřípadě vyzkoušet generativní modely na nerastrových datech => netriviální
+- Implmentovat GAN
+- Vyčistit data => netriviální
+- Aplikováno postupně na 1D příklad (toast) , 2D příklad (půdorys pokoj), 3D příklad (3D vizualizace pokoj)
+  - 3D jest omezeno na relaci "on the top of something"
+  - 3D obecně vychází z 2D
+
+[Výsledky]
+
+- Postihnout obecný proces při generování obecných topologií (les, interier, město, rodokmen, binární strom)
+- Jde především o zachycení obecných vztahů mezi objekty daného prostoru
+    -> takových vztahů je mnoho ale vždy je v rámci 2D, 3D prostoru či grafu lze zachytit (linked list, ohodnocené - směrované hrany, graf...)
+    -> nejprve nagenerovat data algoritmickou cestou, kvůli datasetu a evaluaci výsledků
+    -> následné učení modelu GAN pro generování nových dat
+- Lze srovnávat různorodá nastavení
+- Lze srovnat data nagenerovaná algoritmicky a za pomocí GAN
+- Navržený postup by měl být alikovatelný na nealgoritmicky zpřistupněná data. Tj. reálná měřená data distribuce objetků
+  a relací v rámci konkrétního prostoru.
