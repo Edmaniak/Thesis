@@ -12,7 +12,7 @@
 - Využítí GAN architektur neuronových sítí v rámci designu (interiér)
 - Nagenerování datasetu algoritmickou cestou pro následné učení NN (tradiční cesta)
 - Navrhnout reprezentaci relací objektů v rámci prostoru => klasiký graf
-- Algoritmizovat nahodilé ale smysluplné generování takvých grafů
+- Algoritmizovat nahodilé ale smysluplné generování takových grafů
 - Transformace topologie do rastrového obrázku reprezentujícího nahodilou ale logickou distribuci objektů v rámci prostoru
 - Popřípadě vyzkoušet generativní modely na nerastrových datech => netriviální
 - Implmentovat GAN
