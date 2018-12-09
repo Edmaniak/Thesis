@@ -1,5 +1,7 @@
 from random import randint
+
 import numpy as np
+
 
 
 class Position:
@@ -22,6 +24,8 @@ class Image:
 class Model:
 	def __init__(self, data, columns=6):
 		self.data = data
+		self.defaultWidth = data[0].width
+		self.defaultHeight = data[0].height
 		self.size = len(data)
 		self.columns = columns
 		self.lastAdded = Position()
@@ -33,9 +37,6 @@ class Model:
 
 	def addNode(self, row, column, node):
 		if (row > 0):
-			if (row > 1):
-				a =3
-				pass
 			for r in range(0, self.size):
 				if(column == 0):
 					if (node.hasTheSameColor(self.getNode(r, column))):
@@ -67,8 +68,6 @@ class Model:
 		return self.getNode(row, column).color
 
 	def compile(self):
-		lastNode = None
-		name = ""
 		rowName = ""
 		for row in range(0, self.size):
 			if(row == 0): rowName += "A"
@@ -78,8 +77,30 @@ class Model:
 				node = Node(self.data[row].pixels[column],name)
 				self.addNode(row, column, node)
 
-	def generate(self):
-		image = np.zeros(50, 50)
+	def generate(self, pixelSize, show = True):
+		startLocations = []
+
+		for i in range(0, self.size -1):
+			if (self.nodes[i][0] is not None):
+				startLocations.append(self.nodes[i][0])
+
+		startIndex = randint(0,len(startLocations))
+
+		picture = []
+		node = self.nodes[startIndex][0]
+
+		for x in range(0, self.defaultWidth):
+			picture.append([])
+			for y in range(0, self.defaultHeight):
+				picture[x].append(node.color)
+				node = node.next
+
+
+
+
+
+
+
 
 
 class Node:
