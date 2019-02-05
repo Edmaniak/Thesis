@@ -41,7 +41,7 @@ class Generator:
         # generating random object class for number of iterations
         vector_shape = to_predict.shape[0]
         final_result = np.copy(to_predict)
-        for i in range(0, iterations):
+        for i in range(1, iterations + 1):
             random_class = self.get_random_object_class_number()
             predicted_object_name = self.get_object_name(self.unique_objects[random_class])
             self.print_2d(to_predict, "Iteration " + str(i) + " predicting " + predicted_object_name)
@@ -50,11 +50,11 @@ class Generator:
             # TODO randomness
             # TEMPORARY
             likely_position = np.argmax(prediction)
-            final_result[likely_position] = random_class
+            final_result[likely_position] = self.get_object_id(random_class)
 
             # printing temporary result and providing recursion at the end
             # Final results becomes the predicted vector
-            self.print_2d(final_result, "ADDING THE" + predicted_object_name + "PREDICTED: ")
+            self.print_2d(final_result, " ADDING THE " + predicted_object_name + " PREDICTED: ")
             to_predict = np.copy(final_result)
 
     def learn_and_generate(self, iterations, to_predict=[], learning_rate=0.001, epochs=200, save=False):
@@ -71,3 +71,6 @@ class Generator:
 
     def get_object_name(self, key):
         return self.dictionary.get(key)
+
+    def get_object_id(self, index):
+        return self.unique_objects[index]
