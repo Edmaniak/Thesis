@@ -1,5 +1,12 @@
 import numpy as np
 
+dictionary = {
+    0: "Empty",
+    1: "Chair",
+    2: "Table",
+    3: "Plant"
+}
+
 r1 = [[0, 0, 0, 0, 0],
       [0, 0, 1, 0, 0],
       [0, 1, 2, 1, 0],
