@@ -5,7 +5,5 @@ using UnityEngine;
 
 public class SpaceUtility : Editor
 {
-    public override void OnInspectorGUI() {
     
-    }
 }

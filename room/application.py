@@ -1,10 +1,26 @@
 from room.Generator import Generator
 from room.data_prep import DataPreparator
 import room.data as data
+import csv
 import numpy as np
+import math
 
-preparator = DataPreparator(data.data)
+# reading the all csv file coded scenes
+scene_length = 1
+scenes = []
+for i in range(0, scene_length):
+    with open('data/scene' + str(i) + '.csv') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=';')
+        for row in csv_reader:
+            scenes.append(row)
 
+# Two types of data - ONE - imported from Unity - SECOND - imported from data.data
+# Supposing we have a square
+space_square_dim = math.sqrt(len(scenes[0]))
+dummy_data = data.data
+real_data = np.reshape(np.array(scenes), (scene_length, space_square_dim, space_square_dim))
+
+preparator = DataPreparator(real_data)
 
 prepared_data = preparator.prepare_all()
 unique_objects = preparator.unique_objects
