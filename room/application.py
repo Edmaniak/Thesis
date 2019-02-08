@@ -6,7 +6,7 @@ import numpy as np
 import math
 
 # reading the all csv file coded scenes
-scene_length = 1
+scene_length = 6
 scenes = []
 for i in range(0, scene_length):
     with open('data/scene' + str(i) + '.csv') as csv_file:
@@ -16,14 +16,15 @@ for i in range(0, scene_length):
 
 # Two types of data - ONE - imported from Unity - SECOND - imported from data.data
 # Supposing we have a square
-space_square_dim = math.sqrt(len(scenes[0]))
+space_square_dim = int(math.sqrt(len(scenes[0])))
 dummy_data = data.data
-real_data = np.reshape(np.array(scenes), (scene_length, space_square_dim, space_square_dim))
+real_data = np.reshape(np.array(scenes,dtype=int), (scene_length, space_square_dim, space_square_dim))
+print(real_data[0])
 
-preparator = DataPreparator(real_data)
+preparator = DataPreparator(dummy_data)
 
 prepared_data = preparator.prepare_all()
-unique_objects = preparator.unique_objects
-generator = Generator(prepared_data, unique_objects, (5, 5), data.dictionary)
-generator.learn_and_generate(2)
-a = 5
+#unique_objects = preparator.unique_objects
+#generator = Generator(prepared_data, unique_objects, (5, 5), data.dictionary)
+#generator.learn_and_generate(2)
+#a = 5

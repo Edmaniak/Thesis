@@ -7,29 +7,34 @@ class DataPreparator():
     def __init__(self, data, empty_space=0):
         self.size = data.shape[0]
         self.positions_count = data.shape[1] * data.shape[2]
-        self.data = data
+        self.data = self.vectorize(data, self.size, self.positions_count)
         self.unique_objects = np.unique(data)
         self.unique_count = self.unique_objects.shape[0]
         self.empty_space = empty_space
 
     def prepare_class(self, object_class, normalize=False):
-        data = self.vectorize(self.data, self.size, self.positions_count)
         X = []
         Y = []
+        # Pro všechny příklady:
         for i_item in range(0, self.size):
+            print("Preparing class " + str(object_class) + " for example " + str(i_item));
+            print("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-")
             dictionary = []
             combinations = []
-
             # generating dictionary of vector index + value
-            for i_placeholder in range(0, self.positions_count):
-                if data[i_item][i_placeholder] != self.empty_space:
-                    dictionary.append([i_placeholder, data[i_item][i_placeholder]])
+            # Vytvoř slovník
+            for i_position in range(0, self.positions_count):
+                # pokud se nejedná o prázdnou tj. nulovou pozici
+                if self.data[i_item][i_position] != self.empty_space:
+                    dictionary.append([i_position, self.data[i_item][i_position]])
 
             for s_i in range(1, len(dictionary)):
                 combinations.append(list(itertools.combinations(self.get_indicies(dictionary), s_i)))
 
-            for c in combinations:
-                for c_i in c:
+            for index, n_tice in enumerate(combinations):
+                str_counter = index + 1
+                print("Processing " + str(str_counter) + "-tice")
+                for c_i in n_tice:
                     x = []
                     for item in c_i:
                         x.append(self.get_by_key(item, dictionary))
@@ -47,7 +52,9 @@ class DataPreparator():
 
     def prepare_all(self):
         data = []
+        # pro všechny jedinečné objekty vybrané ze všech příkladů
         for i_item in range(1, self.unique_count):
+            # postupně připrav třídu
             data.append(self.prepare_class(self.unique_objects[i_item]))
         return data
 
