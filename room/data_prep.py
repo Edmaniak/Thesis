@@ -1,6 +1,9 @@
 import numpy as np
 import itertools
 from sklearn import preprocessing
+import csv
+import operator as op
+from functools import reduce
 
 
 class DataPreparator():
@@ -12,12 +15,13 @@ class DataPreparator():
         self.unique_count = self.unique_objects.shape[0]
         self.empty_space = empty_space
 
-    def prepare_class(self, object_class, normalize=False):
-        X = []
-        Y = []
+    def prepare_class(self, object_class):
+        # X = []
+        # Y = []
         # Pro všechny příklady:
         for i_item in range(0, self.size):
-            print("Preparing class " + str(object_class) + " for example " + str(i_item));
+            real_item_id = i_item + 1
+            print("Preparing class " + str(object_class) + " for example " + str(real_item_id))
             print("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-")
             dictionary = []
             combinations = []
@@ -28,12 +32,25 @@ class DataPreparator():
                 if self.data[i_item][i_position] != self.empty_space:
                     dictionary.append([i_position, self.data[i_item][i_position]])
 
+            # HEURISTIKA KVULI KOMBINACIM
+            # Nabizi se nahodne rozsekat slovnik na nekolik skupin a v ramci nich nagenerovat kombinace? To asi ne
+            # Omezit to na kontext poslednich tri? to bude asi nic moc
+            # Omezit to na pocet kombinaci ----> ZKUSME TO
+
+            # Vygeneruj kombinace jednotlivych n-tic
             for s_i in range(1, len(dictionary)):
+                combination_count = self.ncr(len(dictionary), s_i)
+                if combination_count > 2000:
+                    real_n_tice = s_i + 1
+                    print("kombinace " + str(real_n_tice) + " skipped")
+                    combinations.append(list())
+                    continue
                 combinations.append(list(itertools.combinations(self.get_indicies(dictionary), s_i)))
 
+            # Nageneruj předpoklady X a vytvoř k nim vektor(y) Y
             for index, n_tice in enumerate(combinations):
                 str_counter = index + 1
-                print("Processing " + str(str_counter) + "-tice")
+                print("Processing " + str(str_counter) + "-tice ")
                 for c_i in n_tice:
                     x = []
                     for item in c_i:
@@ -41,64 +58,29 @@ class DataPreparator():
                     y = self.get_y_with_limitation(x, dictionary, object_class)
                     x = self.fill_empty(x, self.empty_space, self.positions_count)
                     for y_i in range(0, len(y)):
-                        X.append(x)
-                        Y.append(y[y_i])
-            if normalize:
-                normalized = self.normalize(X, Y)
-                X = normalized['x']
-                Y = normalized['y']
+                        with open('model/x' + str(object_class) + '.csv', 'a') as x_file:
+                            x_writer = csv.writer(x_file, delimiter=";", lineterminator='\n')
+                            x_writer.writerow(x)
+                        with open('model/y' + str(object_class) + '.csv', 'a') as y_file:
+                            y_writer = csv.writer(y_file, delimiter=";", lineterminator='\n')
+                            y_writer.writerow(y[y_i])
+                    # if normalize:
+                    #     normalized = self.normalize(X, Y)
+                    #     X = normalized['x']
+                    #     Y = normalized['y']
 
-            return np.array([X, Y])
+                    # return np.array([X, Y])
 
     def prepare_all(self):
-        data = []
-        # pro všechny jedinečné objekty vybrané ze všech příkladů
         for i_item in range(1, self.unique_count):
-            # postupně připrav třídu
-            data.append(self.prepare_class(self.unique_objects[i_item]))
-        return data
-
-    def prepare(self, normalize=True):
-        data = self.vectorize(self.data, self.size, self.positions_count)
-        self.prepare_class(1)
-
-        # Pro kazdy zaznam vytvorim dict
-        X = []
-        Y = []
-        for i_item in range(0, self.size):
-
-            dictionary = []
-            combinations = []
-
-            for i_placeholder in range(0, self.positions_count):
-                if data[i_item][i_placeholder] != self.empty_space:
-                    dictionary.append([i_placeholder, data[i_item][i_placeholder]])
-
-            for s_i in range(1, len(dictionary)):
-                combinations.append(list(itertools.combinations(self.get_indicies(dictionary), s_i)))
-
-            for c in combinations:
-                for c_i in c:
-                    x = []
-                    for item in c_i:
-                        x.append(self.get_by_key(item, dictionary))
-                    y = self.get_y(dictionary, x)
-                    x = self.fill_empty(x, self.empty_space, self.positions_count)
-                    for y_i in range(0, len(y)):
-                        X.append(x)
-                        Y.append(y[y_i])
-        if normalize:
-            normalized = self.normalize(X, Y)
-            X = normalized['x']
-            Y = normalized['y']
-        return {'x': np.array(X), 'y': np.array(Y)}
+            self.prepare_class(self.unique_objects[i_item])
 
     def get_y_with_limitation(self, x, data, limitation):
         y = []
         for i_item in range(0, len(data)):
             if data[i_item][1] != limitation or data[i_item] in x:
                 continue
-            y.append(np.zeros(self.positions_count))
+            y.append(np.zeros(self.positions_count, dtype=int))
             y[len(y) - 1][data[i_item][0]] = 1
         return y
 
@@ -165,4 +147,10 @@ class DataPreparator():
             if array[i][0] == key:
                 return array[i]
         return None
+
+    def ncr(self, n, r):
+        r = min(r, n - r)
+        numer = reduce(op.mul, range(n, n - r, -1), 1)
+        denom = reduce(op.mul, range(1, r + 1), 1)
+        return numer / denom
 # Generating combinations

@@ -4,6 +4,7 @@ import room.data as data
 import csv
 import numpy as np
 import math
+from room.dictionary import dictionary
 
 # reading the all csv file coded scenes
 scene_length = 6
@@ -18,13 +19,13 @@ for i in range(0, scene_length):
 # Supposing we have a square
 space_square_dim = int(math.sqrt(len(scenes[0])))
 dummy_data = data.data
-real_data = np.reshape(np.array(scenes,dtype=int), (scene_length, space_square_dim, space_square_dim))
+real_data = np.reshape(np.array(scenes, dtype=int), (scene_length, space_square_dim, space_square_dim))
 print(real_data[0])
 
-preparator = DataPreparator(dummy_data)
+# preparator = DataPreparator(real_data)
 
-prepared_data = preparator.prepare_all()
-#unique_objects = preparator.unique_objects
-#generator = Generator(prepared_data, unique_objects, (5, 5), data.dictionary)
-#generator.learn_and_generate(2)
-#a = 5
+# preparator.prepare_all()
+generator = Generator(15, (9, 9), dictionary)
+# generator.learn_and_fit(epochs=50)'
+generator.generate(10, True)
+# a = 5
