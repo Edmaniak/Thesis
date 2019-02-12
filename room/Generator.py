@@ -50,7 +50,7 @@ class Generator:
             random_class = self.get_random_object_class_number()
 
             # Loading random start file
-            start = np.array(pd.read_csv('model/x' + str(random_class) + '.csv', ';'),dtype=int)
+            start = np.array(pd.read_csv('model/x' + str(random_class) + '.csv', ';'), dtype=int)
             random_start_from_class = randint(0, start.shape[0] - 1)
             to_predict = start[random_start_from_class]
 
