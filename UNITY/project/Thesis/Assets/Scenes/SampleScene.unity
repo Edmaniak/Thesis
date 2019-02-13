@@ -812,8 +812,8 @@ Transform:
   - {fileID: 2083297405}
   - {fileID: 1946967033}
   - {fileID: 1993659873}
-  - {fileID: 1170693029}
   - {fileID: 2104850692}
+  - {fileID: 1170693029}
   m_Father: {fileID: 1683831735}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2530,13 +2530,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.3873133, y: -0.35492086, z: 0.16466758, w: 0.8348079}
-  m_LocalPosition: {x: 4.84867, y: 4.537126, z: -1.2384626}
+  m_LocalRotation: {x: 0.24760558, y: -0.72476435, z: 0.32268587, w: 0.5561313}
+  m_LocalPosition: {x: 5.6, y: 4.1, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 48, y: -105, z: 0}
 --- !u!1001 &565320268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3692,10 +3692,10 @@ Transform:
   - {fileID: 840583612}
   - {fileID: 1854632967}
   - {fileID: 496587376}
-  - {fileID: 1648617261}
   - {fileID: 1394976077}
   - {fileID: 1363539946}
   - {fileID: 1288877015}
+  - {fileID: 1648617261}
   - {fileID: 1285806933}
   - {fileID: 1916549334}
   - {fileID: 333164388}
@@ -4761,16 +4761,16 @@ Transform:
   - {fileID: 1400715296}
   - {fileID: 1240793136}
   - {fileID: 637555554}
-  - {fileID: 1117316269}
   - {fileID: 744345977}
+  - {fileID: 1117316269}
   - {fileID: 299381286}
   - {fileID: 401533544}
   - {fileID: 1112554408}
   - {fileID: 393443795}
   - {fileID: 1036852926}
   - {fileID: 888950613}
-  - {fileID: 239332258}
   - {fileID: 359949878}
+  - {fileID: 239332258}
   - {fileID: 2094479775}
   m_Father: {fileID: 1683831735}
   m_RootOrder: 3
@@ -8912,8 +8912,8 @@ Transform:
   - {fileID: 2077277323}
   - {fileID: 1195798662}
   - {fileID: 407042970}
-  - {fileID: 1997861088}
   - {fileID: 77138166}
+  - {fileID: 1997861088}
   - {fileID: 1394860091}
   - {fileID: 1716900319}
   - {fileID: 1442874505}
@@ -8921,9 +8921,9 @@ Transform:
   - {fileID: 1629243985}
   - {fileID: 664048256}
   - {fileID: 1187817978}
-  - {fileID: 1300621091}
-  - {fileID: 1196541170}
   - {fileID: 1953151586}
+  - {fileID: 1196541170}
+  - {fileID: 1300621091}
   m_Father: {fileID: 1683831735}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10081,7 +10081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2098283167, guid: 1329d1091117c2c45936dfa9c19874fe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2098650815, guid: 1329d1091117c2c45936dfa9c19874fe, type: 3}
       propertyPath: m_LocalPosition.x

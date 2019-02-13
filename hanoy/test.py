@@ -16,7 +16,7 @@ model.add(Dense(int(data.shape[1] / 2), input_dim=X.shape[1], activation='relu',
 model.add(Dense(Y.shape[1], name="output"))
 model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
 
-model.fit(X, Y, epochs=1000)
+model.fit(X, Y, epochs=200)
 
 t = np.array([0, 0, 1, 0, 1, 0, 0, 0, 0, 0])
 t = np.reshape(t, (1, n))
