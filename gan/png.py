@@ -1056,7 +1056,7 @@ def filter_scanline(type, line, fo, prev=None):
 
 def from_array(a, mode=None, info={}):
     """Create a PNG :class:`Image` object from a 2- or 3-dimensional
-    array.  One application of this function is easy PIL-style saving:
+    array.  One application.py of this function is easy PIL-style saving:
     ``png.from_array(pixels, 'L').save('foo.png')``.
 
     Unless they are specified using the *info* parameter, the PNG's
