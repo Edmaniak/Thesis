@@ -34,19 +34,23 @@ class DataPreparator:
                             y = self.get_y_vector(unique_index, (3, 3))
                             X[unique_object].append(x)
                             Y[unique_object].append(y)
+        return [X, Y]
+
+    def prepare_and_fit(self, epochs=500, ratio=1.5):
+        data = self.prepare()
+        self.learn(data[0], data[1], epochs, ratio)
 
     def learn(self, X, Y, epochs=200, ratio=1.5):
 
         # Defining model
         for i_x in X:
-
             x = np.array(X[i_x])
             y = np.array(Y[i_x])
 
             model = Sequential()
-            model.add(Dense(int(X.shape[1] * 1.5), input_dim=X.shape[1], activation='relu'))
-            model.add(Dense(int(X.shape[1] * 1.5), input_dim=X.shape[1], activation='relu'))
-            model.add(Dense(Y.shape[1], activation='sigmoid'))
+            model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
+            model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
+            model.add(Dense(y.shape[1], activation='sigmoid'))
             model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
             model.fit(x, y, epochs=epochs)
 

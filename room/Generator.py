@@ -76,7 +76,6 @@ class Generator:
             json_file.close()
             loaded_model = model_from_json(loaded_model_json)
             loaded_model.load_weights('networks/class' + random_class + '.h5')
-            print("Model " + str(random_class) + " loaded")
 
             # Predicting
             prediction = loaded_model.predict(np.reshape(to_predict, (1, vector_shape)))

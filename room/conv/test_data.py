@@ -104,4 +104,4 @@ d8 = [
     [1, 7, 1, 7, 1, 7, 1, 7, 1, 1],
 ]
 
-data = np.array([d1, d2, d3, d4, d5, d6, d7,d8])
+data = np.array([d1, d2, d3, d4, d5, d6, d7, d8])
