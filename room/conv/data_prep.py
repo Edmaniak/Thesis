@@ -22,7 +22,7 @@ class DataPreparator:
             X[unique_object] = []
             Y[unique_object] = []
         for i in range(0, self.data_count):
-            tmp_data = self.iterate_array(self.data[i], (3, 3))
+            tmp_data = self.iterate_array(self.data[i], (4, 4))
             for data in tmp_data:
                 unique_objects_in_snip = self.get_unique_objects_from_array(data)
                 for unique_object in unique_objects_in_snip:
@@ -31,7 +31,7 @@ class DataPreparator:
                         for unique_index in ui:
                             x = self.copy_array(data)
                             x[unique_index] = 0
-                            y = self.get_y_vector(unique_index, (3, 3))
+                            y = self.get_y_vector(unique_index, (4, 4))
                             X[unique_object].append(x)
                             Y[unique_object].append(y)
         return [X, Y]

@@ -9,11 +9,12 @@ class Generator:
         pass
 
     def generate(self, default_space, iterations):
+        default_space = np.array(default_space, int)
         print("Generating for: ")
         print(default_space)
-        core = (3, 3)
+        core = (4, 4)
 
-        probability_space = np.zeros((default_space.shape[0], default_space.shape[1], int))
+        probability_space = np.zeros((default_space.shape[0], default_space.shape[1]))
         probability_space_width = probability_space.shape[0]
         probability_space_height = probability_space.shape[1]
 
@@ -24,41 +25,41 @@ class Generator:
             core_width = core[0]
             core_height = core[1]
             core_size = core_width * core_height
+            core_shape = (core_width, core_height)
 
             # LOAD MODEL AND MAKE PREDICTION FOR EACH CORE SNIPPET
-            iterator = -1
+            model = self.load_model(random_class)
+            original_space = np.copy(default_space)
+
             for c_y in range(0, probability_space_height - core_height + 1):
                 for c_x in range(0, probability_space_width - core_width + 1):
-                    iterator += 1
                     to_predict = []
-                    for x in range(0, core_height):
-                        for y in range(0, core_width):
+                    for x in range(0, core_width):
+                        for y in range(0, core_height):
                             to_predict.append(default_space[x + c_x][y + c_y])
 
-                    # Loading right model and predicting to_predict
-                    model = self.load_model(random_class)
+                    # Predicting
                     prediction = model.predict(np.reshape(to_predict, (1, core_size)))
 
                     # Updating the probability space
                     prediction = np.reshape(prediction, (core_width, core_height))
-                    for x in range(0, core_height):
-                        for y in range(0, core_width):
-                            probability_space[x + c_x][y + c_y] += prediction[x + c_x][y + c_y]
+                    for x in range(0, core_width):
+                        for y in range(0, core_height):
+                            probability_space[x + c_x][y + c_y] += prediction[x][y]
 
             # Choosing the option and normalizing
-            probability_space = preprocessing.scale(probability_space)
-            object_coordination = np.argmax(probability_space)
+
+            object_coordination = np.unravel_index(np.argmax(probability_space), default_space.shape)
 
             # Placing object to the predicted place
-            original_space = self.copy_array(default_space)
+
             default_space[object_coordination[0]][object_coordination[1]] = random_class
 
             # Plotting results
-            fig, axis = plt.subplots(1, 2)
-            axis[0, 0].plot(original_space)
-            axis[0, 1].plot(default_space)
-            axis[1, 1].figtext("Probability space for object class: " + random_class)
-            axis[1, 1].plot(probability_space)
+            fig, axis = plt.subplots(2, 2)
+            axis[0, 0].imshow(original_space)
+            axis[0, 1].imshow(default_space)
+            axis[1, 0].imshow(probability_space, interpolation='nearest')
             plt.show()
 
     def load_model(self, object_class):
