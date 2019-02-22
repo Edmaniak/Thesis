@@ -4,7 +4,7 @@ from keras.layers import Dense
 
 
 class DataPreparator:
-    def __init__(self, data: np.array, convolution_cores=(), special_symbols=(0, 1)):
+    def __init__(self, data: np.array, convolution_cores=[], special_symbols=(0, 1)):
         self.data = data
         self.data_shape = data.shape
         self.data_width = data.shape[1]
@@ -16,59 +16,59 @@ class DataPreparator:
         self.clean_special_symbols(self.special_symbols)
 
     def prepare(self):
-        X = {}
-        Y = {}
-        core = (3, 3)
-        for unique_object in self.unique_objects:
-            X[unique_object] = []
-            Y[unique_object] = []
-        for i in range(0, self.data_count):
-            tmp_data = self.iterate_array(self.data[i], core)
-            for data in tmp_data:
-                for unique_object in self.unique_objects:
-                    if unique_object in data:
-                        unique_indexes = np.where(data == unique_object)
-                        for ui in unique_indexes:
-                            for unique_index in ui:
+        prepared_data = []
+        cores = self.convolution_cores
+        for core_i in range(0, len(cores)):
+            prepared_data.append([])
+            for unique_object in self.unique_objects:
+                prepared_data[core_i].append([[], []])
+            for i in range(0, self.data_count):
+                tmp_data = self.iterate_array(self.data[i], cores[core_i])
+                for data in tmp_data:
+                    for u_obj_i in range(0, len(self.unique_objects)):
+                        if self.unique_objects[u_obj_i] in data:
+                            unique_indexes = np.where(data == self.unique_objects[u_obj_i])[0]
+                            for unique_index in unique_indexes:
                                 x = np.copy(data)
                                 x[unique_index] = 0
-                                y = self.get_y_vector(unique_index, core)
-                                X[unique_object].append(x)
-                                Y[unique_object].append(y)
+                                y = self.get_y_vector(unique_index, cores[core_i])
+                                prepared_data[core_i][u_obj_i][0].append(x)
+                                prepared_data[core_i][u_obj_i][1].append(y)
 
-        return [X, Y]
+        return prepared_data
 
     def prepare_and_fit(self, epochs=1000, ratio=1.25):
         data = self.prepare()
-        self.learn(data[0], data[1], epochs, ratio)
+        for core_i in range(0, len(data)):
+            for class_i in range(0, len(data[core_i])):
 
-    def learn(self, X, Y, epochs=200, ratio=1.25):
+                print("Training model class " + str(class_i) + "( core > " + str(self.convolution_cores[core_i]) + " )")
 
-        # Defining model
-        for i_x in X:
-            print("Training model class " + str(i_x))
-            x = np.array(X[i_x])
-            y = np.array(Y[i_x])
+                x = np.array(data[core_i][class_i])
+                y = np.array(data[core_i][class_i])
 
-            model = Sequential()
-            model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
-            model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
-            model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
-            model.add(Dense(y.shape[1], activation='softmax'))
-            model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
-            model.fit(x, y, epochs=epochs, verbose=2)
-            print("Training model class " + str(i_x) + " - DONE")
+                model = Sequential()
+                model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(y.shape[1], activation='softmax'))
+                model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
+                model.fit(x, y, epochs=epochs, verbose=2)
+                print("Training model class " + str(class_i) + " - DONE")
 
-            # Saving model to array
-            model.save_weights("networks/class" + str(i_x) + '.h5')
-            model_json = model.to_json()
-            with open("networks/class" + str(i_x) + '.json', "w") as json_file:
-                json_file.write(model_json)
+                # Saving model to array
+                model.save_weights("networks/class" + str(class_i) + str(core_i) + '.h5')
+                model_json = model.to_json()
+                with open("networks/class" + str(class_i) + str(core_i) + '.json', "w") as json_file:
+                    json_file.write(model_json)
 
     def get_y_vector(self, position_index, shape):
         v = np.zeros(shape[0] * shape[1])
         v[position_index] = 1
         return v
+
+    def get_unique_object_key(self, index):
+        return self.unique_objects[index]
 
     def get_unique_objects_from_array(self, array):
         array = np.unique(array)
