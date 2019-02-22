@@ -35,11 +35,7 @@ class DataPreparator:
                                 y = self.get_y_vector(unique_index, core)
                                 X[unique_object].append(x)
                                 Y[unique_object].append(y)
-                    else:
-                        x = np.copy(data)
-                        y = np.zeros(core[0] * core[1])
-                        X[unique_object].append(x)
-                        Y[unique_object].append(y)
+
         return [X, Y]
 
     def prepare_and_fit(self, epochs=1000, ratio=1.25):
@@ -50,6 +46,7 @@ class DataPreparator:
 
         # Defining model
         for i_x in X:
+            print("Training model class " + str(i_x))
             x = np.array(X[i_x])
             y = np.array(Y[i_x])
 
@@ -59,7 +56,8 @@ class DataPreparator:
             model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
             model.add(Dense(y.shape[1], activation='softmax'))
             model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
-            model.fit(x, y, epochs=epochs)
+            model.fit(x, y, epochs=epochs, verbose=2)
+            print("Training model class " + str(i_x) + " - DONE")
 
             # Saving model to array
             model.save_weights("networks/class" + str(i_x) + '.h5')
