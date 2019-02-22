@@ -12,7 +12,7 @@ class Generator:
         default_space = np.array(default_space, int)
         print("Generating for: ")
         print(default_space)
-        core = (4, 4)
+        core = (3, 3)
 
         probability_space = np.zeros((default_space.shape[0], default_space.shape[1]))
         probability_space_width = probability_space.shape[0]

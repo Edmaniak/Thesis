@@ -18,29 +18,35 @@ class DataPreparator:
     def prepare(self):
         X = {}
         Y = {}
+        core = (3, 3)
         for unique_object in self.unique_objects:
             X[unique_object] = []
             Y[unique_object] = []
         for i in range(0, self.data_count):
-            tmp_data = self.iterate_array(self.data[i], (4, 4))
+            tmp_data = self.iterate_array(self.data[i], core)
             for data in tmp_data:
-                unique_objects_in_snip = self.get_unique_objects_from_array(data)
-                for unique_object in unique_objects_in_snip:
-                    unique_indexes = np.where(data == unique_object)
-                    for ui in unique_indexes:
-                        for unique_index in ui:
-                            x = self.copy_array(data)
-                            x[unique_index] = 0
-                            y = self.get_y_vector(unique_index, (4, 4))
-                            X[unique_object].append(x)
-                            Y[unique_object].append(y)
+                for unique_object in self.unique_objects:
+                    if unique_object in data:
+                        unique_indexes = np.where(data == unique_object)
+                        for ui in unique_indexes:
+                            for unique_index in ui:
+                                x = np.copy(data)
+                                x[unique_index] = 0
+                                y = self.get_y_vector(unique_index, core)
+                                X[unique_object].append(x)
+                                Y[unique_object].append(y)
+                    else:
+                        x = np.copy(data)
+                        y = np.zeros(core[0] * core[1])
+                        X[unique_object].append(x)
+                        Y[unique_object].append(y)
         return [X, Y]
 
-    def prepare_and_fit(self, epochs=500, ratio=1.5):
+    def prepare_and_fit(self, epochs=1000, ratio=1.25):
         data = self.prepare()
         self.learn(data[0], data[1], epochs, ratio)
 
-    def learn(self, X, Y, epochs=200, ratio=1.5):
+    def learn(self, X, Y, epochs=200, ratio=1.25):
 
         # Defining model
         for i_x in X:
@@ -50,7 +56,8 @@ class DataPreparator:
             model = Sequential()
             model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
             model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
-            model.add(Dense(y.shape[1], activation='sigmoid'))
+            model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
+            model.add(Dense(y.shape[1], activation='softmax'))
             model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
             model.fit(x, y, epochs=epochs)
 
@@ -85,7 +92,7 @@ class DataPreparator:
                 for i in range(0, height):
                     for j in range(0, width):
                         results_x[iterator].append(example[i + c_y][j + c_x])
-        return results_x
+        return np.array(results_x)
 
     def clean_special_symbols(self, special_symbols):
         indexes_to_clear = []
