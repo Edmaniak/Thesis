@@ -58,7 +58,10 @@ class Generator:
             # Plotting results
             fig, axis = plt.subplots(2, 2)
             axis[0, 0].imshow(original_space)
+            axis[0, 0].set_title("Original space")
+            axis[0, 1].set_title("Space with generated object")
             axis[0, 1].imshow(default_space)
+            axis[1, 0].set_title("Probability space for object class " + random_class)
             axis[1, 0].imshow(probability_space, interpolation='nearest')
             plt.show()
 
