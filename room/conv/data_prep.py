@@ -42,24 +42,25 @@ class DataPreparator:
         for core_i in range(0, len(data)):
             for class_i in range(0, len(data[core_i])):
 
-                print("Training model class " + str(class_i) + "( core > " + str(self.convolution_cores[core_i]) + " )")
+                print("Training model class " + str(self.get_unique_object_key(class_i)) + "( core > " + str(self.convolution_cores[core_i]) + " )")
 
-                x = np.array(data[core_i][class_i])
-                y = np.array(data[core_i][class_i])
+                x = np.array(data[core_i][class_i][0])
+                y = np.array(data[core_i][class_i][1])
 
                 model = Sequential()
                 model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
                 model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
                 model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
                 model.add(Dense(y.shape[1], activation='softmax'))
+
                 model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
                 model.fit(x, y, epochs=epochs, verbose=2)
-                print("Training model class " + str(class_i) + " - DONE")
+                print("Training model class " + str(self.get_unique_object_key(class_i)) + " - DONE")
 
                 # Saving model to array
-                model.save_weights("networks/class" + str(class_i) + str(core_i) + '.h5')
+                model.save_weights("networks/class" + str(self.get_unique_object_key(class_i)) + str(core_i) + '.h5')
                 model_json = model.to_json()
-                with open("networks/class" + str(class_i) + str(core_i) + '.json', "w") as json_file:
+                with open("networks/class" + str(self.get_unique_object_key(class_i)) + str(core_i) + '.json', "w") as json_file:
                     json_file.write(model_json)
 
     def get_y_vector(self, position_index, shape):
