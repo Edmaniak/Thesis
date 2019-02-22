@@ -3,7 +3,7 @@ from room.conv.generator import Generator
 from room.conv.test_data import data
 
 preparator = DataPreparator(data)
-preparator.prepare_and_fit()
+#preparator.prepare_and_fit()
 
 default_space = [
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -18,5 +18,5 @@ default_space = [
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
 ]
 
-generator = Generator()
+generator = Generator(preparator.unique_objects_with_symbols)
 generator.generate(default_space, 10)
