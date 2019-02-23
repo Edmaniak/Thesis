@@ -1,4 +1,5 @@
 import numpy as np
+import math
 import matplotlib.pyplot as plt
 from keras.engine.saving import model_from_json
 from sklearn import preprocessing
@@ -22,8 +23,8 @@ class Generator:
                 probability_space = np.zeros((default_space.shape[0], default_space.shape[1]))
                 probability_space_width = probability_space.shape[0]
                 probability_space_height = probability_space.shape[1]
+                probability_space_size = probability_space.shape[0] * probability_space.shape[1]
 
-                core_shape = convolutional_cores[core_i]
                 core_width = convolutional_cores[core_i][0]
                 core_height = convolutional_cores[core_i][1]
                 core_size = core_width * core_height
@@ -52,22 +53,45 @@ class Generator:
 
             final_prediction_mul = probability_predictions[0]
             final_prediction_sum = probability_predictions[0]
+
             for i in range(1, len(probability_predictions)):
                 final_prediction_mul = np.multiply(final_prediction_mul, probability_predictions[i])
                 final_prediction_sum = np.add(final_prediction_sum, probability_predictions[i])
 
-            # object_coordination = np.unravel_index(np.argmax(probability_space), default_space.shape)
+            # choosing the final position
 
-            # Placing object to the predicted place
+            sorted_probability_space = -np.sort(-np.reshape(final_prediction_mul, (1, probability_space_size)))
+            candidate_i = 0
+            candidate = sorted_probability_space[0][candidate_i]
+            obj_coords = np.where(final_prediction_mul == candidate)
 
-            # default_space[object_coordination[0]][object_coordination[1]] = random_class
+            while default_space[obj_coords[0][0]][obj_coords[1][0]] > 1:
+                candidate_i += candidate_i
+                candidate = sorted_probability_space[0][candidate_i]
+
+            obj_coords = np.where(final_prediction_mul == candidate)
+            default_space[obj_coords[0][0]][obj_coords[1][0]] = random_class
 
             # Plotting results
-            fig, axis = plt.subplots(1, len(probability_predictions) + 2)
+            images = [original_space]
             for prediction_i in range(0, len(probability_predictions)):
-                axis[prediction_i].imshow(probability_predictions[prediction_i])
-            axis[len(probability_predictions)].imshow(final_prediction_mul)
-            axis[len(probability_predictions) + 1].imshow(final_prediction_sum)
+                images.append(probability_predictions[prediction_i])
+            images.append(final_prediction_sum)
+            images.append(final_prediction_mul)
+            images.append(default_space)
+
+            columns = 5
+            rows = 3
+
+            ax = []
+            fig = plt.figure()
+
+            for i in range(columns * rows):
+                ax.append(fig.add_subplot(rows, columns, i + 1))
+                ax[-1].set_title("ax:" + str(i))  # set title
+                if i < len(images):
+                    plt.imshow(images[i])
+
             plt.show()
 
     def load_model(self, object_class, core):
