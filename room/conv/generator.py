@@ -3,6 +3,8 @@ import math
 import matplotlib.pyplot as plt
 from keras.engine.saving import model_from_json
 from sklearn import preprocessing
+import scipy.stats as stats
+
 
 
 class Generator:
@@ -29,7 +31,7 @@ class Generator:
                 core_height = convolutional_cores[core_i][1]
                 core_size = core_width * core_height
 
-                model = self.load_model(random_class, core_i)
+                model = self.load_model(random_class, convolutional_cores[core_i][0] - 2)
                 original_space = np.copy(default_space)
 
                 for c_y in range(0, probability_space_height - core_height + 1):
@@ -54,9 +56,14 @@ class Generator:
             final_prediction_mul = probability_predictions[0]
             final_prediction_sum = probability_predictions[0]
 
+            print(stats.norm(3, 2).pdf(3))
+
             for i in range(1, len(probability_predictions)):
-                final_prediction_mul = np.multiply(final_prediction_mul, probability_predictions[i])
-                final_prediction_sum = np.add(final_prediction_sum, probability_predictions[i])
+                multiplier = stats.norm(2, 3).pdf(i)
+                multiplier = 1
+                final_prediction_mul = np.multiply(final_prediction_mul,
+                                                   np.multiply(probability_predictions[i], multiplier))
+                final_prediction_sum = np.add(final_prediction_sum, np.multiply(probability_predictions[i], multiplier))
 
             # choosing the final position
 
@@ -109,3 +116,13 @@ class Generator:
             result.append(item)
 
         return result
+
+    def test_prediction(self, x, object_class, core_indetificator):
+        core = (len(x), len(x))
+        model = self.load_model(object_class, core_indetificator)
+        # Predicting
+        prediction = model.predict(np.reshape(x, (1, x.size)))
+        # Updating the probability space
+        prediction = np.reshape(prediction, (core[0], core[1]))
+        print(np.round(prediction,2))
+        return prediction

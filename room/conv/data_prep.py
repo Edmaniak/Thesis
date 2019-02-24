@@ -1,6 +1,9 @@
 import numpy as np
 from keras import Sequential
 from keras.layers import Dense
+import itertools
+
+from room.conv.Statistics import TrainingStatistics, StatisticalRecord
 
 
 class DataPreparator:
@@ -12,22 +15,37 @@ class DataPreparator:
         self.data_count = data.shape[0]
         self.convolution_cores = convolution_cores
         self.special_symbols = special_symbols
-        self.unique_objects = np.unique(self.data)
-        self.clean_special_symbols(self.special_symbols)
+        self.unique_objects = self.clean_special_symbols(np.unique(self.data), self.special_symbols)
+        self.training_statistics = TrainingStatistics(convolution_cores, self.unique_objects)
+
+    def get_y_vector(self, position_indexes, unique_indexes, shape):
+        v = np.zeros(shape[0] * shape[1], int)
+        v[position_index] = 1
+        return v
 
     def prepare(self):
         prepared_data = []
         cores = self.convolution_cores
         for core_i in range(0, len(cores)):
+
+            # Generating placeholders
             prepared_data.append([])
             for unique_object in self.unique_objects:
                 prepared_data[core_i].append([[], []])
+
+
+            # Generating x and y data
             for i in range(0, self.data_count):
                 tmp_data = self.iterate_array(self.data[i], cores[core_i])
                 for data in tmp_data:
                     for u_obj_i in range(0, len(self.unique_objects)):
                         if self.unique_objects[u_obj_i] in data:
-                            unique_indexes = np.where(data == self.unique_objects[u_obj_i])[0]
+                            unique_object = self.unique_objects[u_obj_i]
+                            unique_indexes = np.where(data == unique_object)[0]
+                            combinations = []
+                            for c_i in range(0, len(unique_indexes)):
+                                a = list(itertools.combinations(unique_indexes, c_i))
+                                combinations.append(a)
                             for unique_index in unique_indexes:
                                 x = np.copy(data)
                                 x[unique_index] = 0
@@ -37,12 +55,12 @@ class DataPreparator:
 
         return prepared_data
 
-    def prepare_and_fit(self, epochs=1000, ratio=1.25):
+    def prepare_and_fit(self, epochs=1000, ratio=2):
         data = self.prepare()
         for core_i in range(0, len(data)):
             for class_i in range(0, len(data[core_i])):
-
-                print("Training model class " + str(self.get_unique_object_key(class_i)) + "( core > " + str(self.convolution_cores[core_i]) + " )")
+                print("Training model class " + str(self.get_unique_object_key(class_i)) + "( core > " + str(
+                    self.convolution_cores[core_i]) + " )")
 
                 x = np.array(data[core_i][class_i][0])
                 y = np.array(data[core_i][class_i][1])
@@ -54,19 +72,24 @@ class DataPreparator:
                 model.add(Dense(y.shape[1], activation='softmax'))
 
                 model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
-                model.fit(x, y, epochs=epochs, verbose=2)
-                print("Training model class " + str(self.get_unique_object_key(class_i)) + " - DONE")
+                result = model.fit(x, y, epochs=epochs, verbose=2)
+
+                print("Training model class " + str(self.get_unique_object_key(class_i)) + "( core > " + str(
+                    self.convolution_cores[core_i]) + " )" + " - DONE")
+                accuracy = result.history.get('acc')[len(result.history.get('acc')) - 1]
+                self.training_statistics.add_core_class(StatisticalRecord(core_i, class_i), accuracy)
+                print("statistics: " + str(self.training_statistics.get_average_accuracy()))
 
                 # Saving model to array
                 model.save_weights("networks/class" + str(self.get_unique_object_key(class_i)) + str(core_i) + '.h5')
                 model_json = model.to_json()
-                with open("networks/class" + str(self.get_unique_object_key(class_i)) + str(core_i) + '.json', "w") as json_file:
+                with open("networks/class" + str(self.get_unique_object_key(class_i)) + str(core_i) + '.json',
+                          "w") as json_file:
                     json_file.write(model_json)
 
-    def get_y_vector(self, position_index, shape):
-        v = np.zeros(shape[0] * shape[1])
-        v[position_index] = 1
-        return v
+        self.training_statistics.print_summary()
+
+
 
     def get_unique_object_key(self, index):
         return self.unique_objects[index]
@@ -93,11 +116,11 @@ class DataPreparator:
                         results_x[iterator].append(example[i + c_y][j + c_x])
         return np.array(results_x)
 
-    def clean_special_symbols(self, special_symbols):
+    def clean_special_symbols(self, objects, special_symbols):
         indexes_to_clear = []
         for i in range(0, len(special_symbols)):
-            indexes_to_clear.append(np.where(self.unique_objects == special_symbols[i]))
-        self.unique_objects = np.delete(self.unique_objects, indexes_to_clear)
+            indexes_to_clear.append(np.where(objects == special_symbols[i]))
+        return np.delete(objects, indexes_to_clear)
 
     def copy_array(self, array):
         result = []
