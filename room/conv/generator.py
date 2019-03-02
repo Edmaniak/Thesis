@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from keras.engine.saving import model_from_json
 from sklearn import preprocessing
 import scipy.stats as stats
-
+import uuid
 
 
 class Generator:
@@ -31,7 +31,7 @@ class Generator:
                 core_height = convolutional_cores[core_i][1]
                 core_size = core_width * core_height
 
-                model = self.load_model(random_class, convolutional_cores[core_i][0] - 2)
+                model = self.load_model(random_class, convolutional_cores[core_i][0]-2)
                 original_space = np.copy(default_space)
 
                 for c_y in range(0, probability_space_height - core_height + 1):
@@ -99,6 +99,7 @@ class Generator:
                 if i < len(images):
                     plt.imshow(images[i])
 
+            plt.savefig("results/" + str(uuid.uuid4()) + ".png")
             plt.show()
 
     def load_model(self, object_class, core):
@@ -124,5 +125,5 @@ class Generator:
         prediction = model.predict(np.reshape(x, (1, x.size)))
         # Updating the probability space
         prediction = np.reshape(prediction, (core[0], core[1]))
-        print(np.round(prediction,2))
+        print(np.round(prediction, 2))
         return prediction

@@ -18,10 +18,30 @@ class DataPreparator:
         self.unique_objects = self.clean_special_symbols(np.unique(self.data), self.special_symbols)
         self.training_statistics = TrainingStatistics(convolution_cores, self.unique_objects)
 
-    def get_y_vector(self, position_indexes, unique_indexes, shape):
-        v = np.zeros(shape[0] * shape[1], int)
-        v[position_index] = 1
-        return v
+    def get_x_combination_vector(self, combinations, unique_indexes, shape, data):
+        working_x = []
+        result_y = []
+        result_x = []
+        for comb_i in range(0, len(combinations)):
+            for tuple_i in range(0, len(combinations[comb_i])):
+                working_x.append([])
+                for unique_indexes_i in range(0, len(unique_indexes)):
+                    if not unique_indexes[unique_indexes_i] in combinations[comb_i][tuple_i]:
+                        working_x[tuple_i + comb_i].append(unique_indexes[unique_indexes_i])
+
+        for working_x_i in range(0, len(working_x)):
+            v_x = np.copy(data)
+
+            for x_i in range(0, len(working_x[working_x_i])):
+                v_x[working_x[working_x_i][x_i]] = 0
+                v_y = np.zeros(shape[0] * shape[1], int)
+                v_y[working_x[working_x_i][x_i]] = 1
+                result_y.append(v_y)
+
+            for x_i in range(0, len(working_x[working_x_i])):
+                result_x.append(v_x)
+
+        return [result_x,result_y]
 
     def prepare(self):
         prepared_data = []
@@ -32,7 +52,6 @@ class DataPreparator:
             prepared_data.append([])
             for unique_object in self.unique_objects:
                 prepared_data[core_i].append([[], []])
-
 
             # Generating x and y data
             for i in range(0, self.data_count):
@@ -46,16 +65,15 @@ class DataPreparator:
                             for c_i in range(0, len(unique_indexes)):
                                 a = list(itertools.combinations(unique_indexes, c_i))
                                 combinations.append(a)
-                            for unique_index in unique_indexes:
-                                x = np.copy(data)
-                                x[unique_index] = 0
-                                y = self.get_y_vector(unique_index, cores[core_i])
-                                prepared_data[core_i][u_obj_i][0].append(x)
-                                prepared_data[core_i][u_obj_i][1].append(y)
+
+                            result = self.get_x_combination_vector(combinations, unique_indexes, cores[core_i], data)
+
+                            prepared_data[core_i][u_obj_i][0].extend(result[0])
+                            prepared_data[core_i][u_obj_i][1].extend(result[1])
 
         return prepared_data
 
-    def prepare_and_fit(self, epochs=1000, ratio=2):
+    def prepare_and_fit(self, epochs=200, ratio=2):
         data = self.prepare()
         for core_i in range(0, len(data)):
             for class_i in range(0, len(data[core_i])):
@@ -88,8 +106,6 @@ class DataPreparator:
                     json_file.write(model_json)
 
         self.training_statistics.print_summary()
-
-
 
     def get_unique_object_key(self, index):
         return self.unique_objects[index]
