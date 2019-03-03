@@ -38,4 +38,4 @@ to_test_4 = [
 generator = Generator()
 # generator.test_prediction(np.array(to_test_3), 3, 0)
 # generator.test_prediction(np.array(to_test_4), 3, 1)
-generator.generate(default_space, 10, [(2, 2), (3, 3), (4, 4), (5, 5)])
+generator.generate(default_space, 10, [(2, 2), (3, 3), (4, 4)])
