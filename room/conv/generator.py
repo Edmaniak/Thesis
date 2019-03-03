@@ -8,8 +8,8 @@ import uuid
 
 
 class Generator:
-    def __init__(self):
-        pass
+    def __init__(self, unique_objects_with_symbols=None):
+        self.unique_objects_with_symbols = unique_objects_with_symbols
 
     def generate(self, default_space, iterations, convolutional_cores):
         default_space = np.array(default_space, int)
@@ -42,7 +42,8 @@ class Generator:
                                 to_predict.append(default_space[x + c_x][y + c_y])
 
                         # Predicting
-                        prediction = model.predict(np.reshape(to_predict, (1, core_size)))
+                        to_predict = self.spread_objects_to_vector(to_predict, (core_width, core_height))
+                        prediction = model.predict(np.reshape(to_predict, (1, to_predict.shape[0])))
 
                         # Updating the probability space
                         prediction = np.reshape(prediction, (core_width, core_height))
@@ -102,6 +103,17 @@ class Generator:
             plt.savefig("results/" + str(uuid.uuid4()) + ".png")
             print(default_space)
             plt.show()
+
+    def spread_objects_to_vector(self, data, core_shape):
+        vector_size = core_shape[0] * core_shape[1] * self.unique_objects_with_symbols.size
+        vector = np.zeros(vector_size, int)
+        for i in range(0, len(data)):
+            # Floor
+            if data[i] != 0:
+                offset = np.where(self.unique_objects_with_symbols == data[i])[0][0]
+                object_position = (i * self.unique_objects_with_symbols.size) + offset
+                vector[object_position] = 1
+        return np.array(vector)
 
     def load_model(self, object_class, core_width, core_height):
         json_file = open('networks/class' + str(object_class) + str(core_width) + str(core_height) + '.json', 'r')
