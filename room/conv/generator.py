@@ -27,11 +27,11 @@ class Generator:
                 probability_space_height = probability_space.shape[1]
                 probability_space_size = probability_space.shape[0] * probability_space.shape[1]
 
-                core_width = convolutional_cores[core_i][0]
-                core_height = convolutional_cores[core_i][1]
+                core_width = convolutional_cores[core_i][1]
+                core_height = convolutional_cores[core_i][0]
                 core_size = core_width * core_height
 
-                model = self.load_model(random_class, convolutional_cores[core_i][0]-2)
+                model = self.load_model(random_class, core_width, core_height)
                 original_space = np.copy(default_space)
 
                 for c_y in range(0, probability_space_height - core_height + 1):
@@ -46,8 +46,8 @@ class Generator:
 
                         # Updating the probability space
                         prediction = np.reshape(prediction, (core_width, core_height))
-                        for x in range(0, core_width):
-                            for y in range(0, core_height):
+                        for x in range(0, core_height):
+                            for y in range(0, core_width):
                                 probability_space[x + c_x][y + c_y] += prediction[x][y]
 
                 # Adding the prediction for specific core
@@ -71,15 +71,15 @@ class Generator:
             candidate_i = 0
             candidate = sorted_probability_space[0][candidate_i]
             obj_coords = np.where(final_prediction_mul == candidate)
-
             while default_space[obj_coords[0][0]][obj_coords[1][0]] > 1:
-                candidate_i += candidate_i
+                candidate_i += 1
                 candidate = sorted_probability_space[0][candidate_i]
+                obj_coords = np.where(final_prediction_mul == candidate)
 
             obj_coords = np.where(final_prediction_mul == candidate)
             default_space[obj_coords[0][0]][obj_coords[1][0]] = random_class
 
-            # Plotting results
+             #Plotting results
             images = [original_space]
             for prediction_i in range(0, len(probability_predictions)):
                 images.append(probability_predictions[prediction_i])
@@ -87,8 +87,8 @@ class Generator:
             images.append(final_prediction_mul)
             images.append(default_space)
 
-            columns = 5
-            rows = 3
+            columns = 6
+            rows = 4
 
             ax = []
             fig = plt.figure()
@@ -100,14 +100,15 @@ class Generator:
                     plt.imshow(images[i])
 
             plt.savefig("results/" + str(uuid.uuid4()) + ".png")
+            print(default_space)
             plt.show()
 
-    def load_model(self, object_class, core):
-        json_file = open('networks/class' + str(object_class) + str(core) + '.json', 'r')
+    def load_model(self, object_class, core_width, core_height):
+        json_file = open('networks/class' + str(object_class) + str(core_width) + str(core_height) + '.json', 'r')
         loaded_model_json = json_file.read()
         json_file.close()
         loaded_model = model_from_json(loaded_model_json)
-        loaded_model.load_weights('networks/class' + str(object_class) + str(core) + '.h5')
+        loaded_model.load_weights('networks/class' + str(object_class) + str(core_width) + str(core_height) + '.h5')
         return loaded_model
 
     def copy_array(self, array):
@@ -118,9 +119,9 @@ class Generator:
 
         return result
 
-    def test_prediction(self, x, object_class, core_indetificator):
+    def test_prediction(self, x, object_class, core_width, core_height):
         core = (len(x), len(x))
-        model = self.load_model(object_class, core_indetificator)
+        model = self.load_model(object_class, core_width, core_height)
         # Predicting
         prediction = model.predict(np.reshape(x, (1, x.size)))
         # Updating the probability space

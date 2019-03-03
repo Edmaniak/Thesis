@@ -27,7 +27,7 @@ class TrainingStatistics:
         for record in self.history_accuracy:
             print(
                 "CORE: " + self.get_convolution_core_by_key(record.core) + " | Class: " + self.get_object_class_by_key(
-                    record.object_class) + " ===> " + record.accuracy)
+                    record.object_class) + " ===> " + str(record.accuracy))
             print("AVERAGE: " + str(average))
 
     def get_convolution_core_by_key(self, index):
