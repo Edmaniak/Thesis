@@ -72,13 +72,28 @@ class DataPreparator:
                             result = self.get_x_combination_vector(combinations, unique_indexes, cores[core_i], data,
                                                                    unique_object)
 
+                            result = self.transform_to_normal_form(result[0], result[1], self.convolution_cores[core_i])
+
                             prepared_data[core_i][u_obj_i][0].extend(result[0])
                             prepared_data[core_i][u_obj_i][1].extend(result[1])
 
         return prepared_data
 
-    def transform_to_normal_form(self,x_vector, y_vector):
-
+    def transform_to_normal_form(self, x_vector, y_vector, core_shape):
+        result = []
+        tmp_x = np.copy(x_vector)
+        tmp_y = np.copy(y_vector)
+        vector_size = core_shape[0] * core_shape[1] * self.unique_objects_with_symbols.size
+        vector = np.zeros(vector_size, int)
+        for i in range(0, len(x_vector)):
+            # Floor
+            if tmp_x[i] != 0:
+                offset = np.where(self.unique_objects_with_symbols == tmp_x[i])[0][0]
+                object_position = (i * self.unique_objects_with_symbols.size) + offset
+                vector[object_position] = 1
+        result.append(tmp_x)
+        result.append(tmp_y)
+        return vector
 
     def prepare_and_fit(self, epochs=200, ratio=2):
         data = self.prepare()
