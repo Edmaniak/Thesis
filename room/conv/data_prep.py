@@ -18,6 +18,7 @@ class DataPreparator:
         self.convolution_cores = convolution_cores
         self.special_symbols = special_symbols
         self.unique_objects = self.clean_special_symbols(np.unique(self.data), self.special_symbols)
+        self.unique_objects_with_symbols = np.delete(np.unique(self.data), np.where(np.unique(self.data) == 0))
         self.training_statistics = TrainingStatistics(convolution_cores, self.unique_objects)
         K.tensorflow_backend._get_available_gpus()
 
@@ -72,28 +73,28 @@ class DataPreparator:
                             result = self.get_x_combination_vector(combinations, unique_indexes, cores[core_i], data,
                                                                    unique_object)
 
-                            result = self.transform_to_normal_form(result[0], result[1], self.convolution_cores[core_i])
-
-                            prepared_data[core_i][u_obj_i][0].extend(result[0])
-                            prepared_data[core_i][u_obj_i][1].extend(result[1])
-
+                            for res_i in range(0, len(result[0])):
+                                x_y = self.transform_to_normal_form(result[0][res_i], result[1][res_i],
+                                                                    self.convolution_cores[core_i])
+                                prepared_data[core_i][u_obj_i][0].append(x_y[0])
+                                prepared_data[core_i][u_obj_i][1].append(x_y[1])
+            print("core " + str(core_i) + " DONE")
+        print("DONE")
         return prepared_data
 
     def transform_to_normal_form(self, x_vector, y_vector, core_shape):
         result = []
-        tmp_x = np.copy(x_vector)
-        tmp_y = np.copy(y_vector)
         vector_size = core_shape[0] * core_shape[1] * self.unique_objects_with_symbols.size
         vector = np.zeros(vector_size, int)
         for i in range(0, len(x_vector)):
             # Floor
-            if tmp_x[i] != 0:
-                offset = np.where(self.unique_objects_with_symbols == tmp_x[i])[0][0]
+            if x_vector[i] != 0:
+                offset = np.where(self.unique_objects_with_symbols == x_vector[i])[0][0]
                 object_position = (i * self.unique_objects_with_symbols.size) + offset
                 vector[object_position] = 1
-        result.append(tmp_x)
-        result.append(tmp_y)
-        return vector
+        result.append(vector)
+        result.append(y_vector)
+        return result
 
     def prepare_and_fit(self, epochs=200, ratio=2):
         data = self.prepare()
@@ -102,16 +103,18 @@ class DataPreparator:
                 # Getting x and y data
                 x = np.array(data[core_i][class_i][0])
                 y = np.array(data[core_i][class_i][1])
+                print("x " + str(x.shape[0]))
+                print("y " + str(y.shape[0]))
 
                 # Printing status
                 print("Training model class " + str(self.get_unique_object_key(class_i)) + "( core > " + str(
-                    self.convolution_cores[core_i]) + " ) - " + str(data[core_i][class_i][0].size))
+                    self.convolution_cores[core_i]) + " ) - " + str(x.size))
 
                 # Defining model
                 model = Sequential()
-                model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
-                model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
-                model.add(Dense(int(x.shape[1] * ratio), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1] * 1.5), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1] * 2), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1] * 1), input_dim=x.shape[1], activation='relu'))
                 model.add(Dense(y.shape[1], activation='softmax'))
 
                 # Compiling model

@@ -3,7 +3,7 @@ from room.conv.generator import Generator
 from room.conv.test_data import data
 import numpy as np
 
-cores = [(2, 2), (3, 3), (4, 4), (5, 5), (6, 6)]
+cores = [(2, 2), (3, 3), (4, 4), (5, 5)]
 
 # Tuplets form (rows, columns)
 preparator = DataPreparator(data, cores)

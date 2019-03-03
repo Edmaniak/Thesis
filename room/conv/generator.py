@@ -79,7 +79,7 @@ class Generator:
             obj_coords = np.where(final_prediction_mul == candidate)
             default_space[obj_coords[0][0]][obj_coords[1][0]] = random_class
 
-             #Plotting results
+            # Plotting results
             images = [original_space]
             for prediction_i in range(0, len(probability_predictions)):
                 images.append(probability_predictions[prediction_i])
