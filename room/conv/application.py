@@ -7,7 +7,7 @@ cores = [(2, 2), (3, 3), (4, 4), (5, 5)]
 
 # Tuplets form (rows, columns)
 preparator = DataPreparator(data, cores)
-#preparator.prepare_and_fit()
+preparator.prepare_and_fit()
 
 default_space = [
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],

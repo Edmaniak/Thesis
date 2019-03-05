@@ -4,6 +4,7 @@ from keras.layers import Dense
 from keras import backend as K
 import tensorflow as tf
 import itertools
+import csv
 
 from room.conv.Statistics import TrainingStatistics, StatisticalRecord
 
@@ -20,12 +21,9 @@ class DataPreparator:
         self.unique_objects = self.clean_special_symbols(np.unique(self.data), self.special_symbols)
         self.unique_objects_with_symbols = np.delete(np.unique(self.data), np.where(np.unique(self.data) == 0))
         self.training_statistics = TrainingStatistics(convolution_cores, self.unique_objects)
-        K.tensorflow_backend._get_available_gpus()
 
-    def get_x_combination_vector(self, combinations, unique_indexes, shape, data, unique_object_key):
+    def combinate_and_save(self, combinations, unique_indexes, shape, data, unique_object_key):
         working_x = []
-        result_y = []
-        result_x = []
         for comb_i in range(0, len(combinations)):
             for tuple_i in range(0, len(combinations[comb_i])):
                 working_x.append([])
@@ -37,26 +35,24 @@ class DataPreparator:
             v_x = np.copy(data)
 
             for x_i in range(0, len(working_x[working_x_i])):
+
                 v_x[working_x[working_x_i][x_i]] = self.get_default_background(unique_object_key)
                 v_y = np.zeros(shape[0] * shape[1], int)
                 v_y[working_x[working_x_i][x_i]] = 1
-                result_y.append(v_y)
 
-            for x_i in range(0, len(working_x[working_x_i])):
-                result_x.append(v_x)
+                # Saving x
+                with open('data/y' + str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv', 'a') as y_file:
+                    y_writer = csv.writer(y_file, delimiter=";", lineterminator='\n')
+                    y_writer.writerow(v_y)
 
-        return [result_x, result_y]
+                # Saving y
+                with open('data/x' + str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv', 'a') as x_file:
+                    x_writer = csv.writer(x_file, delimiter=";", lineterminator='\n')
+                    x_writer.writerow(self.transform_to_normal_form(v_x, shape))
 
     def prepare(self):
-        prepared_data = []
         cores = self.convolution_cores
         for core_i in range(0, len(cores)):
-
-            # Generating placeholders
-            prepared_data.append([])
-            for unique_object in self.unique_objects:
-                prepared_data[core_i].append([[], []])
-
             # Generating x and y data
             for i in range(0, self.data_count):
                 tmp_data = self.iterate_array(self.data[i], cores[core_i])
@@ -69,21 +65,11 @@ class DataPreparator:
                             for c_i in range(0, len(unique_indexes)):
                                 a = list(itertools.combinations(unique_indexes, c_i))
                                 combinations.append(a)
-
-                            result = self.get_x_combination_vector(combinations, unique_indexes, cores[core_i], data,
-                                                                   unique_object)
-
-                            for res_i in range(0, len(result[0])):
-                                x_y = self.transform_to_normal_form(result[0][res_i], result[1][res_i],
-                                                                    self.convolution_cores[core_i])
-                                prepared_data[core_i][u_obj_i][0].append(x_y[0])
-                                prepared_data[core_i][u_obj_i][1].append(x_y[1])
+                            self.combinate_and_save(combinations, unique_indexes, cores[core_i], data, unique_object)
             print("core " + str(core_i) + " DONE")
-        print("DONE")
-        return prepared_data
+        print("TRAINING DONE")
 
-    def transform_to_normal_form(self, x_vector, y_vector, core_shape):
-        result = []
+    def transform_to_normal_form(self, x_vector, core_shape):
         vector_size = core_shape[0] * core_shape[1] * self.unique_objects_with_symbols.size
         vector = np.zeros(vector_size, int)
         for i in range(0, len(x_vector)):
@@ -92,9 +78,7 @@ class DataPreparator:
                 offset = np.where(self.unique_objects_with_symbols == x_vector[i])[0][0]
                 object_position = (i * self.unique_objects_with_symbols.size) + offset
                 vector[object_position] = 1
-        result.append(vector)
-        result.append(y_vector)
-        return result
+        return vector
 
     def prepare_and_fit(self, epochs=200, ratio=2):
         data = self.prepare()
@@ -112,9 +96,9 @@ class DataPreparator:
 
                 # Defining model
                 model = Sequential()
-                model.add(Dense(int(x.shape[1] * 1.5), input_dim=x.shape[1], activation='relu'))
-                model.add(Dense(int(x.shape[1] * 2), input_dim=x.shape[1], activation='relu'))
-                model.add(Dense(int(x.shape[1] * 1), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1]), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1]), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1]), input_dim=x.shape[1], activation='relu'))
                 model.add(Dense(y.shape[1], activation='softmax'))
 
                 # Compiling model
