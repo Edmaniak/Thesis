@@ -88,8 +88,8 @@ class Generator:
             images.append(final_prediction_mul)
             images.append(default_space)
 
-            columns = 6
-            rows = 4
+            columns = 4
+            rows = 2
 
             ax = []
             fig = plt.figure()
