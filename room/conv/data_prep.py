@@ -46,12 +46,12 @@ class DataPreparator:
 
                 count_of_data += 1
                 # Saving x
-                with open('data/y' + str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv', 'a') as y_file:
+                with open('data/1/y' + str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv', 'a') as y_file:
                     y_writer = csv.writer(y_file, delimiter=";", lineterminator='\n')
                     y_writer.writerow(v_y)
 
                 # Saving y
-                with open('data/x' + str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv', 'a') as x_file:
+                with open('data/1/x' + str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv', 'a') as x_file:
                     x_writer = csv.writer(x_file, delimiter=";", lineterminator='\n')
                     x_writer.writerow(self.transform_to_normal_form(v_x, shape))
 
@@ -136,9 +136,9 @@ class DataPreparator:
 
     def load_data(self, core_width, core_height, class_id):
         x = np.array(
-            pd.read_csv("data/x" + str(core_width) + str(core_height) + str(class_id) + ".csv", delimiter=";"),
+            pd.read_csv("data/1/x" + str(core_width) + str(core_height) + str(class_id) + ".csv", delimiter=";"),
             dtype=int)
-        y = np.array(pd.read_csv("data/y" + str(core_width) + str(core_height) + str(class_id) + ".csv", delimiter=";"),
+        y = np.array(pd.read_csv("data/1/y" + str(core_width) + str(core_height) + str(class_id) + ".csv", delimiter=";"),
                      dtype=int)
         return [x, y]
 
@@ -147,9 +147,9 @@ class DataPreparator:
         self.fit(epochs)
 
     def save_model(self, model, core_width, core_height, class_id):
-        model.save_weights("networks/class" + str(class_id) + str(core_width) + str(core_height) + '.h5')
+        model.save_weights("networks/1/class" + str(class_id) + str(core_width) + str(core_height) + '.h5')
         model_json = model.to_json()
-        with open("networks/class" + str(class_id) + str(core_width) + str(core_height) + '.json', "w") as json_file:
+        with open("networks/1/class" + str(class_id) + str(core_width) + str(core_height) + '.json', "w") as json_file:
             json_file.write(model_json)
 
     def get_unique_object_key(self, index):

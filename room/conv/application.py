@@ -1,14 +1,13 @@
-from room.conv.Tester import Tester
+from room.conv.testing.Tester import Tester
 from room.conv.data_prep import DataPreparator
 from room.conv.generator import Generator
 from room.conv.test_data import data
-import numpy as np
 
 cores = [(2, 2), (3, 3), (4, 4), (5, 5)]
 
 # Tuplets form (rows, columns)
 preparator = DataPreparator(data, cores)
-# preparator.prepare_and_fit()
+preparator.prepare_and_fit()
 # preparator.fit(100)
 
 default_space = [
