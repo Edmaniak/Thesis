@@ -8,15 +8,16 @@ import uuid
 
 
 class Generator:
-    def __init__(self, unique_objects_with_symbols=None):
+    def __init__(self, data_folder, unique_objects_with_symbols=None):
         self.unique_objects_with_symbols = unique_objects_with_symbols
+        self.data_folder = data_folder
 
     def generate_one(self, object_class, default_space, convolutional_cores):
         return self.generate(default_space, 1, convolutional_cores, object_class)
 
     def generate(self, default_space, iterations, convolutional_cores, object_class=None):
         default_space = np.array(default_space, int)
-        for i in range(0, iterations):
+        for i_i in range(0, iterations):
 
             if object_class is None:
                 print("Add object:")
@@ -84,29 +85,31 @@ class Generator:
                 return default_space
 
             # Plotting results
-            images = [original_space]
-            for prediction_i in range(0, len(probability_predictions)):
-                images.append(probability_predictions[prediction_i])
-            images.append(final_prediction_sum)
-            images.append(final_prediction_mul)
-            images.append(default_space)
-
-            columns = 4
-            rows = 2
-
-            ax = []
-            fig = plt.figure()
-
-            for i in range(columns * rows):
-                ax.append(fig.add_subplot(rows, columns, i + 1))
-                ax[-1].set_title("ax:" + str(i))  # set title
-                if i < len(images):
-                    plt.imshow(images[i])
-
-            plt.savefig("results/" + str(uuid.uuid4()) + ".png")
+            # images = [original_space]
+            # for prediction_i in range(0, len(probability_predictions)):
+            #     images.append(probability_predictions[prediction_i])
+            # images.append(final_prediction_sum)
+            # images.append(final_prediction_mul)
+            # images.append(default_space)
+            #
+            # columns = 4
+            # rows = 2
+            #
+            # ax = []
+            # fig = plt.figure()
+            #
+            # for i in range(columns * rows):
+            #     ax.append(fig.add_subplot(rows, columns, i + 1))
+            #     ax[-1].set_title("ax:" + str(i))  # set title
+            #     if i < len(images):
+            #         plt.imshow(images[i])
+            #
+            # plt.savefig("results/" + str(uuid.uuid4()) + ".png")
             print(default_space)
-            plt.show()
-            return None
+            plt.imshow(final_prediction_sum)
+            plt.savefig("results/a" + str(i_i) + ".png")
+            plt.imshow(default_space)
+            plt.savefig("results/b" + str(i_i) + ".png")
 
     def spread_objects_to_vector(self, data, core_shape):
         vector_size = core_shape[0] * core_shape[1] * self.unique_objects_with_symbols.size
@@ -120,11 +123,12 @@ class Generator:
         return np.array(vector)
 
     def load_model(self, object_class, core_width, core_height):
-        json_file = open('networks/class' + str(object_class) + str(core_width) + str(core_height) + '.json', 'r')
+        file_name = "class" + str(object_class) + str(core_width) + str(core_height)
+        json_file = open('networks/' + self.data_folder + "/" + file_name + '.json', 'r')
         loaded_model_json = json_file.read()
         json_file.close()
         loaded_model = model_from_json(loaded_model_json)
-        loaded_model.load_weights('networks/class' + str(object_class) + str(core_width) + str(core_height) + '.h5')
+        loaded_model.load_weights('networks/' + self.data_folder + "/" + file_name + '.h5')
         return loaded_model
 
     def test_prediction(self, x, object_class, core_width, core_height):
