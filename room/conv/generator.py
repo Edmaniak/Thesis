@@ -88,7 +88,7 @@ class Generator:
             candidate = sorted_probability_space[0][candidate_i]
             obj_coords = np.where(final_map == candidate)
 
-            while default_space[obj_coords[0][0]][obj_coords[1][0]] >= 1:
+            while default_space[obj_coords[0][0]][obj_coords[1][0]] > 1:
                 candidate_i += 1
                 candidate = sorted_probability_space[0][candidate_i]
                 obj_coords = np.where(final_map == candidate)

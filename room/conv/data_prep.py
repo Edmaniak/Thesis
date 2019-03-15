@@ -1,3 +1,5 @@
+import datetime
+
 import numpy as np
 from keras import Sequential
 from keras.layers import Dense
@@ -60,9 +62,10 @@ class DataPreparator:
                     return count_of_data
         return count_of_data
 
-    def prepare(self):
+    def prepare(self, core_up_limit):
+        print("PREPARE START WITH LIMIT " + str(core_up_limit))
         cores = self.convolution_cores
-        for core_i in range(0, len(cores)):
+        for core_i in range(0, core_up_limit):
             # Generating x and y data
             for i in range(0, self.data_count):
                 example_generated_data_count = 0
@@ -98,6 +101,7 @@ class DataPreparator:
         return vector
 
     def fit(self, epochs):
+        print(datetime.datetime.now())
         for core_i, core in enumerate(self.convolution_cores):
             for class_i, class_id in enumerate(self.unique_objects):
                 data = self.load_data(core[0], core[1], class_id)
@@ -107,13 +111,14 @@ class DataPreparator:
                 y = data[1]
 
                 # Printing status
-                print("Training model class " + str(class_id) + "( core > " + str(core) + " ) - " + str(x.shape[0]))
+                print("Training model class " + str(class_id) + "( core > " + str(core) + " ) - x" + str(
+                    x.shape[0]) + " y" + str(y.shape[0]))
 
                 # Defining model
                 model = Sequential()
                 model.add(Dense(int(x.shape[1]), input_dim=x.shape[1], activation='relu'))
-                model.add(Dense(int(x.shape[1]), input_dim=x.shape[1], activation='relu'))
-                model.add(Dense(int(x.shape[1]), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1] * 0.9), input_dim=x.shape[1], activation='relu'))
+                model.add(Dense(int(x.shape[1] * 0.7), input_dim=x.shape[1], activation='relu'))
                 model.add(Dense(y.shape[1], activation='softmax'))
 
                 # Compiling model
@@ -132,6 +137,7 @@ class DataPreparator:
                 self.save_model(model, core_width, core_height, class_id)
 
                 # Printing statistisc summary
+        print(datetime.datetime.now())
         self.training_statistics.print_summary()
 
     def load_data(self, core_width, core_height, class_id):
@@ -140,8 +146,11 @@ class DataPreparator:
         y = np.array(pd.read_csv("data/" + self.folder + "/y" + file_name, delimiter=";"), dtype=int)
         return [x, y]
 
-    def prepare_and_fit(self, epochs=150, ratio=2):
-        self.prepare()
+    def prepare_and_fit(self, epochs=150, core_up_limit=None):
+        core_len_to_train = core_up_limit
+        if core_len_to_train is None:
+            core_len_to_train = len(self.convolution_cores)
+        self.prepare(core_len_to_train)
         self.fit(epochs)
 
     def save_model(self, model, core_width, core_height, class_id):
