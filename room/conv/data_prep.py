@@ -9,17 +9,16 @@ from room.conv.Statistics import TrainingStatistics, StatisticalRecord
 
 
 class DataPreparator:
-    def __init__(self, data: np.array, convolution_cores=[], special_symbols=(0, 1)):
+    def __init__(self, data: np.array, folder, object_symbols, unique_objects_with_symbols, convolution_cores=[],
+                 special_symbols=(0, 1, 9), ):
         self.data = data
-        self.data_shape = data.shape
-        self.data_width = data.shape[1]
-        self.data_height = data.shape[2]
         self.data_count = data.shape[0]
+        self.folder = folder
         self.heuristic_limit = 500
         self.convolution_cores = convolution_cores
         self.special_symbols = special_symbols
-        self.unique_objects = self.clean_special_symbols(np.unique(self.data), self.special_symbols)
-        self.unique_objects_with_symbols = np.delete(np.unique(self.data), np.where(np.unique(self.data) == 0))
+        self.unique_objects = object_symbols
+        self.unique_objects_with_symbols = unique_objects_with_symbols
         self.training_statistics = TrainingStatistics(convolution_cores, self.unique_objects)
 
     def combinate_and_save(self, combinations, unique_indexes, shape, data, unique_object_key):
@@ -45,13 +44,14 @@ class DataPreparator:
                 v_y[working_x[working_x_i][x_i]] = 1
 
                 count_of_data += 1
+                file_name = str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv'
                 # Saving x
-                with open('data/1/y' + str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv', 'a') as y_file:
+                with open('data/' + self.folder + '/y' + file_name, 'a') as y_file:
                     y_writer = csv.writer(y_file, delimiter=";", lineterminator='\n')
                     y_writer.writerow(v_y)
 
                 # Saving y
-                with open('data/1/x' + str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv', 'a') as x_file:
+                with open('data/' + self.folder + '/x' + file_name, 'a') as x_file:
                     x_writer = csv.writer(x_file, delimiter=";", lineterminator='\n')
                     x_writer.writerow(self.transform_to_normal_form(v_x, shape))
 
@@ -66,7 +66,7 @@ class DataPreparator:
             # Generating x and y data
             for i in range(0, self.data_count):
                 example_generated_data_count = 0
-                tmp_data = self.iterate_array(self.data[i], cores[core_i])
+                tmp_data = self.iterate_array(np.array(self.data[i]), cores[core_i])
                 for data in tmp_data:
                     for u_obj_i in range(0, len(self.unique_objects)):
                         if self.unique_objects[u_obj_i] in data:
@@ -91,10 +91,10 @@ class DataPreparator:
         vector = np.zeros(vector_size, int)
         for i in range(0, len(x_vector)):
             # Floor
-            if x_vector[i] != 0:
-                offset = np.where(self.unique_objects_with_symbols == x_vector[i])[0][0]
-                object_position = (i * self.unique_objects_with_symbols.size) + offset
-                vector[object_position] = 1
+            # if x_vector[i] != 0:
+            offset = np.where(self.unique_objects_with_symbols == x_vector[i])[0][0]
+            object_position = (i * self.unique_objects_with_symbols.size) + offset
+            vector[object_position] = 1
         return vector
 
     def fit(self, epochs):
@@ -135,21 +135,21 @@ class DataPreparator:
         self.training_statistics.print_summary()
 
     def load_data(self, core_width, core_height, class_id):
-        x = np.array(
-            pd.read_csv("data/1/x" + str(core_width) + str(core_height) + str(class_id) + ".csv", delimiter=";"),
-            dtype=int)
-        y = np.array(pd.read_csv("data/1/y" + str(core_width) + str(core_height) + str(class_id) + ".csv", delimiter=";"),
-                     dtype=int)
+        file_name = str(core_width) + str(core_height) + str(class_id) + ".csv"
+        x = np.array(pd.read_csv("data/" + self.folder + "/x" + file_name, delimiter=";"), dtype=int)
+        y = np.array(pd.read_csv("data/" + self.folder + "/y" + file_name, delimiter=";"), dtype=int)
         return [x, y]
 
-    def prepare_and_fit(self, epochs=200, ratio=2):
+    def prepare_and_fit(self, epochs=150, ratio=2):
         self.prepare()
         self.fit(epochs)
 
     def save_model(self, model, core_width, core_height, class_id):
-        model.save_weights("networks/1/class" + str(class_id) + str(core_width) + str(core_height) + '.h5')
+        file_name = "class" + str(class_id) + str(core_width) + str(core_height)
+        model.save_weights(
+            "networks/" + self.folder + "/" + file_name + '.h5')
         model_json = model.to_json()
-        with open("networks/1/class" + str(class_id) + str(core_width) + str(core_height) + '.json', "w") as json_file:
+        with open("networks/" + self.folder + "/" + file_name + '.json', "w") as json_file:
             json_file.write(model_json)
 
     def get_unique_object_key(self, index):
@@ -168,8 +168,8 @@ class DataPreparator:
         height = core[0]
         results_x = []
         iterator = -1
-        for c_y in range(0, self.data_height - height + 1):
-            for c_x in range(0, self.data_width - width + 1):
+        for c_y in range(0, example.shape[0] - height + 1):
+            for c_x in range(0, example.shape[1] - width + 1):
                 iterator += 1
                 results_x.append([])
                 for i in range(0, height):
@@ -185,7 +185,7 @@ class DataPreparator:
 
     # TODO objectify it!
     def get_default_background(self, object_key):
-        if object_key == 5 or object_key == 6:
+        if object_key == 6:
             return 1
         return 0
 

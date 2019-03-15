@@ -36,6 +36,21 @@ class Tester:
             [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         ])
 
+        self.default_space_3 = np.array([
+            [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+            [9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9],
+            [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+            [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+            [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+            [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+            [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+            [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+            [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+            [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+            [9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9],
+            [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+        ], int)
+
     # Testujeme přítomnost židlí kolem stolů
     # 0 3 0
     # 3 2 3
@@ -73,22 +88,22 @@ class Tester:
     # testing table by wall
     def test_three(self):
 
-        for i in range(2, 7):
+        for i in range(2, 8):
             default_space = np.copy(self.default_space_1)
             default_space[2][i] = 2
             self.place_object_n_times(3, 4, False, default_space)
 
-        for i in range(2, 7):
+        for i in range(2, 8):
             default_space = np.copy(self.default_space_1)
             default_space[7][i] = 2
             self.place_object_n_times(3, 4, False, default_space)
 
-        for i in range(2, 7):
+        for i in range(2, 8):
             default_space = np.copy(self.default_space_1)
             default_space[i][2] = 2
             self.place_object_n_times(3, 4, False, default_space)
 
-        for i in range(2, 7):
+        for i in range(2, 8):
             default_space = np.copy(self.default_space_1)
             default_space[i][7] = 2
             self.place_object_n_times(3, 4, False, default_space)
@@ -96,7 +111,7 @@ class Tester:
     # Testing object 4 cupboard - to be at sides
     def place_object_n_times(self, object, n_object, inputt=False, default_scene=None):
         if default_scene is None:
-            default_space = np.copy(self.default_space_1)
+            default_space = np.copy(self.default_space_3)
         else:
             default_space = default_scene
         test_space = np.copy(default_space)
@@ -105,8 +120,8 @@ class Tester:
                 print("press key to continue...")
                 input()
             test_space = self.generator.generate_one(object, test_space, self.convolutional_cores)
-            # print("ITERATION RESULT : " + str(i_obj))
-            # print(test_space)
+            print("ITERATION RESULT : " + str(i_obj))
+            print(test_space)
         print("RESULTS FOR OBJECT 4 PLACING: ")
         print(test_space)
 
