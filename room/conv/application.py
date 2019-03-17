@@ -13,10 +13,10 @@ special_symbols = (0, 1, 9)
 unique_object_with_symbols = np.array([0, 1, 2, 3, 4, 5, 6, 9])
 
 # Tuplets form (rows, columns)
-preparator = DataPreparator(data, "4", object_symbols, unique_object_with_symbols, cores, special_symbols)
-#preparator.prepare(1)
-#preparator.fit(50)
-# preparator.fit(100)
+preparator = DataPreparator(data, "4", "5", object_symbols, unique_object_with_symbols, cores, special_symbols)
+# preparator.prepare(1)
+preparator.fit(50)
+#preparator.fit(100)
 
 default_space = [
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -51,9 +51,9 @@ default_space_3 = np.array([
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
-    [9, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 9],
-    [9, 1, 0, 3, 2, 3, 0, 0, 0, 0, 1, 9],
-    [9, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 2, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9],
     [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9]

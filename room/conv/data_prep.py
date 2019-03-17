@@ -11,11 +11,12 @@ from room.conv.Statistics import TrainingStatistics, StatisticalRecord
 
 
 class DataPreparator:
-    def __init__(self, data: np.array, folder, object_symbols, unique_objects_with_symbols, convolution_cores=[],
+    def __init__(self, data: np.array, source_folder, target_folder, object_symbols, unique_objects_with_symbols, convolution_cores=[],
                  special_symbols=(0, 1, 9), ):
         self.data = data
         self.data_count = data.shape[0]
-        self.folder = folder
+        self.source_folder = source_folder
+        self.target_folder = target_folder
         self.heuristic_limit = 500
         self.convolution_cores = convolution_cores
         self.special_symbols = special_symbols
@@ -47,13 +48,14 @@ class DataPreparator:
 
                 count_of_data += 1
                 file_name = str(shape[0]) + str(shape[1]) + str(unique_object_key) + '.csv'
+
                 # Saving x
-                with open('data/' + self.folder + '/y' + file_name, 'a') as y_file:
+                with open('data/' + self.source_folder + '/y' + file_name, 'a') as y_file:
                     y_writer = csv.writer(y_file, delimiter=";", lineterminator='\n')
                     y_writer.writerow(v_y)
 
                 # Saving y
-                with open('data/' + self.folder + '/x' + file_name, 'a') as x_file:
+                with open('data/' + self.source_folder + '/x' + file_name, 'a') as x_file:
                     x_writer = csv.writer(x_file, delimiter=";", lineterminator='\n')
                     x_writer.writerow(self.transform_to_normal_form(v_x, shape))
 
@@ -122,7 +124,7 @@ class DataPreparator:
                 model.add(Dense(y.shape[1], activation='softmax'))
 
                 # Compiling model
-                model.compile(loss='mean_squared_error', optimizer='adam', metrics=['acc'])
+                model.compile(loss='categorical_crossentropy', optimizer='adam',  metrics=['acc'])
                 result = model.fit(x, y, epochs=epochs, verbose=2)
 
                 # Printing status
@@ -142,8 +144,8 @@ class DataPreparator:
 
     def load_data(self, core_width, core_height, class_id):
         file_name = str(core_width) + str(core_height) + str(class_id) + ".csv"
-        x = np.array(pd.read_csv("data/" + self.folder + "/x" + file_name, delimiter=";"), dtype=int)
-        y = np.array(pd.read_csv("data/" + self.folder + "/y" + file_name, delimiter=";"), dtype=int)
+        x = np.array(pd.read_csv("data/" + self.source_folder + "/x" + file_name, delimiter=";"), dtype=int)
+        y = np.array(pd.read_csv("data/" + self.source_folder + "/y" + file_name, delimiter=";"), dtype=int)
         return [x, y]
 
     def prepare_and_fit(self, epochs=150, core_up_limit=None):
@@ -156,9 +158,9 @@ class DataPreparator:
     def save_model(self, model, core_width, core_height, class_id):
         file_name = "class" + str(class_id) + str(core_width) + str(core_height)
         model.save_weights(
-            "networks/" + self.folder + "/" + file_name + '.h5')
+            "networks/" + self.target_folder + "/" + file_name + '.h5')
         model_json = model.to_json()
-        with open("networks/" + self.folder + "/" + file_name + '.json', "w") as json_file:
+        with open("networks/" + self.target_folder + "/" + file_name + '.json', "w") as json_file:
             json_file.write(model_json)
 
     def get_unique_object_key(self, index):
