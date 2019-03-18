@@ -8,16 +8,24 @@ import uuid
 
 
 class Generator:
-    def __init__(self, unique_objects_with_symbols=None):
+    def __init__(self, data_folder, unique_objects_with_symbols=None):
         self.unique_objects_with_symbols = unique_objects_with_symbols
+        self.data_folder = data_folder
 
-    def generate(self, default_space, iterations, convolutional_cores):
+    def generate_one(self, object_class, default_space, convolutional_cores, min_probability=0, prediction_map="sum"):
+        return self.generate(default_space, 1, convolutional_cores, object_class, min_probability, prediction_map)
+
+    def generate(self, default_space, iterations, convolutional_cores, min_probability=0, prediction_map="sum",
+                 object_class=None):
         default_space = np.array(default_space, int)
-        print("Generating for: ")
-        print(default_space)
-        for i in range(0, iterations):
-            print("Add object:")
-            random_class = input()
+        for i_i in range(0, iterations):
+
+            if object_class is None:
+                print("Add object:")
+                random_class = input()
+            else:
+                random_class = object_class
+
             probability_predictions = []
             # LOAD MODEL AND MAKE PREDICTION FOR EACH CORE SNIPPET
             for core_i in range(0, len(convolutional_cores)):
@@ -29,7 +37,6 @@ class Generator:
 
                 core_width = convolutional_cores[core_i][1]
                 core_height = convolutional_cores[core_i][0]
-                core_size = core_width * core_height
 
                 model = self.load_model(random_class, core_width, core_height)
                 original_space = np.copy(default_space)
@@ -49,7 +56,8 @@ class Generator:
                         prediction = np.reshape(prediction, (core_width, core_height))
                         for x in range(0, core_height):
                             for y in range(0, core_width):
-                                probability_space[x + c_x][y + c_y] += prediction[x][y]
+                                if prediction[x][y] > min_probability:
+                                    probability_space[x + c_x][y + c_y] += prediction[x][y]
 
                 # Adding the prediction for specific core
                 probability_predictions.append(probability_space)
@@ -57,39 +65,49 @@ class Generator:
             final_prediction_mul = probability_predictions[0]
             final_prediction_sum = probability_predictions[0]
 
-            print(stats.norm(3, 2).pdf(3))
-
             for i in range(1, len(probability_predictions)):
-                multiplier = stats.norm(2, 3).pdf(i)
-                multiplier = 1
-                final_prediction_mul = np.multiply(final_prediction_mul,
-                                                   np.multiply(probability_predictions[i], multiplier))
-                final_prediction_sum = np.add(final_prediction_sum, np.multiply(probability_predictions[i], multiplier))
+                final_prediction_mul = np.multiply(final_prediction_mul, probability_predictions[i])
+                final_prediction_sum = np.add(final_prediction_sum, probability_predictions[i])
+
+            # Choosing the final prediction map
+            final_map = final_prediction_sum
+            if prediction_map == "sum":
+                final_map = final_prediction_sum
+            if prediction_map == "mul":
+                final_map = final_prediction_mul
+
+            # Normalizing
+            max = np.max(final_map)
+            final_prediction_sum = np.divide(final_prediction_sum, max)
+            max = np.max(final_prediction_mul)
+            final_prediction_mul = np.divide(final_prediction_mul, max)
 
             # choosing the final position
-
-            sorted_probability_space = -np.sort(-np.reshape(final_prediction_mul, (1, probability_space_size)))
+            sorted_probability_space = -np.sort(-np.reshape(final_map, (1, probability_space_size)))
             candidate_i = 0
             candidate = sorted_probability_space[0][candidate_i]
-            obj_coords = np.where(final_prediction_mul == candidate)
+            obj_coords = np.where(final_map == candidate)
+
             while default_space[obj_coords[0][0]][obj_coords[1][0]] > 1:
                 candidate_i += 1
                 candidate = sorted_probability_space[0][candidate_i]
-                obj_coords = np.where(final_prediction_mul == candidate)
+                obj_coords = np.where(final_map == candidate)
 
-            obj_coords = np.where(final_prediction_mul == candidate)
+            obj_coords = np.where(final_map == candidate)
             default_space[obj_coords[0][0]][obj_coords[1][0]] = random_class
 
-            # Plotting results
+            if object_class is not None:
+                return default_space
+
             images = [original_space]
             for prediction_i in range(0, len(probability_predictions)):
                 images.append(probability_predictions[prediction_i])
             images.append(final_prediction_sum)
             images.append(final_prediction_mul)
-            images.append(default_space)
+            images.append(np.multiply(default_space,100))
 
-            columns = 6
-            rows = 4
+            columns = 4
+            rows = 2
 
             ax = []
             fig = plt.figure()
@@ -100,36 +118,40 @@ class Generator:
                 if i < len(images):
                     plt.imshow(images[i])
 
-            plt.savefig("results/" + str(uuid.uuid4()) + ".png")
-            print(default_space)
             plt.show()
+            # plt.savefig("results/" + str(uuid.uuid4()) + ".png")
+            # print(default_space)
+            # plt.imshow(final_prediction_mul)
+            # plt.colorbar()
+            # plt.show()
+            #
+            # plt.imshow(final_prediction_sum)
+            # plt.colorbar()
+            # plt.show()
+            #
+            # plt.savefig("results/a" + str(i_i) + ".png")
+            # plt.imshow(default_space)
+            # plt.savefig("results/b" + str(i_i) + ".png")
 
     def spread_objects_to_vector(self, data, core_shape):
         vector_size = core_shape[0] * core_shape[1] * self.unique_objects_with_symbols.size
         vector = np.zeros(vector_size, int)
         for i in range(0, len(data)):
             # Floor
-            if data[i] != 0:
-                offset = np.where(self.unique_objects_with_symbols == data[i])[0][0]
-                object_position = (i * self.unique_objects_with_symbols.size) + offset
-                vector[object_position] = 1
+            #if data[i] != 0:
+            offset = np.where(self.unique_objects_with_symbols == data[i])[0][0]
+            object_position = (i * self.unique_objects_with_symbols.size) + offset
+            vector[object_position] = 1
         return np.array(vector)
 
     def load_model(self, object_class, core_width, core_height):
-        json_file = open('networks/class' + str(object_class) + str(core_width) + str(core_height) + '.json', 'r')
+        file_name = "class" + str(object_class) + str(core_width) + str(core_height)
+        json_file = open('networks/' + self.data_folder + "/" + file_name + '.json', 'r')
         loaded_model_json = json_file.read()
         json_file.close()
         loaded_model = model_from_json(loaded_model_json)
-        loaded_model.load_weights('networks/class' + str(object_class) + str(core_width) + str(core_height) + '.h5')
+        loaded_model.load_weights('networks/' + self.data_folder + "/" + file_name + '.h5')
         return loaded_model
-
-    def copy_array(self, array):
-        result = []
-
-        for item in array:
-            result.append(item)
-
-        return result
 
     def test_prediction(self, x, object_class, core_width, core_height):
         core = (len(x), len(x))
