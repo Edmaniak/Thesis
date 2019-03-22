@@ -13,7 +13,7 @@ class Visualiser:
         # colormap used by imshow
         colors = [im.cmap(im.norm(value)) for value in values]
         # create a patch (proxy artist) for every color
-        patches = [mpatches.Patch(color=colors[i], label="Object {l}".format(l=values[i])) for i in range(len(values))]
+        patches = [mpatches.Patch(color=colors[i], label="Třída {l}".format(l=values[i])) for i in range(len(values))]
         # put those patched as legend-handles into the legend
         plt.legend(handles=patches, loc='upper center', bbox_to_anchor=(0.5, -0.2),
                    fancybox=True, shadow=True, ncol=len(values))
