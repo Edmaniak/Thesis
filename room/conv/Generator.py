@@ -12,10 +12,10 @@ class Generator:
         self.unique_objects_with_symbols = unique_objects_with_symbols
         self.data_folder = data_folder
 
-    def generate_one(self, object_class, default_space, convolutional_cores, min_probability=0, prediction_map="sum"):
-        return self.generate(default_space, 1, convolutional_cores, object_class, min_probability, prediction_map)
+    def generate_one(self, object_class, default_space, convolutional_cores, min_probability=0, prediction_map="mul"):
+        return self.generate(default_space, 1, convolutional_cores, min_probability, prediction_map, object_class)
 
-    def generate(self, default_space, iterations, convolutional_cores, min_probability=0, prediction_map="sum",
+    def generate(self, default_space, iterations, convolutional_cores, min_probability=0, prediction_map="mul",
                  object_class=None):
         default_space = np.array(default_space, int)
         for i_i in range(0, iterations):
@@ -104,7 +104,7 @@ class Generator:
                 images.append(probability_predictions[prediction_i])
             images.append(final_prediction_sum)
             images.append(final_prediction_mul)
-            images.append(np.multiply(default_space,100))
+            images.append(np.multiply(default_space, 100))
 
             columns = 4
             rows = 2
@@ -138,7 +138,7 @@ class Generator:
         vector = np.zeros(vector_size, int)
         for i in range(0, len(data)):
             # Floor
-            #if data[i] != 0:
+            # if data[i] != 0:
             offset = np.where(self.unique_objects_with_symbols == data[i])[0][0]
             object_position = (i * self.unique_objects_with_symbols.size) + offset
             vector[object_position] = 1

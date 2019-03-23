@@ -1,11 +1,11 @@
 from room.conv.testing.Tester import Tester
-from room.conv.data_prep import DataPreparator
-from room.conv.generator import Generator
-from room.conv.test_data_3 import data
-from room.conv.test_data_3 import object_symbols
+from room.conv.Data_prep import DataPreparator
+from room.conv.Generator import Generator
+from room.conv.data_source.test_data_3 import data
+from room.conv.data_source.test_data_3 import object_symbols
 import numpy as np
 
-from room.conv.visualiser import Visualiser
+from room.conv.Visualiser import Visualiser
 
 cores = [(2, 2), (3, 3), (4, 4), (5, 5), (6, 6)]
 special_symbols = (0, 1, 9)
@@ -15,7 +15,7 @@ unique_object_with_symbols = np.array([0, 1, 2, 3, 4, 5, 6, 9])
 # Tuplets form (rows, columns)
 preparator = DataPreparator(data, "4", "5", object_symbols, unique_object_with_symbols, cores, special_symbols)
 # preparator.prepare(1)
-preparator.fit(50)
+#preparator.fit(50)
 #preparator.fit(100)
 
 default_space = [
@@ -63,14 +63,14 @@ default_space_4 = np.array([
     [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
     [9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 9, 9, 9, 9, 9, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9],
-    [9, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9],
-    [9, 1, 0, 3, 2, 3, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 9],
-    [9, 1, 0, 0, 3, 0, 0, 0, 0, 1, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 9],
-    [9, 1, 0, 0, 3, 0, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 1, 9],
-    [9, 1, 0, 3, 2, 3, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 1, 9],
-    [9, 1, 0, 0, 3, 0, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 9, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
     [9, 1, 0, 0, 0, 0, 0, 0, 0, 1, 9, 9, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
@@ -79,6 +79,7 @@ default_space_4 = np.array([
 ])
 
 visualiser = Visualiser()
+visualiser.visualise_array(default_space_4)
 # visualiser.visualise_array(default_space_4)
 # visualiser.visualise_array(default_space_2)
 generator = Generator("4", unique_object_with_symbols)
