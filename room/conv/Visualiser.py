@@ -7,7 +7,12 @@ import matplotlib as mpl
 
 
 class Visualiser:
-    def visualise_array(self, array, save=False):
+    def __init__(self, prefix=""):
+        self.order = 0
+        self.prefix = prefix
+        pass
+
+    def visualise_space(self, array, save=False):
         colors = ['white', 'black', 'orange', 'blue', 'green', 'purple', 'red', 'yellow', 'grey']
         bounds = [0, 1, 2, 3, 4, 5, 6, 7, 8]
         cmap = mpl.colors.ListedColormap(colors)
@@ -26,4 +31,14 @@ class Visualiser:
         plt.show()
 
         if save:
-            plt.savefig("visualisations/" + str(uuid.uuid4()) + ".png")
+            plt.savefig("visualisations/" + self.prefix + str(self.order) + ".png")
+            self.order += 1
+
+    def visualise_probabilities(self, array, save=False):
+        plt.imshow(array, interpolation="none")
+        plt.colorbar()
+        plt.show()
+
+        if save:
+            plt.savefig("visualisations/" + self.prefix + str(self.order) + ".png")
+            self.order += 1

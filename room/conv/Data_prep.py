@@ -11,7 +11,7 @@ from room.conv.Statistics import TrainingStatistics, StatisticalRecord
 
 
 class DataPreparator:
-    def __init__(self, data: np.array, source_folder, target_folder, object_symbols, unique_objects_with_symbols, convolution_cores=[],
+    def __init__(self, data: np.array, source_folder, target_folder, object_symbols_to_train, all_object_symbols, convolution_cores=[],
                  special_symbols=(0, 1, 9), ):
         self.data = data
         self.data_count = data.shape[0]
@@ -20,9 +20,9 @@ class DataPreparator:
         self.heuristic_limit = 500
         self.convolution_cores = convolution_cores
         self.special_symbols = special_symbols
-        self.unique_objects = object_symbols
-        self.unique_objects_with_symbols = unique_objects_with_symbols
-        self.training_statistics = TrainingStatistics(convolution_cores, self.unique_objects)
+        self.object_symbols_to_train = object_symbols_to_train
+        self.all_object_symbols = all_object_symbols
+        self.training_statistics = TrainingStatistics(convolution_cores, self.object_symbols_to_train)
 
     def combinate_and_save(self, combinations, unique_indexes, shape, data, unique_object_key):
         working_x = []
@@ -73,9 +73,9 @@ class DataPreparator:
                 example_generated_data_count = 0
                 tmp_data = self.iterate_array(np.array(self.data[i]), cores[core_i])
                 for data in tmp_data:
-                    for u_obj_i in range(0, len(self.unique_objects)):
-                        if self.unique_objects[u_obj_i] in data:
-                            unique_object = self.unique_objects[u_obj_i]
+                    for u_obj_i in range(0, len(self.object_symbols_to_train)):
+                        if self.object_symbols_to_train[u_obj_i] in data:
+                            unique_object = self.object_symbols_to_train[u_obj_i]
                             unique_indexes = np.where(data == unique_object)[0]
                             combinations = []
                             for c_i in range(0, len(unique_indexes)):
@@ -92,20 +92,20 @@ class DataPreparator:
         print("TRAINING DONE")
 
     def transform_to_normal_form(self, x_vector, core_shape):
-        vector_size = core_shape[0] * core_shape[1] * self.unique_objects_with_symbols.size
+        vector_size = core_shape[0] * core_shape[1] * self.all_object_symbols.size
         vector = np.zeros(vector_size, int)
         for i in range(0, len(x_vector)):
             # Floor
             # if x_vector[i] != 0:
-            offset = np.where(self.unique_objects_with_symbols == x_vector[i])[0][0]
-            object_position = (i * self.unique_objects_with_symbols.size) + offset
+            offset = np.where(self.all_object_symbols == x_vector[i])[0][0]
+            object_position = (i * self.all_object_symbols.size) + offset
             vector[object_position] = 1
         return vector
 
     def fit(self, epochs):
         print(datetime.datetime.now())
         for core_i, core in enumerate(self.convolution_cores):
-            for class_i, class_id in enumerate(self.unique_objects):
+            for class_i, class_id in enumerate(self.object_symbols_to_train):
                 data = self.load_data(core[0], core[1], class_id)
                 core_width = core[0]
                 core_height = core[1]
@@ -164,13 +164,13 @@ class DataPreparator:
             json_file.write(model_json)
 
     def get_unique_object_key(self, index):
-        return self.unique_objects[index]
+        return self.object_symbols_to_train[index]
 
     def get_unique_objects_from_array(self, array):
         array = np.unique(array)
         unique_objects = []
         for i in range(0, len(array)):
-            if array[i] in self.unique_objects:
+            if array[i] in self.object_symbols_to_train:
                 unique_objects.append(array[i])
         return unique_objects
 

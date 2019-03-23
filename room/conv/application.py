@@ -10,12 +10,12 @@ from room.conv.Visualiser import Visualiser
 cores = [(2, 2), (3, 3), (4, 4), (5, 5), (6, 6)]
 special_symbols = (0, 1, 9)
 # TODO odebrat nulu
-unique_object_with_symbols = np.array([0, 1, 2, 3, 4, 5, 6, 9])
+all_object_symbols = np.array([0, 1, 2, 3, 4, 5, 6, 9])
 
 # Tuplets form (rows, columns)
-preparator = DataPreparator(data, "4", "5", object_symbols, unique_object_with_symbols, cores, special_symbols)
+preparator = DataPreparator(data, "4", "5", [5], all_object_symbols, cores, special_symbols)
 # preparator.prepare(1)
-#preparator.fit(50)
+preparator.fit(50)
 #preparator.fit(100)
 
 default_space = [
@@ -79,10 +79,10 @@ default_space_4 = np.array([
 ])
 
 visualiser = Visualiser()
-visualiser.visualise_array(default_space_4)
+visualiser.visualise_space(default_space_4)
 # visualiser.visualise_array(default_space_4)
 # visualiser.visualise_array(default_space_2)
-generator = Generator("4", unique_object_with_symbols)
+generator = Generator("4", all_object_symbols)
 # generator.test_prediction(np.array(to_test_3), 3, 0)
 # generator.test_prediction(np.array(to_test_4), 3, 1)
 # generator.generate(default_space, 10, [(2, 2), (3, 3), (4, 4), (5, 5)])
