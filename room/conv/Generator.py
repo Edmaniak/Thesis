@@ -114,14 +114,14 @@ class Generator:
 				return default_space
 
 			if visualise is not None:
-				images = [original_space]
+				images = []
 				for prediction_i in range(0, len(probability_predictions)):
 					images.append(probability_predictions[prediction_i])
-				images.append(final_prediction_sum)
-				images.append(final_prediction_mul)
-				images.append(np.multiply(default_space, 100))
+				#images.append(final_prediction_sum)
+				#images.append(final_prediction_mul)
+				#images.append(np.multiply(default_space, 100))
 
-				columns = 4
+				columns = 2
 				rows = 2
 
 				ax = []
@@ -129,13 +129,13 @@ class Generator:
 
 				for i in range(columns * rows):
 					ax.append(fig.add_subplot(rows, columns, i + 1))
-					ax[-1].set_title("ax:" + str(i))  # set title
+					core_i = i + 3
+					ax[-1].set_title("( " + str(core_i) + " x " + str(core_i) + " )")  # set title
 					if i < len(images):
 						plt.imshow(images[i])
 
 				plt.show()
-
-	# plt.savefig("results/" + str(uuid.uuid4()) + ".png")
+				plt.savefig("results/" + str(uuid.uuid4()) + ".png")
 	# print(default_space)
 	# plt.imshow(final_prediction_mul)
 	# plt.colorbar()
