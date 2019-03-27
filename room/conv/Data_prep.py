@@ -11,12 +11,13 @@ from room.conv.Statistics import TrainingStatistics, StatisticalRecord
 
 
 class DataPreparator:
-    def __init__(self, data: np.array, source_folder, target_folder, object_symbols_to_train, all_object_symbols, convolution_cores=[],
+    def __init__(self, data: np.array, source_data_folder, target_network_folder, object_symbols_to_train, all_object_symbols,
+                 convolution_cores=[],
                  special_symbols=(0, 1, 9), ):
         self.data = data
         self.data_count = data.shape[0]
-        self.source_folder = source_folder
-        self.target_folder = target_folder
+        self.source_folder = source_data_folder
+        self.target_folder = target_network_folder
         self.heuristic_limit = 500
         self.convolution_cores = convolution_cores
         self.special_symbols = special_symbols
@@ -64,9 +65,11 @@ class DataPreparator:
                     return count_of_data
         return count_of_data
 
-    def prepare(self, core_up_limit):
+    def prepare(self, core_up_limit=None):
         print("PREPARE START WITH LIMIT " + str(core_up_limit))
         cores = self.convolution_cores
+        if core_up_limit is None:
+            core_up_limit = len(cores)
         for core_i in range(0, core_up_limit):
             # Generating x and y data
             for i in range(0, self.data_count):
@@ -124,7 +127,7 @@ class DataPreparator:
                 model.add(Dense(y.shape[1], activation='softmax'))
 
                 # Compiling model
-                model.compile(loss='categorical_crossentropy', optimizer='adam',  metrics=['acc'])
+                model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc'])
                 result = model.fit(x, y, epochs=epochs, verbose=2)
 
                 # Printing status

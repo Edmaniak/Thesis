@@ -5,19 +5,19 @@ from room.conv.Generator import Generator
 # Testujeme zidle kolem stolu
 
 default_space_3 = np.array([
-	[9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
-	[9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 3, 2, 3, 0, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
-	[9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
-	[9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9],
-	[9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+    [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+    [9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 3, 2, 0, 1, 9],
+    [9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 9],
+    [9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9],
+    [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
 ], int)
 
 unique_object_with_symbols = np.array([0, 1, 2, 3, 4, 5, 6, 9])
@@ -27,6 +27,11 @@ generator = Generator("4", unique_object_with_symbols)
 
 # najit souradnice na placement matici
 test_space = np.copy(default_space_3)
-test_space = generator.generate_one(5, test_space, convolutional_cores, False, visualise="both")
+test_space = generator.generate(default_space_3, 1, convolutional_cores, False, 0, "mul", visualise="all")
+print("EXAMPLE: ")
+print(test_space)
+
+test_space = np.copy(default_space_3)
+test_space = generator.generate_one(5, default_space_3, convolutional_cores, False, 0, "mul", visualise="all")
 print("EXAMPLE: ")
 print(test_space)
